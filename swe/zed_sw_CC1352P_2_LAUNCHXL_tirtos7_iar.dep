@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>1102310336</fileChecksum>
+    <configuration>
+        <name>default</name>
+        <outputs>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\ROM\icall_osal_rom_init.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\ROM\hmac_rom_init.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\osal_port\osal_port_timers.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\ROM\fh_rom_init.o</file>
+            <file>$PROJ_DIR$\Stack\MAC\HighLevel\mac_cfg.c</file>
+            <file>$PROJ_DIR$\Stack\nwk\binding_table.c</file>
+            <file>$PROJ_DIR$\Stack\Config\mac_user_config.c</file>
+            <file>$PROJ_DIR$\Stack\MAC\LowLevel\mac_settings.c</file>
+            <file>$PROJ_DIR$\Stack\MAC\LowLevel\mac_activity.c</file>
+            <file>$PROJ_DIR$\Stack\MAC\Debug\dbg.c</file>
+            <file>$PROJ_DIR$\Stack\nwk\nwk_globals.c</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\ROM\lmac_rom_init.o</file>
+            <file>$PROJ_DIR$\Application\zcl_samplesw.h</file>
+            <file>$PROJ_DIR$\Application\StartUp\zstackstartup.c</file>
+            <file>$PROJ_DIR$\ti_radio_config.c</file>
+            <file>$PROJ_DIR$\Application\util\mac_util.c</file>
+            <file>$PROJ_DIR$\ti_devices_config.c</file>
+            <file>$PROJ_DIR$\ti_utils_build_linker.cmd.genlibs</file>
+            <file>$PROJ_DIR$\cc13x2_cc26x2.icf</file>
+            <file>$PROJ_DIR$\Application\zcl_samplesw_data.c</file>
+            <file>$PROJ_DIR$\Application\Services\saddr.c</file>
+            <file>$PROJ_DIR$\SysConfig_Generated_Files.ipcf</file>
+            <file>$PROJ_DIR$\ti_sysbios_config.c</file>
+            <file>$PROJ_DIR$\Application\Services\nvocmp.c</file>
+            <file>$PROJ_DIR$\Application\StartUp\main.c</file>
+            <file>$PROJ_DIR$\ti_zstack_config.h</file>
+            <file>$PROJ_DIR$\ti_drivers_config.c</file>
+            <file>$PROJ_DIR$\ti_sysbios_config.h</file>
+            <file>$PROJ_DIR$\ti_zstack_config.c</file>
+            <file>$PROJ_DIR$\Board.html</file>
+            <file>$PROJ_DIR$\zed_sw.syscfg</file>
+            <file>$PROJ_DIR$\ti_drivers_config.h</file>
+            <file>$PROJ_DIR$\Application\zcl_samplesw.c</file>
+            <file>$PROJ_DIR$\Application\Services\crc.c</file>
+            <file>$PROJ_DIR$\ti_radio_config.h</file>
+            <file>$PROJ_DIR$\Application\StartUp\zstackstartup.h</file>
+            <file>$PROJ_DIR$\Application\ZStackApi\zstackapi.c</file>
+            <file>$PROJ_DIR$\Common\gp\gp_bit_fields.c</file>
+            <file>$PROJ_DIR$\Application\util\utc_clock.h</file>
+            <file>$PROJ_DIR$\Application\util\util_timer.h</file>
+            <file>$PROJ_DIR$\Application\ZStackApi\zstackapi.h</file>
+            <file>$PROJ_DIR$\Common\gp\gp_proxy.c</file>
+            <file>$PROJ_DIR$\Common\touchlink\touchlink_target_app.c</file>
+            <file>$PROJ_DIR$\Application\util\mac_util.h</file>
+            <file>$PROJ_DIR$\Common\gp\gp_common.c</file>
+            <file>$PROJ_DIR$\Application\util\utc_clock.c</file>
+            <file>$PROJ_DIR$\Application\util\util_timer.c</file>
+            <file>$PROJ_DIR$\Common\gp\gp_proxy_table.c</file>
+            <file>$PROJ_DIR$\Common\touchlink\touchlink_initiator_app.c</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl.c</file>
+            <file>$PROJ_DIR$\Common\touchlink\bdb_tl_commissioning.c</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl.h</file>
+            <file>$PROJ_DIR$\Stack\zdo\zd_config.c</file>
+            <file>$PROJ_DIR$\Stack\zdo\zd_sec_mgr.c</file>
+            <file>$PROJ_DIR$\Stack\zdo\zd_profile.c</file>
+            <file>$PROJ_DIR$\Stack\zdo\zd_nwk_mgr.c</file>
+            <file>$PROJ_DIR$\Stack\zmac\zmac.c</file>
+            <file>$PROJ_DIR$\Stack\zmac\zmac_cb.c</file>
+            <file>$PROJ_DIR$\Stack\ZStackTask\zstacktask.c</file>
+            <file>$PROJ_DIR$\Stack\zdo\zd_object.c</file>
+            <file>$PROJ_DIR$\Stack\nwk\stub_aps.c</file>
+            <file>$PROJ_DIR$\Stack\ROM\lmac_rom_init.c</file>
+            <file>$PROJ_DIR$\Stack\ROM\rom_init_154.c</file>
+            <file>$PROJ_DIR$\Stack\osal_port\osal_port.c</file>
+            <file>$PROJ_DIR$\Stack\ROM\hmac_rom_init.c</file>
+            <file>$PROJ_DIR$\Stack\ROM\icall_osal_rom_init.c</file>
+            <file>$PROJ_DIR$\Stack\osal_port\osal_port_timers.c</file>
+            <file>$PROJ_DIR$\Stack\ROM\fh_rom_init.c</file>
+            <file>$PROJ_DIR$\Stack\osal_port\osal_nv.c</file>
+            <file>$PROJ_DIR$\Stack\sys\zdiags.c</file>
+            <file>$PROJ_DIR$\Stack\sys\zglobals.c</file>
+            <file>$PROJ_DIR$\Stack\zdo\zd_app.c</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_datatypes.h</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_ha.c</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_port.c</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_general.h</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_general.c</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_ha.h</file>
+            <file>$PROJ_DIR$\Common\zcl\zcl_port.h</file>
+            <file>$PROJ_DIR$\Stack\bdb\bdb_touchlink_initiator.c</file>
+            <file>$PROJ_DIR$\Stack\af\af.c</file>
+            <file>$PROJ_DIR$\Stack\bdb\bdb_touchlink.c</file>
+            <file>$PROJ_DIR$\Stack\bdb\bdb_touchlink_target.c</file>
+            <file>$PROJ_DIR$\Stack\bdb\bdb.c</file>
+            <file>$PROJ_DIR$\Stack\bdb\bdb_finding_and_binding.c</file>
+            <file>$PROJ_DIR$\Stack\bdb\bdb_reporting.c</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\util\mac_util.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\gp\gp_bit_fields.o</file>
+            <file>$PROJ_DIR$\default\Obj\SysConfig Generated Files\ti_zstack_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\zcl_samplesw_data.o</file>
+            <file>$PROJ_DIR$\default\Obj\SysConfig Generated Files\ti_sysbios_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\ZStackApi\zstackapi.o</file>
+            <file>$PROJ_DIR$\default\Obj\SysConfig Generated Files\ti_radio_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\Services\crc.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\Services\saddr.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\StartUp\zstackstartup.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\touchlink\bdb_tl_commissioning.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\util\util_timer.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\Services\nvocmp.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\touchlink\touchlink_target_app.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\zcl\zcl.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\util\utc_clock.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\StartUp\main.o</file>
+            <file>$PROJ_DIR$\default\Obj\SysConfig Generated Files\ti_drivers_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\gp\gp_common.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\touchlink\touchlink_initiator_app.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\gp\gp_proxy_table.o</file>
+            <file>$PROJ_DIR$\default\Obj\SysConfig Generated Files\ti_devices_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Application\zcl_samplesw.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\gp\gp_proxy.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\zcl\zcl_ha.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\zcl\zcl_general.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\osal_port\osal_nv.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\osal_port\osal_port.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\MAC\HighLevel\mac_cfg.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\bdb\bdb_touchlink_initiator.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\bdb\bdb.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\bdb\bdb_finding_and_binding.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\bdb\bdb_touchlink.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\bdb\bdb_touchlink_target.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\nwk\binding_table.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\nwk\nwk_globals.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Common\zcl\zcl_port.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\Config\mac_user_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\nwk\stub_aps.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\af\af.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\bdb\bdb_reporting.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\MAC\LowLevel\mac_settings.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\MAC\Debug\dbg.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\MAC\LowLevel\mac_activity.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\sys\zglobals.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zdo\zd_nwk_mgr.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zmac\zmac.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zdo\zd_config.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zdo\zd_object.o</file>
+            <file>$PROJ_DIR$\syscfg_c.rov.xs</file>
+            <file>$PROJ_DIR$\ti_utils_runtime_Makefile</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\ZStackTask\zstacktask.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\sys\zdiags.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zdo\zd_app.o</file>
+            <file>$PROJ_DIR$\default\Exe\zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zdo\zd_profile.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zmac\zmac_cb.o</file>
+            <file>$PROJ_DIR$\ti_utils_runtime_model.gv</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\zdo\zd_sec_mgr.o</file>
+            <file>$PROJ_DIR$\default\Obj\ZED Sw\Stack\ROM\rom_init_154.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Stack\MAC\HighLevel\mac_cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\nwk\binding_table.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\Config\mac_user_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_settings.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_activity.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\MAC\Debug\dbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\nwk\nwk_globals.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\StartUp\zstackstartup.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ti_radio_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\util\mac_util.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ti_devices_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\zcl_samplesw_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\Services\saddr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SysConfig_Generated_Files.ipcf</name>
+            <inputs>
+                <tool>
+                    <name>CUSTOM</name>
+                    <file> 30</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ti_sysbios_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\Services\nvocmp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\StartUp\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ti_drivers_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ti_zstack_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\zed_sw.syscfg</name>
+            <outputs>
+                <tool>
+                    <name>CUSTOM</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\zcl_samplesw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\Services\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\ZStackApi\zstackapi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\gp\gp_bit_fields.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\gp\gp_proxy.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\touchlink\touchlink_target_app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\gp\gp_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\util\utc_clock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\util\util_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\gp\gp_proxy_table.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\touchlink\touchlink_initiator_app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\zcl\zcl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\touchlink\bdb_tl_commissioning.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zdo\zd_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zdo\zd_sec_mgr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zdo\zd_profile.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zdo\zd_nwk_mgr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zmac\zmac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zmac\zmac_cb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\ZStackTask\zstacktask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zdo\zd_object.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\nwk\stub_aps.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\ROM\lmac_rom_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\ROM\rom_init_154.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\osal_port\osal_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\ROM\hmac_rom_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\ROM\icall_osal_rom_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\osal_port\osal_port_timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\ROM\fh_rom_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\osal_port\osal_nv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\sys\zdiags.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\sys\zglobals.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\zdo\zd_app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\zcl\zcl_ha.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\zcl\zcl_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Common\zcl\zcl_general.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink_initiator.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\af\af.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink_target.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\bdb\bdb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\bdb\bdb_finding_and_binding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Stack\bdb\bdb_reporting.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 140</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>
