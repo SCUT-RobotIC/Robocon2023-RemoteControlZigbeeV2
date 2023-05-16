@@ -94,7 +94,7 @@ extern "C"
 #define SAMPLEAPP_PROV_DISCONNECT_EVT     0x0004
 #define SAMPLEAPP_GET_NWK_INFO_EVT        0x0008
 #define SAMPLEAPP_SYNC_ATTR_EVT           0x0010
-
+//#define UART2_READ_                       0x0016
 #if defined (Z_POWER_TEST)
 #define SAMPLEAPP_POWER_TEST_START_EVT    0x1000
 #if defined (POWER_TEST_DATA_ACK)
@@ -112,7 +112,7 @@ extern "C"
 #define SAMPLEAPP_PROCESS_GP_TEMP_MASTER_EVT            0x0400
 
 #define SAMPLEAPP_POLICY_UPDATE_EVT       0x0800
-
+#define UART2_READ_DELAY                  10
 #define SAMPLEAPP_END_DEVICE_REJOIN_DELAY 1000
 #define SAMPLEAPP_CONFIG_SYNC_TIMEOUT     500
 

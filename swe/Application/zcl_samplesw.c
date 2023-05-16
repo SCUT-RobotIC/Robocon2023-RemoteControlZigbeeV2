@@ -180,7 +180,9 @@
 /*********************************************************************
  * GLOBAL VARIABLES
  */
+static bool findparent;
 
+uint8 UART_readBuff[26];
 
 uint8_t zclSampleSwSeqNum;
 
@@ -236,7 +238,7 @@ static uint16_t zclSampleSw_BdbCommissioningModes;
 static uint8_t  remoteLightIsOn = LIGHT_UNKNOWN;
 static uint16_t remoteLightAddr = 0xFFFF;
 #endif
-
+UART2_Handle uart0 ;
 /*********************************************************************
  * LOCAL FUNCTIONS
  */
@@ -449,6 +451,71 @@ void sampleApp_task(NVINTF_nvFuncts_t *pfnNV)
   zclSampleSw_process_loop();
 }
 
+
+void callbackWriteFxn(UART2_Handle handle, void *buffer, size_t count,
+        void *userArg, int_fast16_t status)
+{
+    if (status != UART2_STATUS_SUCCESS) {
+        /* TX error occured in UART2_read() */
+      while(1){}
+    }
+    UART2_read(uart0,UART_readBuff,26,NULL);
+    
+    
+
+    //= count;
+}
+/**
+* @brief        Callback function when uart received message
+*
+*
+*/
+static const uint8 tSize=26;
+void uartReadCallback(UART2_Handle handle, void *buf, size_t count, void *userArg, int_fast16_t status)
+{
+  if (status != UART2_STATUS_SUCCESS) {
+        /* RX error occured in UART2_read() */
+        while(1){}
+    }
+
+  if(findparent){
+      static uint8 seqNum = 0;    
+      zclReportCmd_t *reportCmd; 
+      reportCmd= (zclReportCmd_t*)malloc(sizeof(zclReportCmd_t) + sizeof(zclReport_t));
+      //printf("received");
+
+      // Initialize the report command
+      reportCmd->numAttr = 1; // We are reporting 1 attribute
+      
+
+      if(reportCmd->attrList[0].attrData == NULL)
+      {
+        return;
+          // Handle memory allocation failure
+      }
+
+      afAddrType_t dstAddr;
+      zstack_sysNwkInfoReadRsp_t  Rsp;
+      //获取地址
+      Zstackapi_sysNwkInfoReadReq(appServiceTaskId, &Rsp);
+
+      
+      dstAddr.endPoint = SAMPLESW_ENDPOINT;
+      dstAddr.addrMode = afAddr16Bit;
+      dstAddr.addr.shortAddr = Rsp.nwkAddr;
+      // Fill in the attribute report
+      reportCmd->attrList[0].attrID = 0; // The ID of the attribute you are reporting
+      reportCmd->attrList[0].dataType = ZCL_DATATYPE_UINT8; // The data type of the attribute
+      memcpy(buf,reportCmd->attrList[0].attrData, tSize);
+      zcl_SendReportCmd(SAMPLESW_ENDPOINT, &dstAddr, ZCL_DEVICEID_ON_OFF_SWITCH , reportCmd, ZCL_FRAME_SERVER_CLIENT_DIR, TRUE,seqNum++);
+      free(reportCmd->attrList[0].attrData);//内存释放
+      free(reportCmd->attrList);
+      free(reportCmd);
+  }
+    // buf contains the data read from the UART
+    // count is the number of bytes read
+
+}
 /*******************************************************************************
  * @fn          zclSampleSw_initialization
  *
@@ -458,51 +525,6 @@ void sampleApp_task(NVINTF_nvFuncts_t *pfnNV)
  *
  * @return      none
  */
-static const uint8 tSize=26;
-void uartReadCallback(UART2_Handle handle, void *buf, size_t count, void *userArg, int_fast16_t status)
-{
-  size_t written;
-  UART2_write(handle,buf,tSize,&written);
-  /*
-  static uint8 seqNum = 0;    
-  zclReportCmd_t *reportCmd; 
-  reportCmd= (zclReportCmd_t*)malloc(sizeof(zclReportCmd_t) + sizeof(zclReport_t));
-  //printf("received");
-
-// Initialize the report command
-  reportCmd->numAttr = 1; // We are reporting 1 attribute
-  
-// Allocate memory for the attribute report
-//  reportCmd->attrList = (zclReport_t *) osal_mem_alloc(reportCmd->numAttr * sizeof(zclReport_t));
-  // Check for allocation failure
-  if(reportCmd->attrList[0].attrData == NULL)
-  {
-    return;
-      // Handle memory allocation failure
-  }
-
-  afAddrType_t dstAddr;
-  zstack_sysNwkInfoReadRsp_t  Rsp;
-  //获取地址
-  if(Zstackapi_sysNwkInfoReadReq(appServiceTaskId, &Rsp)==zstack_ZStatusValues_ZMemError)
-     return;
-  dstAddr.endPoint = SAMPLESW_ENDPOINT;
-  dstAddr.addrMode = afAddr16Bit;
-  dstAddr.addr.shortAddr = Rsp.nwkAddr;
-  // Fill in the attribute report
-  reportCmd->attrList[0].attrID = 0; // The ID of the attribute you are reporting
-  reportCmd->attrList[0].dataType = ZCL_DATATYPE_UINT8; // The data type of the attribute
-  memcpy(buf,reportCmd->attrList[0].attrData, tSize);
-  zcl_SendReportCmd(SAMPLESW_ENDPOINT, &dstAddr, ZCL_DEVICEID_ON_OFF_SWITCH , reportCmd, ZCL_FRAME_SERVER_CLIENT_DIR, TRUE,seqNum++);
-  free(reportCmd->attrList[0].attrData);//内存释放
-  free(reportCmd->attrList);
-  free(reportCmd);
-*/  
-    // buf contains the data read from the UART
-    // count is the number of bytes read
-
-
-}
 static void zclSampleSw_initialization(void)
 {
     /* Initialize user clocks */
@@ -544,20 +566,24 @@ static void zclSampleSw_initialization(void)
     // register the app callbacks
     DMMPolicy_registerAppCbs(dmmPolicyAppCBs, DMMPolicy_StackRole_Zigbee);
 #endif
-        //开启串口
+    //开启串口
     UART2_Params uartParams;
     UART2_Params_init(&uartParams);
     uartParams.readMode = UART2_Mode_CALLBACK;
     uartParams.readCallback = uartReadCallback;
+    uartParams.writeMode = UART2_Mode_CALLBACK;
+    uartParams.writeCallback = callbackWriteFxn;
     // Set baud rate
     uartParams.baudRate = 115200;
     uartParams.parityType = UART2_Parity_NONE;
     uartParams.stopBits = UART2_StopBits_1;
     uartParams.dataLength = UART2_DataLen_8;
-    UART2_Handle uart0 = UART2_open(CONFIG_UART2_0, &uartParams);
+
+    uart0= UART2_open(CONFIG_UART2_0, &uartParams);
+    UART2_rxEnable(uart0);
+    
     
 }
-
 
 
 /*********************************************************************
@@ -780,6 +806,7 @@ static void zclSampleSw_initializeClocks(void)
     SAMPLEAPP_END_DEVICE_REJOIN_DELAY,
     0, false, 0);
 #endif
+    //UtilTimer_construct(&,UART_ReadTime_Callback,UART2_READ_DELAY,
 #if defined(USE_DMM) && defined(BLE_START) && !defined(Z_POWER_TEST)
     // Clock for synchronizing application configuration parameters for BLE
     UtilTimer_construct(
@@ -863,11 +890,18 @@ static void SetupZStackCallbacks(void)
  *
  * @return  void
  */
+//int_fast16_t status;
+
+const char request[]="request";
 static void zclSampleSw_process_loop(void)
 {
     /* Forever loop */
     for(;;)
     {
+        
+        if(UART2_write(uart0,request,sizeof(request),NULL)==UART2_STATUS_SUCCESS){
+
+        }
         zstackmsg_genericReq_t *pMsg = NULL;
         bool msgProcessed = FALSE;
 
@@ -1064,6 +1098,7 @@ static void zclSampleSw_process_loop(void)
                 appServiceTaskEvents &= ~SAMPLEAPP_NWK_DISC_EVT;
             }
 #endif
+            
         }
     }
 }
@@ -1744,6 +1779,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_FORMATION:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
+        findparent=true;
         //YOUR JOB:
       }
       else
@@ -1755,6 +1791,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_NWK_STEERING:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
+        findparent=true;
         //YOUR JOB:
         //We are on the nwk, what now?
 #if defined (Z_POWER_TEST)
@@ -1803,6 +1840,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_FINDING_BINDING:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
+        findparent=true;
         //YOUR JOB:
       }
       else
@@ -1823,6 +1861,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_PARENT_LOST:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_NETWORK_RESTORED)
       {
+        findparent=false;
         //We did recover from losing parent
       }
       else

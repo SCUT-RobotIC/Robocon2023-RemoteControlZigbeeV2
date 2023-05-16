@@ -1,182 +1,87 @@
 # ninja log v5
-1304	1416	7058434215120349	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/Debug/dbg.o	d000176ac4b9baf2
-3467	4029	7058434241241513	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_zstack_config.o	1e4e2cdebbb51055
-1884	2730	7058434227674841	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/nwk_globals.o	e107f4142eac2122
-9	99	7058434201975105	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/saddr.o	41a72ea9d8eac05e
-27	274	7058434203125389	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/mac_util.o	691fe967387485d6
-3549	3829	7058434238627313	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_radio_config.o	51a4d3e0cfacc731
-3373	4203	7058434242687489	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_drivers_config.o	ce76247b0ca33b6d
-3425	3500	7058434235990077	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_devices_config.o	8c4606c1e4c95a95
-14	1066	7058434210910168	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/StartUp/main.o	e4797cb3e461afef
-3596	3743	7058434238396960	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/crc.o	fe366f0752f6f35d
-768	2018	7058434219273975	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_port.o	321a41fa9769404
-47	183	7058434202810246	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/util_timer.o	819dd9dcde027161
-3696	4250	7058434243183896	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/nvocmp.o	770a25b9b721a103
-32	323	7058434203095382	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/utc_clock.o	8ff8136b46609292
-1927	2867	7058434228024995	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/stub_aps.o	2c4aeb86f2efcf34
-223	441	7058434205382322	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_proxy_table.o	81da58f9fd9998f0
-3345	4817	7058397855862532	F:/Zigbee_communication/swe/SysConfig_Generated_Files.ipcf	1ae94c749ce2fbcb
-1497	1838	7058434218968845	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/HighLevel/mac_cfg.o	2daea59f35ffd3fd
-35	855	7058434209452868	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw_data.o	c72d2b29e26d8252
-319	381	7058434204787077	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/touchlink_initiator_app.o	25bc218ca09e7bbe
-361	1017	7058434210690125	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/bdb_tl_commissioning.o	9c3fe98ac7045024
-23	1117	7058434211245323	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/StartUp/zstackstartup.o	2a5d1e8fb5a9a0af
-1827	2683	7058434227634838	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_settings.o	f943d1552bfb46b8
-140	1160	7058434211515341	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/ZStackApi/zstackapi.o	8c8a3b40412543c
-1538	2219	7058434223116199	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_activity.o	e6ef51c45ca0b270
+8024	8390	7059474796687112	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/Debug/dbg.o	d000176ac4b9baf2
+29	2478	7059474735763268	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_zstack_config.o	1e4e2cdebbb51055
+8241	11218	7059474824969801	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/nwk_globals.o	e107f4142eac2122
+1019	1570	7059474726839425	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/saddr.o	41a72ea9d8eac05e
+738	1748	7059474727219515	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/mac_util.o	691fe967387485d6
+46	1363	7059474726389462	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_radio_config.o	51a4d3e0cfacc731
+12	2957	7059474741146482	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_drivers_config.o	ce76247b0ca33b6d
+6	547	7059474718301763	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_devices_config.o	8c4606c1e4c95a95
+80	5101	7059474761144816	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/StartUp/main.o	e4797cb3e461afef
+38	860	7059474721418199	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/crc.o	fe366f0752f6f35d
+4519	7859	7059474791209040	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_port.o	321a41fa9769404
+2439	3138	7059474742789813	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/util_timer.o	819dd9dcde027161
+53	2714	7059474738795203	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/nvocmp.o	770a25b9b721a103
+73	1050	7059474722234203	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/utc_clock.o	8ff8136b46609292
+9255	11944	7059474830873299	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/stub_aps.o	2c4aeb86f2efcf34
+2906	3371	7059474746582608	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_proxy_table.o	81da58f9fd9998f0
+0	1808	7059474595302025	F:/Zigbee_communication/swe/SysConfig_Generated_Files.ipcf	1ae94c749ce2fbcb
+7564	9621	7059474809008131	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/HighLevel/mac_cfg.o	2daea59f35ffd3fd
+1548	4715	7059474759869559	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw_data.o	c72d2b29e26d8252
+3708	3989	7059474752660097	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/touchlink_initiator_app.o	25bc218ca09e7bbe
+3504	6083	7059474772452480	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/bdb_tl_commissioning.o	9c3fe98ac7045024
+64	4919	7059474760745013	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/StartUp/zstackstartup.o	2a5d1e8fb5a9a0af
+9089	11389	7059474825662390	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_settings.o	f943d1552bfb46b8
+2665	5867	7059474771379298	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/ZStackApi/zstackapi.o	8c8a3b40412543c
+7406	10083	7059474813587721	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_activity.o	e6ef51c45ca0b270
 281	349	7056990682815303	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/ui/zcl_sampleapps_ui.o	7c6894b6dc5715f
-892	2122	7058434221875794	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl.o	2b1777851f49cd4d
-264	489	7058434205452339	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_proxy.o	239ff6466d9baee6
-2863	3553	7058434235950105	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_profile.o	eb7a34bb65b6e642
-2821	3384	7058434234753659	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_nwk_mgr.o	a6f8ca3e077c29a8
-5	731	7058434208220891	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_common.o	c00f7808ea75d5ed
-423	545	7058434206438570	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/touchlink_target_app.o	567a5f4befa7911b
-43	227	7058434202830264	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_bit_fields.o	1b0fadc84aa29299
-1105	1217	7058434213169766	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_reporting.o	2294d2c2fde4ce6a
-1457	2382	7058434224732240	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_target.o	7471cc2454d67828
-1255	1461	7058434215130340	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/Config/mac_user_config.o	999af05f3f9380ec
-1008	1888	7058434218888873	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_ha.o	c44ea724d2e0bb66
-39	965	7058434210520109	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-1062	1780	7058434218698749	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink.o	8f74232fae9ade77
-588	1551	7058434215391316	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/af/af.o	9af6a95d76f62edf
-1199	2068	7058434219723969	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_finding_and_binding.o	8fb1ff19acf00219
-532	1501	7058434215080342	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_general.o	4d2b919c50b51299
-2056	2781	7058434228320342	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_config.o	3ebca2b190fc35cf
-2559	3429	7058434234653889	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/sys/zglobals.o	27d582c13d14f51d
-481	1266	7058434213490477	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb.o	4b07ddf0acc3b825
-1157	1976	7058434219018824	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_initiator.o	e48b752a4e7885ff
-2726	3789	7058434238396960	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_app.o	4fe6fe099a30cfda
-2163	2290	7058434223876202	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/rom_init_154.o	8a95ededf1e65f61
-2476	3037	7058434231309061	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/lmac_rom_init.o	9f55ad6d63083997
-3654	5542	7058434256243763	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_sysbios_config.o	a28f6adb410f6ce6
-2673	3332	7058434234243681	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/sys/zdiags.o	60ce177c62a5ad1
-2262	2434	7058434224932821	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_port_timers.o	66fdf9adabb6a253
-2904	3610	7058434236445318	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zmac/zmac_cb.o	cc9572d26739e140
-1594	1931	7058434219353979	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_port.o	b6ad753b1a843c71
-1972	2825	7058434228461328	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_nv.o	9264123b54b350e8
-2015	3137	7058434231759314	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/binding_table.o	415d55fdfcb53589
-2331	2516	7058434226123200	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/icall_osal_rom_init.o	9e0ddb7a6d6867be
-2108	2629	7058434227194833	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/fh_rom_init.o	c6292a529b18fb61
-3084	4152	7058434242417839	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_sec_mgr.o	29b81574c554dd89
-2424	3094	7058434231619052	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/hmac_rom_init.o	fcc8343f5d59ff39
-2769	3658	7058434236885317	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_object.o	abb8fe1f7fd8870d
-3133	3905	7058434239963343	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zmac/zmac.o	7294e3db29fe2017
-3178	4486	7058434245712167	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ZStackTask/zstacktask.o	21d42f30465e991f
-5585	5879	7058434259439632	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-5917	5959	0	Post-build command	ff1e186cbd94ed8
-4	50	0	Post-build command	ff1e186cbd94ed8
-5	448	7058439389463754	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-508	820	7058439392999348	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-859	904	0	Post-build command	ff1e186cbd94ed8
-4	358	7058439671123418	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-397	685	7058439674137254	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-723	770	0	Post-build command	ff1e186cbd94ed8
-5	51	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-6	54	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-5	51	0	Post-build command	ff1e186cbd94ed8
-5	49	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-4	50	0	Post-build command	ff1e186cbd94ed8
-4	50	0	Post-build command	ff1e186cbd94ed8
-5	51	0	Post-build command	ff1e186cbd94ed8
-0	1107	7058504495098035	F:/Zigbee_communication/swe/SysConfig_Generated_Files.ipcf	1ae94c749ce2fbcb
-12	174	7058504518461247	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/saddr.o	41a72ea9d8eac05e
-32	283	7058504519547280	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/util_timer.o	819dd9dcde027161
-25	331	7058504519567282	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/utc_clock.o	8ff8136b46609292
-210	381	7058504519662539	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_bit_fields.o	1b0fadc84aa29299
-16	427	7058504519672516	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/util/mac_util.o	691fe967387485d6
-327	481	7058504520648780	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/touchlink_initiator_app.o	25bc218ca09e7bbe
-470	538	7058504522127717	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/touchlink_target_app.o	567a5f4befa7911b
-368	602	7058504522763737	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_proxy.o	239ff6466d9baee6
-521	663	7058504523365094	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_proxy_table.o	81da58f9fd9998f0
-20	869	7058504525370582	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_common.o	c00f7808ea75d5ed
-8	960	7058504526209039	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/StartUp/zstackstartup.o	2a5d1e8fb5a9a0af
-28	1015	7058504526735217	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/ZStackApi/zstackapi.o	8c8a3b40412543c
-37	1058	7058504526513586	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw_data.o	c72d2b29e26d8252
-4	1104	7058504526890150	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/StartUp/main.o	e4797cb3e461afef
-423	1208	7058504528732291	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/bdb_tl_commissioning.o	9c3fe98ac7045024
-642	1261	7058504529113731	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_ha.o	c44ea724d2e0bb66
-41	1318	7058504529509454	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-1303	1384	7058504530579119	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_reporting.o	2294d2c2fde4ce6a
-580	1438	7058504530975383	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb.o	4b07ddf0acc3b825
-704	1576	7058504532399048	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_port.o	321a41fa9769404
-1360	1648	7058504533193252	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/Config/mac_user_config.o	999af05f3f9380ec
-1689	1794	7058504534672784	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/Debug/dbg.o	d000176ac4b9baf2
-1477	1854	7058504534968461	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/HighLevel/mac_cfg.o	2daea59f35ffd3fd
-1096	1897	7058504534898520	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_finding_and_binding.o	8fb1ff19acf00219
-1426	1940	7058504534738148	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_activity.o	e6ef51c45ca0b270
-907	1982	7058504534993546	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_general.o	4d2b919c50b51299
-1000	2025	7058504534958440	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/af/af.o	9af6a95d76f62edf
-1145	2097	7058504535564912	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink.o	8f74232fae9ade77
-1054	2152	7058504537717767	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl.o	2b1777851f49cd4d
-1250	2202	7058504538028662	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_initiator.o	e48b752a4e7885ff
-1936	2413	7058504540850910	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_port.o	b6ad753b1a843c71
-1614	2461	7058504540974724	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_target.o	7471cc2454d67828
-2194	2552	7058504542225533	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/fh_rom_init.o	c6292a529b18fb61
-2450	2596	7058504542275545	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/icall_osal_rom_init.o	9e0ddb7a6d6867be
-1978	2642	7058504542615553	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_settings.o	f943d1552bfb46b8
-1845	2696	7058504543633854	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_nv.o	9264123b54b350e8
-2500	2749	7058504543801936	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/rom_init_154.o	8a95ededf1e65f61
-2064	2802	7058504544481872	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/stub_aps.o	2c4aeb86f2efcf34
-2021	2856	7058504545209786	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/nwk_globals.o	e107f4142eac2122
-2141	2912	7058504545418434	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/sys/zglobals.o	27d582c13d14f51d
-2632	2963	7058504546126333	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_port_timers.o	66fdf9adabb6a253
-1893	3010	7058504545912385	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/binding_table.o	415d55fdfcb53589
-2245	3147	7058504548144525	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_config.o	3ebca2b190fc35cf
-2683	3279	7058504549481567	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/lmac_rom_init.o	9f55ad6d63083997
-2592	3331	7058504549881079	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/hmac_rom_init.o	fcc8343f5d59ff39
-2739	3437	7058504551062563	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/sys/zdiags.o	60ce177c62a5ad1
-2846	3502	7058504551710828	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_nwk_mgr.o	a6f8ca3e077c29a8
-2951	3559	7058504552151248	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zmac/zmac.o	7294e3db29fe2017
-3476	3628	7058504553029928	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_devices_config.o	8c4606c1e4c95a95
-3055	3684	7058504553471716	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_profile.o	eb7a34bb65b6e642
-3599	3754	7058504554273410	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/crc.o	fe366f0752f6f35d
-3547	3808	7058504554475698	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_radio_config.o	51a4d3e0cfacc731
-2899	3848	7058504554369164	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_object.o	abb8fe1f7fd8870d
-2791	3904	7058504555699305	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_app.o	4fe6fe099a30cfda
-3318	4039	7058504557075146	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zmac/zmac_cb.o	cc9572d26739e140
-3723	4154	7058504558233081	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_zstack_config.o	1e4e2cdebbb51055
-3368	4202	7058504558464017	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_drivers_config.o	ce76247b0ca33b6d
-3185	4251	7058504559057442	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_sec_mgr.o	29b81574c554dd89
-3796	4291	7058504559132622	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/Services/nvocmp.o	770a25b9b721a103
-3007	4408	7058504560712749	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ZStackTask/zstacktask.o	21d42f30465e991f
-3673	5506	7058504571619015	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_sysbios_config.o	a28f6adb410f6ce6
-5549	5849	7058504574914012	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-5885	5929	0	Post-build command	ff1e186cbd94ed8
-6	51	0	Post-build command	ff1e186cbd94ed8
-5	54	0	Post-build command	ff1e186cbd94ed8
-5	357	7058506407808126	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-398	718	7058506411158885	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-754	799	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-5	51	0	Post-build command	ff1e186cbd94ed8
-4	50	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-7	755	7058524184971966	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-819	1209	7058524189299475	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-1264	1345	0	Post-build command	ff1e186cbd94ed8
-6	61	0	Post-build command	ff1e186cbd94ed8
-6	71	0	Post-build command	ff1e186cbd94ed8
-5	636	7058525468458608	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-712	1125	7058525472982155	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-1193	1263	0	Post-build command	ff1e186cbd94ed8
-7	68	0	Post-build command	ff1e186cbd94ed8
-5	67	0	Post-build command	ff1e186cbd94ed8
-7	65	0	Post-build command	ff1e186cbd94ed8
-7	650	7058551128600076	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-717	1169	7058551133437929	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-1231	1303	0	Post-build command	ff1e186cbd94ed8
-6	73	0	Post-build command	ff1e186cbd94ed8
-20	2833	7058572013586667	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-3156	4468	7058572028860239	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-4738	4933	0	Post-build command	ff1e186cbd94ed8
-5	60	0	Post-build command	ff1e186cbd94ed8
-5	49	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
-8	545	7058626463941549	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
-584	917	7058626467398943	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
-950	990	0	Post-build command	ff1e186cbd94ed8
-5	52	0	Post-build command	ff1e186cbd94ed8
+5256	9096	7059474801549289	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl.o	2b1777851f49cd4d
+3104	3565	7059474748478376	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_proxy.o	239ff6466d9baee6
+13269	15476	7059474866197602	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_profile.o	eb7a34bb65b6e642
+12281	14785	7059474858794456	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_nwk_mgr.o	a6f8ca3e077c29a8
+1249	4392	7059474756712703	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_common.o	c00f7808ea75d5ed
+3288	3715	7059474748528262	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/touchlink/touchlink_target_app.o	567a5f4befa7911b
+1906	2270	7059474735573243	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/gp/gp_bit_fields.o	1b0fadc84aa29299
+7003	7604	7059474788921588	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_reporting.o	2294d2c2fde4ce6a
+7220	10655	7059474818085589	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_target.o	7471cc2454d67828
+7805	8716	7059474799944659	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/Config/mac_user_config.o	999af05f3f9380ec
+4154	6774	7059474780481206	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_ha.o	c44ea724d2e0bb66
+1740	5580	7059474768549128	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
+5761	8918	7059474800453440	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink.o	8f74232fae9ade77
+5093	7028	7059474782712228	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/af/af.o	9af6a95d76f62edf
+6268	9808	7059474810430897	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_finding_and_binding.o	8fb1ff19acf00219
+4883	7248	7059474784067719	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Common/zcl/zcl_general.o	4d2b919c50b51299
+10635	13112	7059474843875891	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_config.o	3ebca2b190fc35cf
+11367	14032	7059474853049411	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/sys/zglobals.o	27d582c13d14f51d
+3898	7413	7059474783417821	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb.o	4b07ddf0acc3b825
+6039	9280	7059474802697549	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_initiator.o	e48b752a4e7885ff
+10395	14220	7059474853444883	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_app.o	4fe6fe099a30cfda
+9969	10466	7059474817495613	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/rom_init_154.o	8a95ededf1e65f61
+11529	13660	7059474849355759	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/lmac_rom_init.o	9f55ad6d63083997
+21	8064	7059474792700869	F:/Zigbee_communication/swe/default/Obj/SysConfig Generated Files/ti_sysbios_config.o	a28f6adb410f6ce6
+10998	13294	7059474844541757	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/sys/zdiags.o	60ce177c62a5ad1
+11913	12621	7059474837802176	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_port_timers.o	66fdf9adabb6a253
+12602	14656	7059474858200975	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zmac/zmac_cb.o	cc9572d26739e140
+9454	10832	7059474819652626	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_port.o	b6ad753b1a843c71
+8892	11733	7059474830118049	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/osal_port/osal_nv.o	9264123b54b350e8
+8566	12109	7059474831698597	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/nwk/binding_table.o	415d55fdfcb53589
+9781	10251	7059474813937680	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/icall_osal_rom_init.o	9e0ddb7a6d6867be
+10808	12453	7059474837316703	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/fh_rom_init.o	c6292a529b18fb61
+12943	15643	7059474868915020	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_sec_mgr.o	29b81574c554dd89
+10228	12772	7059474837672005	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ROM/hmac_rom_init.o	fcc8343f5d59ff39
+12102	14496	7059474857631099	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zdo/zd_object.o	abb8fe1f7fd8870d
+13447	15260	7059474865407466	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/zmac/zmac.o	7294e3db29fe2017
+12765	15906	7059474871644460	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Stack/ZStackTask/zstacktask.o	21d42f30465e991f
+16013	16466	7059474877152724	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
+16581	16648	0	Post-build command	ff1e186cbd94ed8
+6	74	0	Post-build command	ff1e186cbd94ed8
+10	120	0	Post-build command	ff1e186cbd94ed8
+7	78	0	Post-build command	ff1e186cbd94ed8
+12	1009	7059479564647317	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
+1131	1555	7059479569781944	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
+1679	1763	0	Post-build command	ff1e186cbd94ed8
+9	101	0	Post-build command	ff1e186cbd94ed8
+7	80	0	Post-build command	ff1e186cbd94ed8
+9	72	0	Post-build command	ff1e186cbd94ed8
+6	83	0	Post-build command	ff1e186cbd94ed8
+9	85	0	Post-build command	ff1e186cbd94ed8
+7	717	7059485242079675	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
+845	1295	7059485247391931	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
+1425	1493	0	Post-build command	ff1e186cbd94ed8
+6	77	0	Post-build command	ff1e186cbd94ed8
+11	928	7059486582943102	F:/Zigbee_communication/swe/default/Obj/ZED Sw/Application/zcl_samplesw.o	514feb8d21a8f9b7
+1111	1665	7059486589950471	F:/Zigbee_communication/swe/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	8abfe809eb815839
+1815	1902	0	Post-build command	ff1e186cbd94ed8
+8	77	0	Post-build command	ff1e186cbd94ed8
+7	78	0	Post-build command	ff1e186cbd94ed8
+9	88	0	Post-build command	ff1e186cbd94ed8

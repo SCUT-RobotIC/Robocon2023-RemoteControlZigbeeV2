@@ -12,8 +12,8 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <PlDriver>
-        <FirstRun>0</FirstRun>
         <MemConfigValue>C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CONFIG\debugger\TexasInstruments\CC1352P1F3.ddf</MemConfigValue>
+        <FirstRun>0</FirstRun>
     </PlDriver>
     <XdsDriver>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
@@ -24,13 +24,13 @@
         <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
     </ArmDriver>
     <JLinkDriver>
-        <jlinkResetStyle>12</jlinkResetStyle>
-        <jlinkResetStrategy>0</jlinkResetStrategy>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <CStepIntDis>_ 0</CStepIntDis>
+        <jlinkResetStyle>12</jlinkResetStyle>
+        <jlinkResetStrategy>0</jlinkResetStrategy>
     </JLinkDriver>
     <DebugChecksum>
-        <Checksum>2874702792</Checksum>
+        <Checksum>601806866</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -51,10 +51,27 @@
         <Enabled>0</Enabled>
         <ShowSource>0</ShowSource>
     </Trace2>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\StartUp\main.c}.246.5" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.451.3" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.510.7" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.510.7" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.481.3" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.503.7" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.500.7" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.476.3" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.458.5" 0 0 1 "" 0 "" 0</Bp8>
+        <Count>9</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\.conan\498e5f\1\source\ti\ti154stack\low_level\cc13xx\mac_low_level.c" ""</A0>
+        <A1>_ "C:\.conan\498e5f\1\source\ti\ti154stack\low_level\cc13xx\mac_radio.c" ""</A1>
+        <Count>2</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -67,29 +84,13 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ "$PROJ_DIR$\LogFile1.log"</LogFile>
         <Category2>_ 2</Category2>
     </LogFile>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints2>
-        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\StartUp\main.c}.246.5" 0 0 1 "" 0 "" 0</Bp0>
-        <Bp1>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.449.3" 0 0 1 "" 0 "" 0</Bp1>
-        <Bp2>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.446.3" 0 0 1 "" 0 "" 0</Bp2>
-        <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.505.1" 0 0 1 "" 0 "" 0</Bp3>
-        <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.505.1" 0 0 1 "" 0 "" 0</Bp4>
-        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.522.5" 0 0 1 "" 0 "" 0</Bp5>
-        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\StartUp\main.c}.387.5" 0 0 1 "" 0 "" 0</Bp6>
-        <Bp7>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.465.3" 0 0 1 "" 0 "" 0</Bp7>
-        <Count>8</Count>
-    </Breakpoints2>
-    <Aliases>
-        <A0>_ "C:\.conan\498e5f\1\source\ti\ti154stack\low_level\cc13xx\mac_low_level.c" ""</A0>
-        <A1>_ "C:\.conan\498e5f\1\source\ti\ti154stack\low_level\cc13xx\mac_radio.c" ""</A1>
-        <Count>2</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
 </settings>

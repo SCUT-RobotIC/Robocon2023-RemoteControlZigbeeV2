@@ -312,3 +312,22 @@
 5	57	0	Post-build command	8016e282d255a5b0
 5	57	0	Post-build command	8016e282d255a5b0
 5	54	0	Post-build command	8016e282d255a5b0
+10	792	7059489157308448	F:/Zigbee_communication/swr/default/Obj/ZR Sw/Application/zcl_samplesw.o	fdda30446da5b10b
+941	1803	7059489167073887	F:/Zigbee_communication/swr/default/Exe/zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	9e4d7c5015556dea
+1937	2019	0	Post-build command	8016e282d255a5b0
+5	93	0	Post-build command	8016e282d255a5b0
+16	175	0	Post-build command	8016e282d255a5b0
+10	86	0	Post-build command	8016e282d255a5b0
+6	2183	7059491610946961	F:/Zigbee_communication/swr/default/Obj/SysConfig Generated Files/ti_sysbios_config.o	44b0ca72eabdaae
+2307	2765	7059491616551697	F:/Zigbee_communication/swr/default/Exe/zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	9e4d7c5015556dea
+2874	2949	0	Post-build command	8016e282d255a5b0
+8	96	0	Post-build command	8016e282d255a5b0
+7	96	0	Post-build command	8016e282d255a5b0
+7	94	0	Post-build command	8016e282d255a5b0
+6	2199	7059492997515945	F:/Zigbee_communication/swr/default/Obj/SysConfig Generated Files/ti_sysbios_config.o	44b0ca72eabdaae
+2317	2825	7059493003493105	F:/Zigbee_communication/swr/default/Exe/zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	9e4d7c5015556dea
+2944	3019	0	Post-build command	8016e282d255a5b0
+6	85	0	Post-build command	8016e282d255a5b0
+7	650	7059494190288477	F:/Zigbee_communication/swr/default/Obj/ZR Sw/Application/zcl_samplesw.o	fdda30446da5b10b
+784	1324	7059494196679688	F:/Zigbee_communication/swr/default/Exe/zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	9e4d7c5015556dea
+1432	1506	0	Post-build command	8016e282d255a5b0
