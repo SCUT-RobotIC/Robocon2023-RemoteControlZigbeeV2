@@ -435,6 +435,7 @@ NwkDiscovery_clientFnxs zclSampleSw_nwkDiscoveryCbs =
  *
  * @return      none
  */
+
 void sampleApp_task(NVINTF_nvFuncts_t *pfnNV)
 {
   // Save and register the function pointers to the NV drivers
@@ -460,13 +461,17 @@ void sampleApp_task(NVINTF_nvFuncts_t *pfnNV)
 static const uint8 tSize=26;
 void uartReadCallback(UART2_Handle handle, void *buf, size_t count, void *userArg, int_fast16_t status)
 {
+  size_t written;
+  UART2_write(handle,buf,tSize,&written);
+  /*
   static uint8 seqNum = 0;    
   zclReportCmd_t *reportCmd; 
   reportCmd= (zclReportCmd_t*)malloc(sizeof(zclReportCmd_t) + sizeof(zclReport_t));
+  //printf("received");
 
 // Initialize the report command
   reportCmd->numAttr = 1; // We are reporting 1 attribute
-
+  
 // Allocate memory for the attribute report
 //  reportCmd->attrList = (zclReport_t *) osal_mem_alloc(reportCmd->numAttr * sizeof(zclReport_t));
   // Check for allocation failure
@@ -487,11 +492,12 @@ void uartReadCallback(UART2_Handle handle, void *buf, size_t count, void *userAr
   // Fill in the attribute report
   reportCmd->attrList[0].attrID = 0; // The ID of the attribute you are reporting
   reportCmd->attrList[0].dataType = ZCL_DATATYPE_UINT8; // The data type of the attribute
-  memcpy(reportCmd->attrList[0].attrData, buf, tSize);
-  zcl_SendReportCmd(SAMPLESW_ENDPOINT, &dstAddr, ZCL_DEVICEID_DOOR_LOCK , reportCmd, ZCL_FRAME_SERVER_CLIENT_DIR, TRUE,seqNum++);
+  memcpy(buf,reportCmd->attrList[0].attrData, tSize);
+  zcl_SendReportCmd(SAMPLESW_ENDPOINT, &dstAddr, ZCL_DEVICEID_ON_OFF_SWITCH , reportCmd, ZCL_FRAME_SERVER_CLIENT_DIR, TRUE,seqNum++);
   free(reportCmd->attrList[0].attrData);//内存释放
   free(reportCmd->attrList);
   free(reportCmd);
+*/  
     // buf contains the data read from the UART
     // count is the number of bytes read
 
@@ -543,7 +549,12 @@ static void zclSampleSw_initialization(void)
     UART2_Params_init(&uartParams);
     uartParams.readMode = UART2_Mode_CALLBACK;
     uartParams.readCallback = uartReadCallback;
-    UART2_Handle uart = UART2_open(CONFIG_UART2_0, &uartParams);
+    // Set baud rate
+    uartParams.baudRate = 115200;
+    uartParams.parityType = UART2_Parity_NONE;
+    uartParams.stopBits = UART2_StopBits_1;
+    uartParams.dataLength = UART2_DataLen_8;
+    UART2_Handle uart0 = UART2_open(CONFIG_UART2_0, &uartParams);
     
 }
 
@@ -696,7 +707,10 @@ static void zclSampleSw_Init( void )
   // Call BDB initialization. Should be called once from application at startup to restore
   // previous network configuration, if applicable.
   zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
-  zstack_bdbStartCommissioningReq.commissioning_mode = DEFAULT_COMISSIONING_MODE;
+  zstack_bdbStartCommissioningReq.commissioning_mode = //设备入网
+    BDB_COMMISSIONING_MODE_NWK_STEERING | //支持Network Steering
+    BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Finding and Binding（F & B）
+
   Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
 }
 

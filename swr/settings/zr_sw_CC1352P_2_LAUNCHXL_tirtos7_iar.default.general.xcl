@@ -1,8 +1,8 @@
 "C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armXDS.dll" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armJLINK.dll" 
 
-"F:\Zigbee_communication\sw\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out" 
+"F:\Zigbee_communication\swr\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out" 
 
 --plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
 

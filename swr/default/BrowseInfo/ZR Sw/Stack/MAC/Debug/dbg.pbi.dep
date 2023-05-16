@@ -1,6 +1,6 @@
-F:\Zigbee_communication\sw\default\BrowseInfo\ZR\ Sw\Stack\MAC\Debug\dbg.pbi: \
-  F:\Zigbee_communication\sw\Stack\MAC\Debug\dbg.c \
-  F:\Zigbee_communication\sw\Stack\MAC\Debug\dbg.h \
+F:\Zigbee_communication\swr\default\BrowseInfo\ZR\ Sw\Stack\MAC\Debug\dbg.pbi: \
+  F:\Zigbee_communication\swr\Stack\MAC\Debug\dbg.c \
+  F:\Zigbee_communication\swr\Stack\MAC\Debug\dbg.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\tracer\rfctrc_regs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\inc\hw_memmap.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \

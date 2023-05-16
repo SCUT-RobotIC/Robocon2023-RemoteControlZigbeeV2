@@ -45,7 +45,7 @@ const GateMutexPri = scripting.addModule("/ti/sysbios/gates/GateMutexPri");
 const HeapCallback = scripting.addModule("/ti/sysbios/heaps/HeapCallback");
 const Clock        = scripting.addModule("/ti/sysbios/knl/Clock");
 const Idle         = scripting.addModule("/ti/sysbios/knl/Idle");
-const Idle1        = Idle.addInstance();
+const Idle2        = Idle.addInstance();
 const Semaphore    = scripting.addModule("/ti/sysbios/knl/Semaphore");
 const Swi          = scripting.addModule("/ti/sysbios/knl/Swi");
 const Task         = scripting.addModule("/ti/sysbios/knl/Task");
@@ -102,6 +102,7 @@ TRNG1.$name = "CONFIG_TRNG_0";
 UART21.$name              = "CONFIG_UART2_0";
 UART21.uart.txPin.$assign = "boosterpack.4";
 UART21.uart.rxPin.$assign = "boosterpack.3";
+scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to XDS110 UART on the CC1352P-2 LaunchPad\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", UART21.uart, "txPin");
 scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to XDS110 UART on the CC1352P-2 LaunchPad\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", UART21.uart, "rxPin");
 
 Button1.$name         = "CONFIG_BTN_LEFT";
@@ -156,8 +157,8 @@ Clock.swiPriority = 4;
 
 const Timer = scripting.addModule("/ti/sysbios/family/arm/cc26xx/Timer", {}, false);
 
-Idle1.$name   = "powerIdle";
-Idle1.idleFxn = "Power_idleFunc";
+Idle2.$name   = "powerIdle";
+Idle2.idleFxn = "Power_idleFunc";
 
 Semaphore.supportsPriority = false;
 

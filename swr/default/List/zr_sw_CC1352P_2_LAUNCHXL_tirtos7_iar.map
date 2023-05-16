@@ -1,123 +1,125 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.20.1.318/W64 for ARM                  14/May/2023  01:49:15
+# IAR ELF Linker V9.20.1.318/W64 for ARM                  15/May/2023  21:46:00
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
-#        F:\Zigbee_communication\sw\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out
+#        F:\Zigbee_communication\swr\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out
 #    Map file     =
-#        F:\Zigbee_communication\sw\default\List\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.map
+#        F:\Zigbee_communication\swr\default\List\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.map
 #    Command line =
 #        -f
-#        F:\Zigbee_communication\sw\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out.rsp
-#        ("F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\af\af.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\bdb\bdb.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        F:\Zigbee_communication\swr\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out.rsp
+#        ("F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\af\af.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\bdb\bdb.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\bdb\bdb_finding_and_binding.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\bdb\bdb_reporting.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\touchlink\bdb_tl_commissioning.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\bdb\bdb_touchlink.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\bdb\bdb_touchlink_initiator.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\bdb\bdb_touchlink_target.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\nwk\binding_table.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\Services\crc.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\Debug\dbg.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\ROM\fh_rom_init.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\Debug\dbg.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
+#        Sw\Stack\ROM\fh_rom_init.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\gp\gp_bit_fields.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\gp\gp_common.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\gp\gp_proxy.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\gp\gp_common.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\gp\gp_proxy.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\gp\gp_proxy_table.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\ROM\hmac_rom_init.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\ROM\icall_osal_rom_init.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\ROM\lmac_rom_init.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\MAC\LowLevel\mac_activity.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\MAC\HighLevel\mac_cfg.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\MAC\LowLevel\mac_settings.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\Config\mac_user_config.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\util\mac_util.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\StartUp\main.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\Services\nvocmp.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\nwk\nwk_globals.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
+#        Sw\Stack\nwk\nwk_globals.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\osal_port\osal_nv.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\osal_port\osal_port.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\osal_port\osal_port_timers.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\ROM\rom_init_154.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\Services\saddr.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\nwk\stub_aps.o"
-#        "F:\Zigbee_communication\sw\default\Obj\SysConfig Generated
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\nwk\stub_aps.o"
+#        "F:\Zigbee_communication\swr\default\Obj\SysConfig Generated
 #        Files\ti_devices_config.o"
-#        "F:\Zigbee_communication\sw\default\Obj\SysConfig Generated
+#        "F:\Zigbee_communication\swr\default\Obj\SysConfig Generated
 #        Files\ti_drivers_config.o"
-#        "F:\Zigbee_communication\sw\default\Obj\SysConfig Generated
+#        "F:\Zigbee_communication\swr\default\Obj\SysConfig Generated
 #        Files\ti_radio_config.o"
-#        "F:\Zigbee_communication\sw\default\Obj\SysConfig Generated
+#        "F:\Zigbee_communication\swr\default\Obj\SysConfig Generated
 #        Files\ti_sysbios_config.o"
-#        "F:\Zigbee_communication\sw\default\Obj\SysConfig Generated
-#        Files\ti_zstack_config.o" "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\SysConfig Generated
+#        Files\ti_zstack_config.o" "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\touchlink\touchlink_initiator_app.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\touchlink\touchlink_target_app.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\util\utc_clock.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\util\util_timer.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\zcl\zcl.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\zcl\zcl.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\zcl\zcl_general.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Common\zcl\zcl_green_power.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\zcl\zcl_ha.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\zcl\zcl_port.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\zcl\zcl_ha.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\zcl\zcl_port.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\zcl_samplesw.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\zcl_samplesw_data.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo\zd_app.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo\zd_config.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo\zd_nwk_mgr.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo\zd_object.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo\zd_profile.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo\zd_sec_mgr.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\sys\zdiags.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\sys\zglobals.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zmac\zmac.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zmac\zmac_cb.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo\zd_app.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo\zd_config.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo\zd_nwk_mgr.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo\zd_object.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo\zd_profile.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo\zd_sec_mgr.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\sys\zdiags.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\sys\zglobals.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zmac\zmac.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zmac\zmac_cb.o"
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\ZStackApi\zstackapi.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Application\StartUp\zstackstartup.o"
-#        "F:\Zigbee_communication\sw\default\Obj\ZR
+#        "F:\Zigbee_communication\swr\default\Obj\ZR
 #        Sw\Stack\ZStackTask\zstacktask.o" --no_out_extension -o
-#        F:\Zigbee_communication\sw\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out
+#        F:\Zigbee_communication\swr\default\Exe\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out
 #        --map
-#        F:\Zigbee_communication\sw\default\List\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.map
-#        --config F:\Zigbee_communication\sw/cc13x2_cc26x2.icf --silent
+#        F:\Zigbee_communication\swr\default\List\zr_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.map
+#        --config F:\Zigbee_communication\swr/cc13x2_cc26x2.icf --silent
 #        --redirect _Printf=_PrintfSmall --config_def=NVOCMP_NVPAGES=2
-#        -fF:\Zigbee_communication\sw/ti_utils_build_linker.cmd.genlibs
+#        -fF:\Zigbee_communication\swr/ti_utils_build_linker.cmd.genlibs
 #        (third_party/spiffs/lib/iar/m4f/spiffs.a
 #        ti/drivers/rf/lib/iar/m4f/rf_multiMode_cc13x2.a
 #        ti/drivers/lib/iar/m4f/drivers_cc13x2.a ti/grlib/lib/iar/m4f/grlib.a
@@ -395,7 +397,7 @@
 #        macWrapperGetDefaultSourceKey=0x1003c6e9 --config_def
 #        ROM_TIMACDataAddr=0x2000010c --keep RAM_MAC_BASE_ADDR)
 #        -Lc:/ti/simplelink_cc13xx_cc26xx_sdk_6_41_00_17/kernel/tirtos7/packages
-#        -fF:\Zigbee_communication\sw/ti_utils_build_linker.cmd.genlibs
+#        -fF:\Zigbee_communication\swr/ti_utils_build_linker.cmd.genlibs
 #        (third_party/spiffs/lib/iar/m4f/spiffs.a
 #        ti/drivers/rf/lib/iar/m4f/rf_multiMode_cc13x2.a
 #        ti/drivers/lib/iar/m4f/drivers_cc13x2.a ti/grlib/lib/iar/m4f/grlib.a
@@ -479,8 +481,8 @@ No sections matched the following patterns:
   .intvec              const            0x0      0x3c  ti_sysbios_config.o [1]
                                      - 0x3c      0x3c
 
-"P1":                                        0x3'b25a
-  ROCODE                               0x40  0x3'b25a  <Block>
+"P1":                                        0x3'b272
+  ROCODE                               0x40  0x3'b272  <Block>
     .rodata            const           0x40      0x40  ti_radio_config.o [1]
     .rodata            const           0x80      0x30  bdb_finding_and_binding.o [17]
     .rodata            const           0xb0      0x60  bdb_finding_and_binding.o [17]
@@ -762,101 +764,101 @@ No sections matched the following patterns:
     .text              ro code     0x2'f068      0x24  mac_user_config.o [10]
     .text              ro code     0x2'f08c     0x128  main.o [4]
     .text              ro code     0x2'f1b4     0x52c  zstackstartup.o [4]
-    .text              ro code     0x2'f6e0     0x530  zcl_samplesw.o [2]
-    .text              ro code     0x2'fc10     0x114  ti_drivers_config.o [1]
-    .text              ro code     0x2'fd24      0x68  memcmp.o [30]
-    .text              ro code     0x2'fd8c    0x186a  nvocmp.o [3]
-    .text              ro code     0x3'15f6      0x10  rom_init_154.o [14]
-    .rodata            const       0x3'1606       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'1607       0x1  nwk_globals.o [18]
-    .text              ro code     0x3'1608     0x790  aps_frag.o [26]
-    .text              ro code     0x3'1d98     0x578  zd_nwk_mgr.o [21]
-    .text              ro code     0x3'2310    0x3a00  zstacktask.o [15]
-    .text              ro code     0x3'5d10      0x38  TRNG.c.obj [25]
-    .text              ro code     0x3'5d48     0x27e  UART2.c.obj [25]
-    .rodata            const       0x3'5fc6       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'5fc7       0x1  nwk_globals.o [18]
-    .text              ro code     0x3'5fc8     0x8bc  UART2CC26X2.c.obj [25]
-    .text              ro code     0x3'6884      0x18  zcl_samplesw_data.o [2]
-    .text              ro code     0x3'689c       0xe  UART2.c.obj [25]
-    .text              ro code     0x3'68aa     0x12c  ti_drivers_config.o [1]
-    .rodata            const       0x3'69d6       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'69d7       0x1  nwk_globals.o [18]
-    .text              ro code     0x3'69d8      0xf0  GPIOCC26XX.c.obj [25]
-    .text              ro code     0x3'6ac8      0x64  GPIO.c.obj [25]
-    .text              ro code     0x3'6b2c     0x144  GPIOCC26X2.c.obj [25]
-    .text              ro code     0x3'6c70      0x94  NVS.c.obj [25]
-    .text              ro code     0x3'6d04     0x118  RingBuf.c.obj [25]
-    .text              ro code     0x3'6e1c      0xb0  UDMACC26XX.c.obj [25]
-    .text              ro code     0x3'6ecc      0x1a  UART2.c.obj [25]
-    .rodata            const       0x3'6ee6       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'6ee7       0x1  nwk_globals.o [18]
-    .text              ro code     0x3'6ee8     0x3cc  zmac_cb.o [22]
-    .text              ro code     0x3'72b4    0x19c0  mac_hl_patch.o [28]
-    .text              ro code     0x3'8c74     0x100  mac_pwr.o [28]
-    .text              ro code     0x3'8d74     0x138  mac_sleep.o [28]
-    .text              ro code     0x3'8eac     0x6d4  mac_timer.o [28]
-    .text              ro code     0x3'9580     0x368  NVSCC26XX.c.obj [25]
-    .text              ro code     0x3'98e8      0x2c  flash.o [24]
-    .text              ro code     0x3'9914     0x774  NVSSPI25X.c.obj [25]
-    .text              ro code     0x3'a088      0x14  NVSSPI25X.c.obj [25]
-    .text              ro code     0x3'a09c      0x14  NVSSPI25X.c.obj [25]
-    .text              ro code     0x3'a0b0      0xac  SPI.c.obj [25]
-    .text              ro code     0x3'a15c     0xb88  SPICC26X2DMA.c.obj [25]
-    .text              ro code     0x3'ace4      0x48  rf_patch_cpe_ieee_802_15_4.c.cc13x2.iar.o [29]
-    .text              ro code     0x3'ad2c      0x2a  cstartup_M.obj [32]
-    .rodata            const       0x3'ad56       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'ad57       0x1  nwk_globals.o [18]
-    .text              ro code     0x3'ad58      0x1a  cmain_iar.obj [32]
-    .rodata            const       0x3'ad72       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'ad73       0x1  nwk_globals.o [18]
-    .text              ro code     0x3'ad74      0x28  data_init.o [30]
-    .text              ro code     0x3'ad9c      0x22  fpinit_M.o [27]
-    .rodata            const       0x3'adbe       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'adbf       0x1  nwk_globals.o [18]
-    CODE               ro code     0x3'adc0      0x10  boot_iar.obj [32]
-    CODE               ro code     0x3'add0     0x14c  Hwi_asm_iar.obj [32]
-    .text              ro code     0x3'af1c       0xc  memcpy.o [30]
-    .text              ro code     0x3'af28      0x14  memset.o [30]
-    .text              ro code     0x3'af3c      0x38  zero_init3.o [30]
-    .text              ro code     0x3'af74      0x78  lz77_init_single.o [30]
-    .iar.init_table    const       0x3'afec      0x28  - Linker created -
-    .rodata            const       0x3'b014       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'b015       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'b016       0x1  nwk_globals.o [18]
-    .rodata            const       0x3'b017       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b018       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b019       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b01a       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b01b       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b01c       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b01d       0x1  ti_drivers_config.o [1]
-    .rodata            const       0x3'b01e       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b01f       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b020       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b021       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b022       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b023       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b024       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b025       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b026       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b027       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b028       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b029       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b02a       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b02b       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b02c       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b02d       0x1  ti_sysbios_config.o [1]
-    .rodata            const       0x3'b02e       0x1  zcl_samplesw_data.o [2]
-    .rodata            const       0x3'b02f       0x1  zcl_samplesw_data.o [2]
-    .rodata            const       0x3'b030       0x1  zcl_samplesw_data.o [2]
-    .rodata            const       0x3'b031       0x1  zcl_samplesw_data.o [2]
-    .rodata            const       0x3'b032       0x1  zd_profile.o [21]
-    .rodata            const       0x3'b033       0x1  zstackstartup.o [4]
-    .rodata            const       0x3'b034       0x0  zero_init3.o [30]
-    .rodata            const       0x3'b034       0x0  lz77_init_single.o [30]
-    Initializer bytes  const       0x3'b034     0x266  <for RWDATA-1>
-                                 - 0x3'b29a  0x3'b25a
+    .text              ro code     0x2'f6e0     0x548  zcl_samplesw.o [2]
+    .text              ro code     0x2'fc28     0x114  ti_drivers_config.o [1]
+    .text              ro code     0x2'fd3c      0x68  memcmp.o [30]
+    .text              ro code     0x2'fda4    0x186a  nvocmp.o [3]
+    .text              ro code     0x3'160e      0x10  rom_init_154.o [14]
+    .rodata            const       0x3'161e       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'161f       0x1  nwk_globals.o [18]
+    .text              ro code     0x3'1620     0x790  aps_frag.o [26]
+    .text              ro code     0x3'1db0     0x578  zd_nwk_mgr.o [21]
+    .text              ro code     0x3'2328    0x3a00  zstacktask.o [15]
+    .text              ro code     0x3'5d28      0x38  TRNG.c.obj [25]
+    .text              ro code     0x3'5d60     0x27e  UART2.c.obj [25]
+    .rodata            const       0x3'5fde       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'5fdf       0x1  nwk_globals.o [18]
+    .text              ro code     0x3'5fe0     0x8bc  UART2CC26X2.c.obj [25]
+    .text              ro code     0x3'689c      0x18  zcl_samplesw_data.o [2]
+    .text              ro code     0x3'68b4       0xe  UART2.c.obj [25]
+    .text              ro code     0x3'68c2     0x12c  ti_drivers_config.o [1]
+    .rodata            const       0x3'69ee       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'69ef       0x1  nwk_globals.o [18]
+    .text              ro code     0x3'69f0      0xf0  GPIOCC26XX.c.obj [25]
+    .text              ro code     0x3'6ae0      0x64  GPIO.c.obj [25]
+    .text              ro code     0x3'6b44     0x144  GPIOCC26X2.c.obj [25]
+    .text              ro code     0x3'6c88      0x94  NVS.c.obj [25]
+    .text              ro code     0x3'6d1c     0x118  RingBuf.c.obj [25]
+    .text              ro code     0x3'6e34      0xb0  UDMACC26XX.c.obj [25]
+    .text              ro code     0x3'6ee4      0x1a  UART2.c.obj [25]
+    .rodata            const       0x3'6efe       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'6eff       0x1  nwk_globals.o [18]
+    .text              ro code     0x3'6f00     0x3cc  zmac_cb.o [22]
+    .text              ro code     0x3'72cc    0x19c0  mac_hl_patch.o [28]
+    .text              ro code     0x3'8c8c     0x100  mac_pwr.o [28]
+    .text              ro code     0x3'8d8c     0x138  mac_sleep.o [28]
+    .text              ro code     0x3'8ec4     0x6d4  mac_timer.o [28]
+    .text              ro code     0x3'9598     0x368  NVSCC26XX.c.obj [25]
+    .text              ro code     0x3'9900      0x2c  flash.o [24]
+    .text              ro code     0x3'992c     0x774  NVSSPI25X.c.obj [25]
+    .text              ro code     0x3'a0a0      0x14  NVSSPI25X.c.obj [25]
+    .text              ro code     0x3'a0b4      0x14  NVSSPI25X.c.obj [25]
+    .text              ro code     0x3'a0c8      0xac  SPI.c.obj [25]
+    .text              ro code     0x3'a174     0xb88  SPICC26X2DMA.c.obj [25]
+    .text              ro code     0x3'acfc      0x48  rf_patch_cpe_ieee_802_15_4.c.cc13x2.iar.o [29]
+    .text              ro code     0x3'ad44      0x2a  cstartup_M.obj [32]
+    .rodata            const       0x3'ad6e       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'ad6f       0x1  nwk_globals.o [18]
+    .text              ro code     0x3'ad70      0x1a  cmain_iar.obj [32]
+    .rodata            const       0x3'ad8a       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'ad8b       0x1  nwk_globals.o [18]
+    .text              ro code     0x3'ad8c      0x28  data_init.o [30]
+    .text              ro code     0x3'adb4      0x22  fpinit_M.o [27]
+    .rodata            const       0x3'add6       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'add7       0x1  nwk_globals.o [18]
+    CODE               ro code     0x3'add8      0x10  boot_iar.obj [32]
+    CODE               ro code     0x3'ade8     0x14c  Hwi_asm_iar.obj [32]
+    .text              ro code     0x3'af34       0xc  memcpy.o [30]
+    .text              ro code     0x3'af40      0x14  memset.o [30]
+    .text              ro code     0x3'af54      0x38  zero_init3.o [30]
+    .text              ro code     0x3'af8c      0x78  lz77_init_single.o [30]
+    .iar.init_table    const       0x3'b004      0x28  - Linker created -
+    .rodata            const       0x3'b02c       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'b02d       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'b02e       0x1  nwk_globals.o [18]
+    .rodata            const       0x3'b02f       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b030       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b031       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b032       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b033       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b034       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b035       0x1  ti_drivers_config.o [1]
+    .rodata            const       0x3'b036       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b037       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b038       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b039       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b03a       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b03b       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b03c       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b03d       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b03e       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b03f       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b040       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b041       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b042       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b043       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b044       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b045       0x1  ti_sysbios_config.o [1]
+    .rodata            const       0x3'b046       0x1  zcl_samplesw_data.o [2]
+    .rodata            const       0x3'b047       0x1  zcl_samplesw_data.o [2]
+    .rodata            const       0x3'b048       0x1  zcl_samplesw_data.o [2]
+    .rodata            const       0x3'b049       0x1  zcl_samplesw_data.o [2]
+    .rodata            const       0x3'b04a       0x1  zd_profile.o [21]
+    .rodata            const       0x3'b04b       0x1  zstackstartup.o [4]
+    .rodata            const       0x3'b04c       0x0  zero_init3.o [30]
+    .rodata            const       0x3'b04c       0x0  lz77_init_single.o [30]
+    Initializer bytes  const       0x3'b04c     0x266  <for RWDATA-1>
+                                 - 0x3'b2b2  0x3'b272
 
 "A0":                                            0x58
   .ccfg                const       0x5'7fa8      0x58  ti_devices_config.o [1]
@@ -1510,7 +1512,7 @@ Unused ranges:
          From           To      Size
          ----           --      ----
          0x3c         0x3f       0x4
-     0x3'b29a     0x5'1fff  0x1'6d66
+     0x3'b2b2     0x5'1fff  0x1'6d4e
      0x5'6000     0x5'7fa7    0x1fa8
   0x2000'00d8  0x2000'010b      0x34
   0x2000'011c  0x2000'180f    0x16f4
@@ -1531,7 +1533,7 @@ Zero (__iar_zero_init3)
 
 Copy/lz77 (__iar_lz77_init_single3)
     1 source range, total size 0x266 (40% of destination):
-             0x3'b034   0x266
+             0x3'b04c   0x266
     1 destination range, total size 0x5de:
           0x2000'1a50   0x5de
 
@@ -1548,7 +1550,7 @@ command line/config:
     --------------------------------------------------------------------
     Total:
 
-F:\Zigbee_communication\sw\default\Obj\SysConfig Generated Files: [1]
+F:\Zigbee_communication\swr\default\Obj\SysConfig Generated Files: [1]
     ti_devices_config.o                                      88
     ti_drivers_config.o                            576      401    1'361
     ti_radio_config.o                                       241      108
@@ -1556,47 +1558,47 @@ F:\Zigbee_communication\sw\default\Obj\SysConfig Generated Files: [1]
     --------------------------------------------------------------------
     Total:                                      14'632    3'422    2'919
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application: [2]
-    zcl_samplesw.o                               1'328       26      161
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application: [2]
+    zcl_samplesw.o                               1'352       26      161
     zcl_samplesw_data.o                             24      158       23
     --------------------------------------------------------------------
-    Total:                                       1'352      184      184
+    Total:                                       1'376      184      184
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\Services: [3]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\Services: [3]
     crc.o                                           32      256
     nvocmp.o                                     6'250        5       88
     saddr.o                                        140
     --------------------------------------------------------------------
     Total:                                       6'422      261       88
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\StartUp: [4]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\StartUp: [4]
     main.o                                         296       70    3'182
     zstackstartup.o                              1'324      137    3'297
     --------------------------------------------------------------------
     Total:                                       1'620      207    6'479
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\ZStackApi: [5]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\ZStackApi: [5]
     zstackapi.o                                    778                 1
     --------------------------------------------------------------------
     Total:                                         778                 1
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\util: [6]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\util: [6]
     util_timer.o                                   146
     --------------------------------------------------------------------
     Total:                                         146
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\gp: [7]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\gp: [7]
     gp_common.o                                  2'356      231      697
     gp_proxy.o                                   4'890        8       19
     gp_proxy_table.o                             3'120       36
     --------------------------------------------------------------------
     Total:                                      10'366      275      716
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\touchlink: [8]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\touchlink: [8]
     --------------------------------------------------------------------
     Total:
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\zcl: [9]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\zcl: [9]
     zcl.o                                        8'992      185       27
     zcl_general.o                                4'592                 5
     zcl_green_power.o                            2'582       12       13
@@ -1604,26 +1606,26 @@ F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\zcl: [9]
     --------------------------------------------------------------------
     Total:                                      18'358      198      256
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\Config: [10]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\Config: [10]
     mac_user_config.o                               36      218       24
     --------------------------------------------------------------------
     Total:                                          36      218       24
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\Debug: [11]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\Debug: [11]
     --------------------------------------------------------------------
     Total:
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\HighLevel: [12]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\HighLevel: [12]
     mac_cfg.o                                               390       16
     --------------------------------------------------------------------
     Total:                                                  390       16
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\LowLevel: [13]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\LowLevel: [13]
     mac_settings.o                                 324       13      252
     --------------------------------------------------------------------
     Total:                                         324       13      252
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\ROM: [14]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\ROM: [14]
     hmac_rom_init.o                                 16    1'384
     icall_osal_rom_init.o                           16      108
     lmac_rom_init.o                                 16      204
@@ -1631,41 +1633,41 @@ F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\ROM: [14]
     --------------------------------------------------------------------
     Total:                                          64    1'696       16
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\ZStackTask: [15]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\ZStackTask: [15]
     zstacktask.o                                14'848        1        8
     --------------------------------------------------------------------
     Total:                                      14'848        1        8
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\af: [16]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\af: [16]
     af.o                                         1'866                 5
     --------------------------------------------------------------------
     Total:                                       1'866                 5
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\bdb: [17]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\bdb: [17]
     bdb.o                                        6'064        9       69
     bdb_finding_and_binding.o                    2'160      149       41
     --------------------------------------------------------------------
     Total:                                       8'224      158      110
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\nwk: [18]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\nwk: [18]
     binding_table.o                              2'376                29
     nwk_globals.o                                  464      156    1'921
     --------------------------------------------------------------------
     Total:                                       2'840      156    1'950
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\osal_port: [19]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\osal_port: [19]
     osal_nv.o                                      560
     osal_port.o                                  2'606               399
     osal_port_timers.o                             620                13
     --------------------------------------------------------------------
     Total:                                       3'786               412
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\sys: [20]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\sys: [20]
     zglobals.o                                     504      424       88
     --------------------------------------------------------------------
     Total:                                         504      424       88
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo: [21]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo: [21]
     zd_app.o                                     5'520        7       89
     zd_config.o                                    164                20
     zd_nwk_mgr.o                                 1'400                55
@@ -1675,7 +1677,7 @@ F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo: [21]
     --------------------------------------------------------------------
     Total:                                      22'574      182      414
 
-F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zmac: [22]
+F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zmac: [22]
     zmac.o                                       2'068                 4
     zmac_cb.o                                      972       20        5
     --------------------------------------------------------------------
@@ -1821,7 +1823,7 @@ sysbios.a: [32]
     Gaps                                                               2
     Linker created                                   8       40    1'025
 ------------------------------------------------------------------------
-    Grand Total:                               232'756    9'658   19'615
+    Grand Total:                               232'780    9'658   19'615
 
 
 *******************************************************************************
@@ -1830,9 +1832,9 @@ sysbios.a: [32]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.iar.init_table$$Base      0x3'afec           --   Gb  - Linker created -
-.iar.init_table$$Limit     0x3'b014           --   Gb  - Linker created -
-?main                      0x3'ad59          Code  Gb  cmain_iar.obj [32]
+.iar.init_table$$Base      0x3'b004           --   Gb  - Linker created -
+.iar.init_table$$Limit     0x3'b02c           --   Gb  - Linker created -
+?main                      0x3'ad71          Code  Gb  cmain_iar.obj [32]
 AESCCM_Operation_init      0x2'28d7     0x2  Code  Gb  AESCCM.c.obj [25]
 AESCCM_Params_init         0x2'28c5    0x12  Code  Gb  AESCCM.c.obj [25]
 AESCCM_cleanup             0x2'2955    0x60  Code  Lc  AESCCMCC26XX.c.obj [25]
@@ -1888,19 +1890,19 @@ APSDE_FrameHdrInit           0xa199    0xc2  Code  Lc  aps_mede.o [26]
 APSDE_FrameHdrSet            0xa051   0x144  Code  Lc  aps_mede.o [26]
 APSDE_FrameSend              0xa6c7    0x42  Code  Gb  aps_mede.o [26]
 APSDE_ParseMsg             0x2'2629   0x146  Code  Gb  aps_util.o [26]
-APSF_AddObj                0x3'162f    0x28  Code  Lc  aps_frag.o [26]
-APSF_AllocRxObj            0x3'1a95    0xe2  Code  Lc  aps_frag.o [26]
-APSF_FindObj               0x3'1657    0x38  Code  Lc  aps_frag.o [26]
-APSF_FreeObj               0x3'168f    0x30  Code  Lc  aps_frag.o [26]
-APSF_IncomingData          0x3'1b77   0x196  Code  Lc  aps_frag.o [26]
-APSF_Init                  0x3'1609    0x26  Code  Gb  aps_frag.o [26]
+APSF_AddObj                0x3'1647    0x28  Code  Lc  aps_frag.o [26]
+APSF_AllocRxObj            0x3'1aad    0xe2  Code  Lc  aps_frag.o [26]
+APSF_FindObj               0x3'166f    0x38  Code  Lc  aps_frag.o [26]
+APSF_FreeObj               0x3'16a7    0x30  Code  Lc  aps_frag.o [26]
+APSF_IncomingData          0x3'1b8f   0x196  Code  Lc  aps_frag.o [26]
+APSF_Init                  0x3'1621    0x26  Code  Gb  aps_frag.o [26]
 APSF_ObjList            0x2000'60c4     0x4  Data  Lc  aps_frag.o [26]
-APSF_ProcessAck            0x3'19dd    0xb8  Code  Gb  aps_frag.o [26]
-APSF_ProcessEvent          0x3'1d1b    0x54  Code  Gb  aps_frag.o [26]
-APSF_Schedule              0x3'1947    0x96  Code  Lc  aps_frag.o [26]
-APSF_SendFragmented        0x3'16c1   0x140  Code  Gb  aps_frag.o [26]
-APSF_SendOsalMsg           0x3'1d0d     0xe  Code  Gb  aps_frag.o [26]
-APSF_TxNextFrame           0x3'1801   0x146  Code  Lc  aps_frag.o [26]
+APSF_ProcessAck            0x3'19f5    0xb8  Code  Gb  aps_frag.o [26]
+APSF_ProcessEvent          0x3'1d33    0x54  Code  Gb  aps_frag.o [26]
+APSF_Schedule              0x3'195f    0x96  Code  Lc  aps_frag.o [26]
+APSF_SendFragmented        0x3'16d9   0x140  Code  Gb  aps_frag.o [26]
+APSF_SendOsalMsg           0x3'1d25     0xe  Code  Gb  aps_frag.o [26]
+APSF_TxNextFrame           0x3'1819   0x146  Code  Lc  aps_frag.o [26]
 APSF_taskID             0x2000'202a     0x1  Data  Gb  aps_frag.o [26]
 APSME_AddTCLinkKey           0xa7d9   0x10c  Code  Gb  aps_mede.o [26]
 APSME_BindRequest            0x97c1    0x2e  Code  Gb  aps_mede.o [26]
@@ -2050,17 +2052,17 @@ AssocSetDefaultNV          0x1'7773    0x34  Code  Gb  assoc_list.o [26]
 AssocWriteNV               0x1'79c1    0xb6  Code  Gb  assoc_list.o [26]
 AssociatedDevList       0x2000'3920   0x2f4  Data  Gb  nwk_globals.o [18]
 BDBBindNotificationsendMsgToAllCBs
-                           0x3'59e9    0x50  Code  Lc  zstacktask.o [15]
+                           0x3'5a01    0x50  Code  Lc  zstacktask.o [15]
 BDBCBKETCLinkKeyExchangesendMsgCB
-                           0x3'59ad    0x3c  Code  Lc  zstacktask.o [15]
+                           0x3'59c5    0x3c  Code  Lc  zstacktask.o [15]
 BDBFilterNwkDescriptorsendMsgCB
-                           0x3'5967    0x46  Code  Lc  zstacktask.o [15]
+                           0x3'597f    0x46  Code  Lc  zstacktask.o [15]
 BDBIdentifyTimesendMsgToAllCBs
-                           0x3'5a39    0x40  Code  Lc  zstacktask.o [15]
-BDBsendMsgToAllCBs         0x3'5a79    0x4e  Code  Lc  zstacktask.o [15]
+                           0x3'5a51    0x40  Code  Lc  zstacktask.o [15]
+BDBsendMsgToAllCBs         0x3'5a91    0x4e  Code  Lc  zstacktask.o [15]
 BIOS_Module_state       0x2000'1c50    0x2c  Data  Gb  ti_sysbios_config.o [1]
 BIOS_atExitFunc              0xb493    0x12  Code  Gb  ti_sysbios_config.o [1]
-BIOS_clockEnabled          0x3'b021     0x1  Data  Gb  ti_sysbios_config.o [1]
+BIOS_clockEnabled          0x3'b039     0x1  Data  Gb  ti_sysbios_config.o [1]
 BIOS_exit                    0xb487     0xc  Code  Gb  ti_sysbios_config.o [1]
 BIOS_exitFunc                0xb4a5    0x12  Code  Gb  ti_sysbios_config.o [1]
 BIOS_getCpuFreq              0xb46d     0xe  Code  Gb  ti_sysbios_config.o [1]
@@ -2071,21 +2073,21 @@ BIOS_init                    0xaf2b    0x2a  Code  Gb  ti_sysbios_config.o [1]
 BIOS_linkedWithIncorrectBootLibrary
                              0xb44d     0x8  Code  Gb  ti_sysbios_config.o [1]
 BIOS_runtimeCreatesEnabled
-                           0x3'b01e     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b036     0x1  Data  Gb  ti_sysbios_config.o [1]
 BIOS_setThreadType           0xb45f     0xe  Code  Gb  ti_sysbios_config.o [1]
 BIOS_start                   0xb47b     0xc  Code  Gb  ti_sysbios_config.o [1]
 BIOS_startFunc               0xb4b7    0x26  Code  Gb  ti_sysbios_config.o [1]
-BIOS_swiEnabled            0x3'b020     0x1  Data  Gb  ti_sysbios_config.o [1]
-BIOS_taskEnabled           0x3'b01f     0x1  Data  Gb  ti_sysbios_config.o [1]
+BIOS_swiEnabled            0x3'b038     0x1  Data  Gb  ti_sysbios_config.o [1]
+BIOS_taskEnabled           0x3'b037     0x1  Data  Gb  ti_sysbios_config.o [1]
 BindInitNV                 0x2'46e1    0x48  Code  Gb  binding_table.o [18]
 BindRestoreFromNV          0x2'475d    0x50  Code  Gb  binding_table.o [18]
 BindSetDefaultNV           0x2'4729    0x34  Code  Gb  binding_table.o [18]
 BindWriteNV                0x2'47ad    0x34  Code  Gb  binding_table.o [18]
 BindingTable            0x2000'4068    0x38  Data  Gb  nwk_globals.o [18]
-Board_init                 0x2'fd11    0x14  Code  Gb  ti_drivers_config.o [1]
-Board_sendExtFlashByte     0x2'fc33    0x5e  Code  Gb  ti_drivers_config.o [1]
-Board_shutDownExtFlash     0x2'fcbb    0x4a  Code  Gb  ti_drivers_config.o [1]
-Board_wakeUpExtFlash       0x2'fc91    0x2a  Code  Gb  ti_drivers_config.o [1]
+Board_init                 0x2'fd29    0x14  Code  Gb  ti_drivers_config.o [1]
+Board_sendExtFlashByte     0x2'fc4b    0x5e  Code  Gb  ti_drivers_config.o [1]
+Board_shutDownExtFlash     0x2'fcd3    0x4a  Code  Gb  ti_drivers_config.o [1]
+Board_wakeUpExtFlash       0x2'fca9    0x2a  Code  Gb  ti_drivers_config.o [1]
 Boot_trimDevice              0xb4dd     0x8  Code  Gb  ti_sysbios_config.o [1]
 CGP_DataCnf                0x2'8987     0xc  Code  Gb  cgp_stub.o [26]
 CGP_DataReq                0x2'88df    0xa8  Code  Gb  cgp_stub.o [26]
@@ -2320,21 +2322,21 @@ FrameCounterUpdated     0x2000'6270     0x1  Data  Gb  zd_app.o [21]
 GPEP_Handle             0x2000'6257     0x1  Data  Gb  gp_common.o [7]
 GPEP_findHandle            0x2'6791     0x4  Code  Lc  gp_common.o [7]
 GPIO_config                   0xca4    0x10  Data  Gb  ti_drivers_config.o [1]
-GPIO_disableInt            0x3'69d9    0x14  Code  Gb  GPIOCC26XX.c.obj [25]
-GPIO_getUserArg            0x3'6aed     0x4  Code  Gb  GPIO.c.obj [25]
-GPIO_hwiIntFxn             0x3'6b2d    0x3a  Code  Gb  GPIOCC26X2.c.obj [25]
-GPIO_init                  0x3'6b67    0xdc  Code  Gb  GPIOCC26X2.c.obj [25]
-GPIO_pinLowerBound         0x3'b019     0x1  Data  Gb  ti_drivers_config.o [1]
-GPIO_pinUpperBound         0x3'b01a     0x1  Data  Gb  ti_drivers_config.o [1]
-GPIO_read                  0x3'69ed     0xe  Code  Gb  GPIOCC26XX.c.obj [25]
-GPIO_resetConfig           0x3'6af7    0x2e  Code  Gb  GPIO.c.obj [25]
-GPIO_setCallback           0x3'6ac9    0x16  Code  Gb  GPIO.c.obj [25]
-GPIO_setConfig             0x3'69fb    0x68  Code  Gb  GPIOCC26XX.c.obj [25]
+GPIO_disableInt            0x3'69f1    0x14  Code  Gb  GPIOCC26XX.c.obj [25]
+GPIO_getUserArg            0x3'6b05     0x4  Code  Gb  GPIO.c.obj [25]
+GPIO_hwiIntFxn             0x3'6b45    0x3a  Code  Gb  GPIOCC26X2.c.obj [25]
+GPIO_init                  0x3'6b7f    0xdc  Code  Gb  GPIOCC26X2.c.obj [25]
+GPIO_pinLowerBound         0x3'b031     0x1  Data  Gb  ti_drivers_config.o [1]
+GPIO_pinUpperBound         0x3'b032     0x1  Data  Gb  ti_drivers_config.o [1]
+GPIO_read                  0x3'6a05     0xe  Code  Gb  GPIOCC26XX.c.obj [25]
+GPIO_resetConfig           0x3'6b0f    0x2e  Code  Gb  GPIO.c.obj [25]
+GPIO_setCallback           0x3'6ae1    0x16  Code  Gb  GPIO.c.obj [25]
+GPIO_setConfig             0x3'6a13    0x68  Code  Gb  GPIOCC26XX.c.obj [25]
 GPIO_setInterruptConfig
-                           0x3'6a63    0x2c  Code  Gb  GPIOCC26XX.c.obj [25]
-GPIO_setMux                0x3'6a8f    0x18  Code  Gb  GPIOCC26XX.c.obj [25]
-GPIO_setUserArg            0x3'6adf     0xe  Code  Gb  GPIO.c.obj [25]
-GPIO_write                 0x3'6ab9    0x10  Code  Gb  GPIOCC26XX.c.obj [25]
+                           0x3'6a7b    0x2c  Code  Gb  GPIOCC26XX.c.obj [25]
+GPIO_setMux                0x3'6aa7    0x18  Code  Gb  GPIOCC26XX.c.obj [25]
+GPIO_setUserArg            0x3'6af7     0xe  Code  Gb  GPIO.c.obj [25]
+GPIO_write                 0x3'6ad1    0x10  Code  Gb  GPIOCC26XX.c.obj [25]
 GP_CheckAnnouncedDeviceGCB
                         0x2000'596c     0x4  Data  Gb  dgp_stub.o [26]
 GP_DataCnf                 0x2'1379     0xa  Code  Gb  gp_proxy.o [7]
@@ -2387,10 +2389,10 @@ List_insert                0x1'f5a3    0x26  Code  Gb  List.c.obj [25]
 List_put                   0x1'f5c9    0x20  Code  Gb  List.c.obj [25]
 List_putHead               0x1'f5e9    0x1e  Code  Gb  List.c.obj [25]
 List_remove                0x1'f60f    0x24  Code  Gb  List.c.obj [25]
-MAC_CbackCheckPending      0x3'723b     0x8  Code  Gb  zmac_cb.o [22]
-MAC_CbackEvent             0x3'6ee9   0x352  Code  Gb  zmac_cb.o [22]
+MAC_CbackCheckPending      0x3'7253     0x8  Code  Gb  zmac_cb.o [22]
+MAC_CbackEvent             0x3'6f01   0x352  Code  Gb  zmac_cb.o [22]
 MAC_CbackQueryRetransmit
-                           0x3'7243     0x4  Code  Gb  zmac_cb.o [22]
+                           0x3'725b     0x4  Code  Gb  zmac_cb.o [22]
 MAC_EnableFH {Abs}      0x1003'9cbd          Data  Gb  <internal module>
 MAC_GetPHYParamReq {Abs}
                         0x1003'a1b9          Data  Gb  <internal module>
@@ -2401,10 +2403,10 @@ MAC_InitBeaconDevice {Abs}
                         0x1003'5159          Data  Gb  <internal module>
 MAC_InitCoord {Abs}     0x1003'624d          Data  Gb  <internal module>
 MAC_InitDevice {Abs}    0x1003'7c45          Data  Gb  <internal module>
-MAC_InitFH                 0x3'72b5    0x10  Code  Gb  mac_hl_patch.o [28]
+MAC_InitFH                 0x3'72cd    0x10  Code  Gb  mac_hl_patch.o [28]
 MAC_McpsDataAlloc {Abs}
                         0x1003'6e05          Data  Gb  <internal module>
-MAC_McpsDataReq            0x3'8aa9   0x1c2  Code  Gb  mac_hl_patch.o [28]
+MAC_McpsDataReq            0x3'8ac1   0x1c2  Code  Gb  mac_hl_patch.o [28]
 MAC_McpsPurgeReq {Abs}  0x1003'6455          Data  Gb  <internal module>
 MAC_MlmeAssociateReq {Abs}
                         0x1003'7ea5          Data  Gb  <internal module>
@@ -2429,7 +2431,7 @@ MAC_MlmeOrphanRsp {Abs}
                         0x1003'648d          Data  Gb  <internal module>
 MAC_MlmePollReq {Abs}   0x1003'7ebd          Data  Gb  <internal module>
 MAC_MlmeResetReq {Abs}  0x1003'91c9          Data  Gb  <internal module>
-MAC_MlmeScanReq            0x3'77f1    0xf2  Code  Gb  mac_hl_patch.o [28]
+MAC_MlmeScanReq            0x3'7809    0xf2  Code  Gb  mac_hl_patch.o [28]
 MAC_MlmeSetReq {Abs}    0x1003'9ec5          Data  Gb  <internal module>
 MAC_MlmeSetSecurityReq {Abs}
                         0x1003'a99d          Data  Gb  <internal module>
@@ -2437,12 +2439,12 @@ MAC_MlmeStartReq {Abs}  0x1003'64e1          Data  Gb  <internal module>
 MAC_MlmeSyncReq {Abs}   0x1003'9ddd          Data  Gb  <internal module>
 MAC_MlmeWSAsyncReq {Abs}
                         0x1003'9df5          Data  Gb  <internal module>
-MAC_PwrMode                0x3'8cd1     0x6  Code  Gb  mac_pwr.o [28]
-MAC_PwrNextTimeout         0x3'9529    0x48  Code  Gb  mac_timer.o [28]
-MAC_PwrOffReq              0x3'8c7f    0x3e  Code  Gb  mac_pwr.o [28]
-MAC_PwrOnReq               0x3'8cbd    0x14  Code  Gb  mac_pwr.o [28]
+MAC_PwrMode                0x3'8ce9     0x6  Code  Gb  mac_pwr.o [28]
+MAC_PwrNextTimeout         0x3'9541    0x48  Code  Gb  mac_timer.o [28]
+MAC_PwrOffReq              0x3'8c97    0x3e  Code  Gb  mac_pwr.o [28]
+MAC_PwrOnReq               0x3'8cd5    0x14  Code  Gb  mac_pwr.o [28]
 MAC_RandomByte {Abs}    0x1003'9e55          Data  Gb  <internal module>
-MAC_ResumeReq              0x3'8515    0x8e  Code  Gb  mac_hl_patch.o [28]
+MAC_ResumeReq              0x3'852d    0x8e  Code  Gb  mac_hl_patch.o [28]
 MAC_SetPHYParamReq {Abs}
                         0x1003'a1f9          Data  Gb  <internal module>
 MAC_SrcMatchAckAllPending
@@ -2614,8 +2616,8 @@ NOROM_ChipInfo_GetChipType
                            0x2'3b5d    0x66  Code  Gb  chipinfo.o [24]
 NOROM_ChipInfo_GetHwRevision
                            0x2'3bc5    0x40  Code  Gb  chipinfo.o [24]
-NOROM_FlashProgram         0x3'98fb    0x12  Code  Gb  flash.o [24]
-NOROM_FlashSectorErase     0x3'98e9    0x12  Code  Gb  flash.o [24]
+NOROM_FlashProgram         0x3'9913    0x12  Code  Gb  flash.o [24]
+NOROM_FlashSectorErase     0x3'9901    0x12  Code  Gb  flash.o [24]
 NOROM_OSCHF_AttemptToSwitchToXosc
                            0x2'384f    0x56  Code  Gb  osc.o [24]
 NOROM_OSCHF_SwitchToRcOscTurnOffXosc
@@ -2648,86 +2650,86 @@ NOROM_SysCtrlSetRechargeBeforePowerDown
 NOROM_SysCtrlStandby       0x2'39e9    0xbe  Code  Gb  sys_ctrl.o [24]
 NOROM_ThisLibraryIsFor_CC13x2_CC26x2_HwRev20AndLater_HaltIfViolated
                            0x2'3c11    0x16  Code  Gb  chipinfo.o [24]
-NVOCMP_addItem             0x3'0861    0xbc  Code  Lc  nvocmp.o [3]
-NVOCMP_changePageState     0x3'0ef3    0x38  Code  Lc  nvocmp.o [3]
-NVOCMP_checkItem           0x3'074b    0x72  Code  Lc  nvocmp.o [3]
-NVOCMP_compact             0x3'12ff   0x1de  Code  Lc  nvocmp.o [3]
-NVOCMP_compactNvApi        0x2'ffb9    0x7c  Code  Lc  nvocmp.o [3]
-NVOCMP_compactPage         0x3'1113   0x16c  Code  Lc  nvocmp.o [3]
-NVOCMP_createItemApi       0x3'0035    0xb4  Code  Lc  nvocmp.o [3]
-NVOCMP_deleteItemApi       0x3'01b9    0xb0  Code  Lc  nvocmp.o [3]
-NVOCMP_disableCache        0x3'04cf    0x32  Code  Lc  nvocmp.o [3]
-NVOCMP_doNVCRC             0x3'151d    0x82  Code  Lc  nvocmp.o [3]
-NVOCMP_doRAMCRC            0x3'159f    0x16  Code  Lc  nvocmp.o [3]
-NVOCMP_erase               0x3'09a5    0xcc  Code  Lc  nvocmp.o [3]
-NVOCMP_eraseNvApi          0x2'fec9    0xa4  Code  Lc  nvocmp.o [3]
-NVOCMP_expectCompApi       0x3'04a9    0x26  Code  Lc  nvocmp.o [3]
+NVOCMP_addItem             0x3'0879    0xbc  Code  Lc  nvocmp.o [3]
+NVOCMP_changePageState     0x3'0f0b    0x38  Code  Lc  nvocmp.o [3]
+NVOCMP_checkItem           0x3'0763    0x72  Code  Lc  nvocmp.o [3]
+NVOCMP_compact             0x3'1317   0x1de  Code  Lc  nvocmp.o [3]
+NVOCMP_compactNvApi        0x2'ffd1    0x7c  Code  Lc  nvocmp.o [3]
+NVOCMP_compactPage         0x3'112b   0x16c  Code  Lc  nvocmp.o [3]
+NVOCMP_createItemApi       0x3'004d    0xb4  Code  Lc  nvocmp.o [3]
+NVOCMP_deleteItemApi       0x3'01d1    0xb0  Code  Lc  nvocmp.o [3]
+NVOCMP_disableCache        0x3'04e7    0x32  Code  Lc  nvocmp.o [3]
+NVOCMP_doNVCRC             0x3'1535    0x82  Code  Lc  nvocmp.o [3]
+NVOCMP_doRAMCRC            0x3'15b7    0x16  Code  Lc  nvocmp.o [3]
+NVOCMP_erase               0x3'09bd    0xcc  Code  Lc  nvocmp.o [3]
+NVOCMP_eraseNvApi          0x2'fee1    0xa4  Code  Lc  nvocmp.o [3]
+NVOCMP_expectCompApi       0x3'04c1    0x26  Code  Lc  nvocmp.o [3]
 NVOCMP_failF            0x2000'1ff3     0x1  Data  Lc  nvocmp.o [3]
 NVOCMP_failW            0x2000'625f     0x1  Data  Lc  nvocmp.o [3]
-NVOCMP_findItem            0x3'0fa1   0x172  Code  Lc  nvocmp.o [3]
-NVOCMP_findOffset          0x3'0f35    0x6c  Code  Lc  nvocmp.o [3]
-NVOCMP_findSignature       0x3'1285    0x7a  Code  Lc  nvocmp.o [3]
+NVOCMP_findItem            0x3'0fb9   0x172  Code  Lc  nvocmp.o [3]
+NVOCMP_findOffset          0x3'0f4d    0x6c  Code  Lc  nvocmp.o [3]
+NVOCMP_findSignature       0x3'129d    0x7a  Code  Lc  nvocmp.o [3]
 NVOCMP_gMutexPri        0x2000'390c     0x4  Data  Lc  nvocmp.o [3]
-NVOCMP_getDstPage          0x3'07d9    0x88  Code  Lc  nvocmp.o [3]
-NVOCMP_getFreeNvApi        0x2'ff6d    0x4c  Code  Lc  nvocmp.o [3]
-NVOCMP_getItemLenApi       0x3'0269    0x58  Code  Lc  nvocmp.o [3]
-NVOCMP_initNv              0x3'057b   0x1d0  Code  Lc  nvocmp.o [3]
-NVOCMP_initNvApi           0x2'fde5    0xe4  Code  Lc  nvocmp.o [3]
+NVOCMP_getDstPage          0x3'07f1    0x88  Code  Lc  nvocmp.o [3]
+NVOCMP_getFreeNvApi        0x2'ff85    0x4c  Code  Lc  nvocmp.o [3]
+NVOCMP_getItemLenApi       0x3'0281    0x58  Code  Lc  nvocmp.o [3]
+NVOCMP_initNv              0x3'0593   0x1d0  Code  Lc  nvocmp.o [3]
+NVOCMP_initNvApi           0x2'fdfd    0xe4  Code  Lc  nvocmp.o [3]
 NVOCMP_itemBuffer       0x2000'3910     0xc  Data  Lc  nvocmp.o [3]
-NVOCMP_loadApiPtrs         0x2'fd8d    0x56  Code  Gb  nvocmp.o [3]
+NVOCMP_loadApiPtrs         0x2'fda5    0x56  Code  Gb  nvocmp.o [3]
 NVOCMP_nvHandle         0x2000'38dc    0x30  Data  Gb  nvocmp.o [3]
 NVOCMP_nvsAttrs         0x2000'38d0     0xc  Data  Lc  nvocmp.o [3]
 NVOCMP_nvsHandle        0x2000'38cc     0x4  Data  Lc  nvocmp.o [3]
-NVOCMP_read                0x3'0925    0x18  Code  Lc  nvocmp.o [3]
-NVOCMP_readByte            0x3'14dd    0x14  Code  Lc  nvocmp.o [3]
-NVOCMP_readContItemApi     0x3'02c1    0xb4  Code  Lc  nvocmp.o [3]
-NVOCMP_readHeader          0x3'0c81    0xc8  Code  Lc  nvocmp.o [3]
-NVOCMP_readItem            0x3'0d49    0x90  Code  Lc  nvocmp.o [3]
-NVOCMP_readItemApi         0x3'0375    0x8a  Code  Lc  nvocmp.o [3]
-NVOCMP_restoreCache        0x3'0501    0x14  Code  Lc  nvocmp.o [3]
-NVOCMP_scanPage            0x3'0515    0x66  Code  Lc  nvocmp.o [3]
-NVOCMP_setCompactHdr       0x3'0e3d    0x32  Code  Lc  nvocmp.o [3]
-NVOCMP_setItemInactive     0x3'0dd9    0x64  Code  Lc  nvocmp.o [3]
-NVOCMP_setPageState        0x3'0e6f    0x84  Code  Lc  nvocmp.o [3]
+NVOCMP_read                0x3'093d    0x18  Code  Lc  nvocmp.o [3]
+NVOCMP_readByte            0x3'14f5    0x14  Code  Lc  nvocmp.o [3]
+NVOCMP_readContItemApi     0x3'02d9    0xb4  Code  Lc  nvocmp.o [3]
+NVOCMP_readHeader          0x3'0c99    0xc8  Code  Lc  nvocmp.o [3]
+NVOCMP_readItem            0x3'0d61    0x90  Code  Lc  nvocmp.o [3]
+NVOCMP_readItemApi         0x3'038d    0x8a  Code  Lc  nvocmp.o [3]
+NVOCMP_restoreCache        0x3'0519    0x14  Code  Lc  nvocmp.o [3]
+NVOCMP_scanPage            0x3'052d    0x66  Code  Lc  nvocmp.o [3]
+NVOCMP_setCompactHdr       0x3'0e55    0x32  Code  Lc  nvocmp.o [3]
+NVOCMP_setItemInactive     0x3'0df1    0x64  Code  Lc  nvocmp.o [3]
+NVOCMP_setPageState        0x3'0e87    0x84  Code  Lc  nvocmp.o [3]
 NVOCMP_size             0x2000'6261     0x1  Data  Gb  nvocmp.o [3]
-NVOCMP_updateItemApi       0x3'00e9    0xce  Code  Lc  nvocmp.o [3]
-NVOCMP_verifyCRC           0x3'15b5    0x42  Code  Lc  nvocmp.o [3]
+NVOCMP_updateItemApi       0x3'0101    0xce  Code  Lc  nvocmp.o [3]
+NVOCMP_verifyCRC           0x3'15cd    0x42  Code  Lc  nvocmp.o [3]
 NVOCMP_voltCheckFptr    0x2000'391c     0x4  Data  Lc  nvocmp.o [3]
-NVOCMP_write               0x3'093d    0x68  Code  Lc  nvocmp.o [3]
-NVOCMP_writeByte           0x3'14f1    0x14  Code  Lc  nvocmp.o [3]
-NVOCMP_writeItem           0x3'0a71   0x210  Code  Lc  nvocmp.o [3]
-NVOCMP_writeItemApi        0x3'0401    0xa8  Code  Lc  nvocmp.o [3]
-NVSCC26XX_close            0x3'9581     0x8  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_control          0x3'9589     0x6  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_erase            0x3'958f    0x2c  Code  Gb  NVSCC26XX.c.obj [25]
+NVOCMP_write               0x3'0955    0x68  Code  Lc  nvocmp.o [3]
+NVOCMP_writeByte           0x3'1509    0x14  Code  Lc  nvocmp.o [3]
+NVOCMP_writeItem           0x3'0a89   0x210  Code  Lc  nvocmp.o [3]
+NVOCMP_writeItemApi        0x3'0419    0xa8  Code  Lc  nvocmp.o [3]
+NVSCC26XX_close            0x3'9599     0x8  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_control          0x3'95a1     0x6  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_erase            0x3'95a7    0x2c  Code  Gb  NVSCC26XX.c.obj [25]
 NVSCC26XX_fxnTable           0x2040    0x28  Data  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_getAttrs         0x3'95bb    0x18  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_init             0x3'95d3    0x42  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_lock             0x3'9615    0x12  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_open             0x3'9627    0x6a  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_read             0x3'9691    0x3e  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_unlock           0x3'96cf     0x8  Code  Gb  NVSCC26XX.c.obj [25]
-NVSCC26XX_write            0x3'96d7   0x11c  Code  Gb  NVSCC26XX.c.obj [25]
-NVSSPI25X_close            0x3'9915    0x7e  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_control          0x3'9993    0x76  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_erase            0x3'9a09    0x2c  Code  Gb  NVSSPI25X.c.obj [25]
+NVSCC26XX_getAttrs         0x3'95d3    0x18  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_init             0x3'95eb    0x42  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_lock             0x3'962d    0x12  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_open             0x3'963f    0x6a  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_read             0x3'96a9    0x3e  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_unlock           0x3'96e7     0x8  Code  Gb  NVSCC26XX.c.obj [25]
+NVSCC26XX_write            0x3'96ef   0x11c  Code  Gb  NVSCC26XX.c.obj [25]
+NVSSPI25X_close            0x3'992d    0x7e  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_control          0x3'99ab    0x76  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_erase            0x3'9a21    0x2c  Code  Gb  NVSSPI25X.c.obj [25]
 NVSSPI25X_fxnTable           0x2068    0x28  Data  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_getAttrs         0x3'9a35    0x12  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_init             0x3'9a47    0x36  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_lock             0x3'9a7d    0x14  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_open             0x3'9a91   0x118  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_read             0x3'9baf    0x44  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_unlock           0x3'9bf3     0xa  Code  Gb  NVSSPI25X.c.obj [25]
-NVSSPI25X_write            0x3'9bfd   0x16e  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_getAttrs         0x3'9a4d    0x12  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_init             0x3'9a5f    0x36  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_lock             0x3'9a95    0x14  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_open             0x3'9aa9   0x118  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_read             0x3'9bc7    0x44  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_unlock           0x3'9c0b     0xa  Code  Gb  NVSSPI25X.c.obj [25]
+NVSSPI25X_write            0x3'9c15   0x16e  Code  Gb  NVSSPI25X.c.obj [25]
 NVS_config                    0xce4    0x18  Data  Gb  ti_drivers_config.o [1]
-NVS_count                  0x3'b01b     0x1  Data  Gb  ti_drivers_config.o [1]
-NVS_defaultParams          0x3'6d00     0x4  Data  Gb  NVS.c.obj [25]
-NVS_erase                  0x3'6c71     0xa  Code  Gb  NVS.c.obj [25]
-NVS_getAttrs               0x3'6c7b     0x6  Code  Gb  NVS.c.obj [25]
-NVS_init                   0x3'6c81    0x1e  Code  Gb  NVS.c.obj [25]
-NVS_open                   0x3'6ca1    0x38  Code  Gb  NVS.c.obj [25]
-NVS_read                   0x3'6ce5     0xa  Code  Gb  NVS.c.obj [25]
-NVS_write                  0x3'6cef     0xe  Code  Gb  NVS.c.obj [25]
+NVS_count                  0x3'b033     0x1  Data  Gb  ti_drivers_config.o [1]
+NVS_defaultParams          0x3'6d18     0x4  Data  Gb  NVS.c.obj [25]
+NVS_erase                  0x3'6c89     0xa  Code  Gb  NVS.c.obj [25]
+NVS_getAttrs               0x3'6c93     0x6  Code  Gb  NVS.c.obj [25]
+NVS_init                   0x3'6c99    0x1e  Code  Gb  NVS.c.obj [25]
+NVS_open                   0x3'6cb9    0x38  Code  Gb  NVS.c.obj [25]
+NVS_read                   0x3'6cfd     0xa  Code  Gb  NVS.c.obj [25]
+NVS_write                  0x3'6d07     0xe  Code  Gb  NVS.c.obj [25]
 NWK_TaskID              0x2000'629f     0x1  Data  Gb  nwk.o [26]
 NwkCommandPktProcessing
                            0x1'ab3b   0x148  Code  Lc  nwk.o [26]
@@ -2968,7 +2970,7 @@ RF_getPAOverrideOffsetAndValue
 RF_getRssi                 0x2'd61d    0x20  Code  Gb  RFCC26X2_multiMode.c.cc13x2.iar.o [29]
 RF_getTxPower              0x2'db79    0x74  Code  Gb  RFCC26X2_multiMode.c.cc13x2.iar.o [29]
 RF_globalCallbackFunction
-                           0x2'fc11    0x22  Code  Lc  ti_drivers_config.o [1]
+                           0x2'fc29    0x22  Code  Lc  ti_drivers_config.o [1]
 RF_handle               0x2000'5f20     0x4  Data  Gb  mac_radio.o [28]
 RF_hposcRfCompNotifyObj
                         0x2000'28d4    0x18  Data  Lc  RFCC26X2_multiMode.c.cc13x2.iar.o [29]
@@ -3022,7 +3024,7 @@ RF_wakeupNotification      0x2'a953    0x50  Code  Lc  RFCC26X2_multiMode.c.cc13
 RF_wakeupNotifyObj      0x2000'28c0    0x14  Data  Lc  RFCC26X2_multiMode.c.cc13x2.iar.o [29]
 RF_yield                   0x2'd50d    0x9c  Code  Gb  RFCC26X2_multiMode.c.cc13x2.iar.o [29]
 ROCODE$$Base                   0x40           --   Gb  - Linker created -
-ROCODE$$Limit              0x3'b29a           --   Gb  - Linker created -
+ROCODE$$Limit              0x3'b2b2           --   Gb  - Linker created -
 RTG_AddRtgEntry              0x7d99   0x1d4  Code  Lc  rtg.o [26]
 RTG_AddSrcRtgEntry           0x7f85   0x10c  Code  Lc  rtg.o [26]
 RTG_AddSrcRtgEntry_Guaranteed
@@ -3079,33 +3081,33 @@ Random_getNumber             0xe8e1    0x38  Code  Gb  Random.c.obj [25]
 Random_seedAutomatic         0xe88d    0x54  Code  Gb  Random.c.obj [25]
 Random_seedAutomatic::hwAttrs
                              0xe924     0xc  Data  Lc  Random.c.obj [25]
-Region$$Table$$Base        0x3'afec           --   Gb  - Linker created -
-Region$$Table$$Limit       0x3'b014           --   Gb  - Linker created -
-RingBuf_construct          0x3'6d05    0x12  Code  Gb  RingBuf.c.obj [25]
-RingBuf_getConsume         0x3'6d1f    0x2c  Code  Gb  RingBuf.c.obj [25]
-RingBuf_getCount           0x3'6d4b     0x4  Code  Gb  RingBuf.c.obj [25]
-RingBuf_getPointer         0x3'6d4f    0x1e  Code  Gb  RingBuf.c.obj [25]
-RingBuf_put                0x3'6d75    0x36  Code  Gb  RingBuf.c.obj [25]
-RingBuf_putAdvance         0x3'6db5    0x36  Code  Gb  RingBuf.c.obj [25]
-RingBuf_putPointer         0x3'6deb    0x2a  Code  Gb  RingBuf.c.obj [25]
-SPICC26X2DMA_close         0x3'a15d    0x76  Code  Gb  SPICC26X2DMA.c.obj [25]
-SPICC26X2DMA_control       0x3'a1d3    0xe6  Code  Gb  SPICC26X2DMA.c.obj [25]
+Region$$Table$$Base        0x3'b004           --   Gb  - Linker created -
+Region$$Table$$Limit       0x3'b02c           --   Gb  - Linker created -
+RingBuf_construct          0x3'6d1d    0x12  Code  Gb  RingBuf.c.obj [25]
+RingBuf_getConsume         0x3'6d37    0x2c  Code  Gb  RingBuf.c.obj [25]
+RingBuf_getCount           0x3'6d63     0x4  Code  Gb  RingBuf.c.obj [25]
+RingBuf_getPointer         0x3'6d67    0x1e  Code  Gb  RingBuf.c.obj [25]
+RingBuf_put                0x3'6d8d    0x36  Code  Gb  RingBuf.c.obj [25]
+RingBuf_putAdvance         0x3'6dcd    0x36  Code  Gb  RingBuf.c.obj [25]
+RingBuf_putPointer         0x3'6e03    0x2a  Code  Gb  RingBuf.c.obj [25]
+SPICC26X2DMA_close         0x3'a175    0x76  Code  Gb  SPICC26X2DMA.c.obj [25]
+SPICC26X2DMA_control       0x3'a1eb    0xe6  Code  Gb  SPICC26X2DMA.c.obj [25]
 SPICC26X2DMA_fxnTable        0x2090    0x18  Data  Gb  SPICC26X2DMA.c.obj [25]
-SPICC26X2DMA_hwiFxn        0x3'a2b9   0x1c8  Code  Lc  SPICC26X2DMA.c.obj [25]
-SPICC26X2DMA_init          0x3'a481     0xa  Code  Gb  SPICC26X2DMA.c.obj [25]
-SPICC26X2DMA_open          0x3'a48b   0x186  Code  Gb  SPICC26X2DMA.c.obj [25]
-SPICC26X2DMA_swiFxn        0x3'a619    0x40  Code  Lc  SPICC26X2DMA.c.obj [25]
-SPICC26X2DMA_transfer      0x3'a659   0x2e0  Code  Gb  SPICC26X2DMA.c.obj [25]
+SPICC26X2DMA_hwiFxn        0x3'a2d1   0x1c8  Code  Lc  SPICC26X2DMA.c.obj [25]
+SPICC26X2DMA_init          0x3'a499     0xa  Code  Gb  SPICC26X2DMA.c.obj [25]
+SPICC26X2DMA_open          0x3'a4a3   0x186  Code  Gb  SPICC26X2DMA.c.obj [25]
+SPICC26X2DMA_swiFxn        0x3'a631    0x40  Code  Lc  SPICC26X2DMA.c.obj [25]
+SPICC26X2DMA_transfer      0x3'a671   0x2e0  Code  Gb  SPICC26X2DMA.c.obj [25]
 SPICC26X2DMA_transferCancel
-                           0x3'a93f   0x14e  Code  Gb  SPICC26X2DMA.c.obj [25]
-SPI_Params_init            0x3'a125    0x10  Code  Gb  SPI.c.obj [25]
-SPI_close                  0x3'a0b1     0x6  Code  Gb  SPI.c.obj [25]
+                           0x3'a957   0x14e  Code  Gb  SPICC26X2DMA.c.obj [25]
+SPI_Params_init            0x3'a13d    0x10  Code  Gb  SPI.c.obj [25]
+SPI_close                  0x3'a0c9     0x6  Code  Gb  SPI.c.obj [25]
 SPI_config                    0xd5c     0xc  Data  Gb  ti_drivers_config.o [1]
-SPI_count                  0x3'b01c     0x1  Data  Gb  ti_drivers_config.o [1]
-SPI_defaultParams          0x3'a13c    0x20  Data  Gb  SPI.c.obj [25]
-SPI_init                   0x3'a0b7    0x32  Code  Gb  SPI.c.obj [25]
-SPI_open                   0x3'a0ed    0x2c  Code  Gb  SPI.c.obj [25]
-SPI_transfer               0x3'a135     0x6  Code  Gb  SPI.c.obj [25]
+SPI_count                  0x3'b034     0x1  Data  Gb  ti_drivers_config.o [1]
+SPI_defaultParams          0x3'a154    0x20  Data  Gb  SPI.c.obj [25]
+SPI_init                   0x3'a0cf    0x32  Code  Gb  SPI.c.obj [25]
+SPI_open                   0x3'a105    0x2c  Code  Gb  SPI.c.obj [25]
+SPI_transfer               0x3'a14d     0x6  Code  Gb  SPI.c.obj [25]
 SSP_BuildAuxHdr            0x1'7def    0x54  Code  Gb  ssp.o [26]
 SSP_BuildAuxHdr2           0x1'7bc5    0x4c  Code  Gb  ssp.o [26]
 SSP_BuildNonce             0x1'7e43    0x1e  Code  Gb  ssp.o [26]
@@ -3132,7 +3134,7 @@ SemaphoreP_delete            0xb167     0xc  Code  Gb  ti_sysbios_config.o [1]
 SemaphoreP_destruct          0xb173     0x8  Code  Gb  ti_sysbios_config.o [1]
 SemaphoreP_pend              0xb17b    0x16  Code  Gb  ti_sysbios_config.o [1]
 SemaphoreP_post              0xb191     0x8  Code  Gb  ti_sysbios_config.o [1]
-SetupZStackCallbacks       0x2'f857    0x2c  Code  Lc  zcl_samplesw.o [2]
+SetupZStackCallbacks       0x2'f86f    0x2c  Code  Lc  zcl_samplesw.o [2]
 SpecialCapArrayWorkaroundEnabledAndNeeded
                            0x2'3903    0x28  Code  Lc  osc.o [24]
 StructRingBuf_construct
@@ -3151,58 +3153,58 @@ SwiP_restore                 0xb22b     0x8  Code  Gb  ti_sysbios_config.o [1]
 SwiP_setPriority             0xb233    0x18  Code  Gb  ti_sysbios_config.o [1]
 SysCtrlAonUpdate             0xb281     0xc  Code  Lc  ti_sysbios_config.o [1]
 SysCtrlSystemReset         0x1'cd0d    0x10  Code  Lc  zd_app.o [21]
-SysCtrlSystemReset         0x3'2311    0x10  Code  Lc  zstacktask.o [15]
+SysCtrlSystemReset         0x3'2329    0x10  Code  Lc  zstacktask.o [15]
 TCLinkKeyRAMEntry       0x2000'4b74    0x24  Data  Gb  zd_sec_mgr.o [21]
-TIMAC_ROM_Init             0x3'15f7    0x10  Code  Gb  rom_init_154.o [14]
+TIMAC_ROM_Init             0x3'160f    0x10  Code  Gb  rom_init_154.o [14]
 TRNGCC26XX_hwi          0x2000'28fc    0x1c  Data  Lc  TRNGCC26XX.c.obj [25]
 TRNGCC26XX_hwiFxn          0x1'f991   0x148  Code  Lc  TRNGCC26XX.c.obj [25]
 TRNGCC26XX_startJob        0x1'fad9    0x16  Code  Lc  TRNGCC26XX.c.obj [25]
 TRNGCC26XX_startTrng       0x1'faef    0x5a  Code  Lc  TRNGCC26XX.c.obj [25]
 TRNGCC26XX_stopTrng        0x1'fb49    0x28  Code  Lc  TRNGCC26XX.c.obj [25]
-TRNG_Params_init           0x3'5d11    0x12  Code  Gb  TRNG.c.obj [25]
+TRNG_Params_init           0x3'5d29    0x12  Code  Gb  TRNG.c.obj [25]
 TRNG_close                 0x1'fc5f    0x14  Code  Gb  TRNGCC26XX.c.obj [25]
 TRNG_config                   0xd74     0x8  Data  Gb  ti_drivers_config.o [1]
 TRNG_construct             0x1'fbe7    0x78  Code  Gb  TRNGCC26XX.c.obj [25]
-TRNG_defaultParams         0x3'5d24    0x14  Data  Gb  TRNG.c.obj [25]
+TRNG_defaultParams         0x3'5d3c    0x14  Data  Gb  TRNG.c.obj [25]
 TRNG_generateEntropy       0x1'fc75     0x2  Code  Gb  TRNGCC26XX.c.obj [25]
 TRNG_generateKey           0x1'fc77    0x2e  Code  Gb  TRNGCC26XX.c.obj [25]
 TRNG_getRandom             0x1'fca9    0xdc  Code  Lc  TRNGCC26XX.c.obj [25]
 TRNG_handle             0x2000'5884     0x4  Data  Gb  zstackstartup.o [4]
 TRNG_init                  0x1'fb71    0x76  Code  Gb  TRNGCC26XX.c.obj [25]
-TRNG_open                  0x3'5d39    0x10  Code  Wk  TRNG.c.obj [25]
+TRNG_open                  0x3'5d51    0x10  Code  Wk  TRNG.c.obj [25]
 TrimAfterColdResetWakeupFromShutDown
                            0x1'ec2d    0x94  Code  Lc  setup.o [24]
 UART2CC26X2_eventCallback
-                           0x3'64bd     0x2  Code  Lc  UART2CC26X2.c.obj [25]
-UART2CC26X2_getRxData      0x3'5fc9    0x30  Code  Lc  UART2CC26X2.c.obj [25]
-UART2CC26X2_hwiIntFxn      0x3'64c1   0x252  Code  Lc  UART2CC26X2.c.obj [25]
-UART2CC26X2_initHw         0x3'6715   0x128  Code  Lc  UART2CC26X2.c.obj [25]
+                           0x3'64d5     0x2  Code  Lc  UART2CC26X2.c.obj [25]
+UART2CC26X2_getRxData      0x3'5fe1    0x30  Code  Lc  UART2CC26X2.c.obj [25]
+UART2CC26X2_hwiIntFxn      0x3'64d9   0x252  Code  Lc  UART2CC26X2.c.obj [25]
+UART2CC26X2_initHw         0x3'672d   0x128  Code  Lc  UART2CC26X2.c.obj [25]
 UART2CC26X2_postNotifyFxn
-                           0x3'6855    0x10  Code  Lc  UART2CC26X2.c.obj [25]
-UART2Support_disableTx     0x3'6189     0xe  Code  Gb  UART2CC26X2.c.obj [25]
+                           0x3'686d    0x10  Code  Lc  UART2CC26X2.c.obj [25]
+UART2Support_disableTx     0x3'61a1     0xe  Code  Gb  UART2CC26X2.c.obj [25]
 UART2Support_dmaStartRx
-                           0x3'6197   0x108  Code  Gb  UART2CC26X2.c.obj [25]
+                           0x3'61af   0x108  Code  Gb  UART2CC26X2.c.obj [25]
 UART2Support_dmaStartTx
-                           0x3'629f    0xd8  Code  Gb  UART2CC26X2.c.obj [25]
-UART2Support_dmaStopRx     0x3'6377    0x78  Code  Gb  UART2CC26X2.c.obj [25]
-UART2Support_dmaStopTx     0x3'63ef    0x80  Code  Gb  UART2CC26X2.c.obj [25]
-UART2Support_enableTx      0x3'646f     0xe  Code  Gb  UART2CC26X2.c.obj [25]
-UART2Support_sendData      0x3'647d    0x26  Code  Gb  UART2CC26X2.c.obj [25]
-UART2Support_txDone        0x3'64a9    0x12  Code  Gb  UART2CC26X2.c.obj [25]
-UART2_Params_init          0x3'5d49     0x8  Code  Gb  UART2.c.obj [25]
+                           0x3'62b7    0xd8  Code  Gb  UART2CC26X2.c.obj [25]
+UART2Support_dmaStopRx     0x3'638f    0x78  Code  Gb  UART2CC26X2.c.obj [25]
+UART2Support_dmaStopTx     0x3'6407    0x80  Code  Gb  UART2CC26X2.c.obj [25]
+UART2Support_enableTx      0x3'6487     0xe  Code  Gb  UART2CC26X2.c.obj [25]
+UART2Support_sendData      0x3'6495    0x26  Code  Gb  UART2CC26X2.c.obj [25]
+UART2Support_txDone        0x3'64c1    0x12  Code  Gb  UART2CC26X2.c.obj [25]
+UART2_Params_init          0x3'5d61     0x8  Code  Gb  UART2.c.obj [25]
 UART2_config                  0xdd4     0x8  Data  Gb  ti_drivers_config.o [1]
-UART2_count                0x3'b01d     0x1  Data  Gb  ti_drivers_config.o [1]
+UART2_count                0x3'b035     0x1  Data  Gb  ti_drivers_config.o [1]
 UART2_defaultParams          0x2254    0x24  Data  Gb  UART2.c.obj [25]
-UART2_open                 0x3'5ff9   0x18a  Code  Gb  UART2CC26X2.c.obj [25]
-UART2_write                0x3'689d     0xe  Code  Wk  UART2.c.obj [25]
+UART2_open                 0x3'6011   0x18a  Code  Gb  UART2CC26X2.c.obj [25]
+UART2_write                0x3'68b5     0xe  Code  Wk  UART2.c.obj [25]
 UART2_writeTimeoutBlocking
-                           0x3'5d65   0x174  Code  Gb  UART2.c.obj [25]
+                           0x3'5d7d   0x174  Code  Gb  UART2.c.obj [25]
 UART2_writeTimeoutNonblocking
-                           0x3'5ed9    0xee  Code  Gb  UART2.c.obj [25]
-UDMACC26XX_close           0x3'6e91    0x3c  Code  Gb  UDMACC26XX.c.obj [25]
+                           0x3'5ef1    0xee  Code  Gb  UART2.c.obj [25]
+UDMACC26XX_close           0x3'6ea9    0x3c  Code  Gb  UDMACC26XX.c.obj [25]
 UDMACC26XX_config             0xc9c     0x8  Data  Gb  ti_drivers_config.o [1]
-UDMACC26XX_hwiIntFxn       0x3'6e1d     0xc  Code  Gb  UDMACC26XX.c.obj [25]
-UDMACC26XX_open            0x3'6e29    0x5c  Code  Gb  UDMACC26XX.c.obj [25]
+UDMACC26XX_hwiIntFxn       0x3'6e35     0xc  Code  Gb  UDMACC26XX.c.obj [25]
+UDMACC26XX_open            0x3'6e41    0x5c  Code  Gb  UDMACC26XX.c.obj [25]
 UtilTimer_construct        0x2'6795    0x60  Code  Gb  util_timer.o [6]
 UtilTimer_getTimeout       0x2'6819     0xe  Code  Gb  util_timer.o [6]
 UtilTimer_isActive         0x2'67fd     0x8  Code  Gb  util_timer.o [6]
@@ -3272,12 +3274,12 @@ ZDConfig_UpdateNodeDescriptor
 ZDConfig_UpdatePowerDescriptor
                            0x2'3495    0x28  Code  Gb  zd_config.o [21]
 ZDNwkMgr_BuildAndSendUpdateNotify
-                           0x3'2181    0xb0  Code  Lc  zd_nwk_mgr.o [21]
+                           0x3'2199    0xb0  Code  Lc  zd_nwk_mgr.o [21]
 ZDNwkMgr_CheckForChannelInterference
-                           0x3'20f5    0x8c  Code  Lc  zd_nwk_mgr.o [21]
+                           0x3'210d    0x8c  Code  Lc  zd_nwk_mgr.o [21]
 ZDNwkMgr_EDScanConfirmCB
-                           0x3'2275    0x34  Code  Gb  zd_nwk_mgr.o [21]
-ZDNwkMgr_Init              0x3'1d99    0x48  Code  Gb  zd_nwk_mgr.o [21]
+                           0x3'228d    0x34  Code  Gb  zd_nwk_mgr.o [21]
+ZDNwkMgr_Init              0x3'1db1    0x48  Code  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_MgmtNwkUpdateNotifyAddr
                         0x2000'4a90     0xc  Data  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_MgmtNwkUpdateNotifyTransSeq
@@ -3288,20 +3290,20 @@ ZDNwkMgr_NewChannel     0x2000'627b     0x1  Data  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_NumUpdateNotifySent
                         0x2000'6279     0x1  Data  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_ProcessChannelInterference
-                           0x3'2079    0x30  Code  Lc  zd_nwk_mgr.o [21]
+                           0x3'2091    0x30  Code  Lc  zd_nwk_mgr.o [21]
 ZDNwkMgr_ProcessDataConfirm
-                           0x3'22a9    0x2a  Code  Gb  zd_nwk_mgr.o [21]
+                           0x3'22c1    0x2a  Code  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_ProcessEDScanConfirm
-                           0x3'20a9    0x4c  Code  Lc  zd_nwk_mgr.o [21]
+                           0x3'20c1    0x4c  Code  Lc  zd_nwk_mgr.o [21]
 ZDNwkMgr_ProcessMgmtNwkUpdateReq
-                           0x3'1ee7   0x162  Code  Lc  zd_nwk_mgr.o [21]
-ZDNwkMgr_ProcessMsgCBs     0x3'1ec7    0x20  Code  Lc  zd_nwk_mgr.o [21]
+                           0x3'1eff   0x162  Code  Lc  zd_nwk_mgr.o [21]
+ZDNwkMgr_ProcessMsgCBs     0x3'1edf    0x20  Code  Lc  zd_nwk_mgr.o [21]
 ZDNwkMgr_ProcessServerDiscRsp
-                           0x3'2049    0x30  Code  Gb  zd_nwk_mgr.o [21]
+                           0x3'2061    0x30  Code  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_ReportChannelInterference
-                           0x3'224d    0x26  Code  Gb  zd_nwk_mgr.o [21]
+                           0x3'2265    0x26  Code  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_SetNwkManagerAddr
-                           0x3'2231    0x1a  Code  Gb  zd_nwk_mgr.o [21]
+                           0x3'2249    0x1a  Code  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_TaskID         0x2000'6277     0x1  Data  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_TotalTransmissions
                         0x2000'6226     0x2  Data  Gb  zd_nwk_mgr.o [21]
@@ -3310,7 +3312,7 @@ ZDNwkMgr_UpdateNotifyTimer
                         0x2000'6224     0x2  Data  Gb  zd_nwk_mgr.o [21]
 ZDNwkMgr_WaitingForNotifyConfirm
                         0x2000'627a     0x1  Data  Gb  zd_nwk_mgr.o [21]
-ZDNwkMgr_event_loop        0x3'1de1    0xe6  Code  Gb  zd_nwk_mgr.o [21]
+ZDNwkMgr_event_loop        0x3'1df9    0xe6  Code  Gb  zd_nwk_mgr.o [21]
 ZDOBuildBuf             0x2000'4abc    0x34  Data  Lc  zd_object.o [21]
 ZDODeviceSetup               0xe94d     0xc  Code  Lc  zd_object.o [21]
 ZDOInitDeviceEx            0x1'cf65   0x142  Code  Gb  zd_app.o [21]
@@ -3386,7 +3388,7 @@ ZDO_UpdateAddrManager        0xf123    0x1c  Code  Gb  zd_object.o [21]
 ZDO_UpdateNwkStatus          0xeaa1    0x54  Code  Gb  zd_object.o [21]
 ZDO_UseExtendedPANID    0x2000'4a48     0x8  Data  Gb  zd_app.o [21]
 ZDO_beaconNotifyIndCB      0x1'dca9   0x124  Code  Gb  zd_app.o [21]
-ZDP_AF_ENDPOINT            0x3'b032     0x1  Data  Gb  zd_profile.o [21]
+ZDP_AF_ENDPOINT            0x3'b04a     0x1  Data  Gb  zd_profile.o [21]
 ZDP_BindUnbindReq          0x1'5ba9    0x94  Code  Gb  zd_profile.o [21]
 ZDP_Buf                 0x2000'4af4    0x54  Data  Lc  zd_profile.o [21]
 ZDP_DeviceAnnce            0x1'549f    0x42  Code  Gb  zd_profile.o [21]
@@ -3487,7 +3489,7 @@ ZMacDataReqSec             0x1'87b3    0xb4  Code  Gb  zmac.o [22]
 ZMacEventLoop              0x1'8281   0x21e  Code  Gb  zmac.o [22]
 ZMacGetReq                 0x1'8543    0x2c  Code  Gb  zmac.o [22]
 ZMacInit                   0x1'849f    0x60  Code  Gb  zmac.o [22]
-ZMacLqiAdjust              0x3'7247    0x4e  Code  Lc  zmac_cb.o [22]
+ZMacLqiAdjust              0x3'725f    0x4e  Code  Lc  zmac_cb.o [22]
 ZMacReset                  0x1'84ff    0x44  Code  Gb  zmac.o [22]
 ZMacScanReq                0x1'8673    0x74  Code  Gb  zmac.o [22]
 ZMacSendNoData             0x1'88cd    0x42  Code  Gb  zmac.o [22]
@@ -3502,8 +3504,8 @@ ZMacSrcMatchDeleteEntry
 ZMacSrcMatchEnable         0x1'8867     0xa  Code  Gb  zmac.o [22]
 ZMacStartReq               0x1'86e7    0xcc  Code  Gb  zmac.o [22]
 ZStackServiceTaskId     0x2000'6293     0x1  Data  Lc  zstacktask.o [15]
-ZStackTaskInit             0x3'2321    0xa0  Code  Gb  zstacktask.o [15]
-ZStackTaskProcessEvent     0x3'23c1    0xcc  Code  Gb  zstacktask.o [15]
+ZStackTaskInit             0x3'2339    0xa0  Code  Gb  zstacktask.o [15]
+ZStackTaskProcessEvent     0x3'23d9    0xcc  Code  Gb  zstacktask.o [15]
 Zstackapi_AfDataReq        0x2'7899    0x10  Code  Gb  zstackapi.o [5]
 Zstackapi_AfRegisterReq
                            0x2'7889    0x10  Code  Gb  zstackapi.o [5]
@@ -3533,22 +3535,22 @@ __aeabi_memcpy8            0x1'efbd          Code  Gb  ABImemcpy.o [30]
 __aeabi_memset             0x1'6131          Code  Gb  ABImemset.o [30]
 __aeabi_uldivmod           0x1'ed6d          Code  Gb  I64DivMod.o [30]
 __ccfg                     0x5'7fa8    0x58  Data  Gb  ti_devices_config.o [1]
-__cmain                    0x3'ad59          Code  Gb  cmain_iar.obj [32]
+__cmain                    0x3'ad71          Code  Gb  cmain_iar.obj [32]
 __iar_Memset               0x1'6131          Code  Gb  ABImemset.o [30]
 __iar_Memset4_word         0x2'25f5          Code  Gb  ABImemset48.o [30]
 __iar_Memset8_word         0x2'25f5          Code  Gb  ABImemset48.o [30]
 __iar_Memset_word          0x1'6139          Code  Gb  ABImemset.o [30]
-__iar_data_init3           0x3'ad75    0x28  Code  Gb  data_init.o [30]
-__iar_init_vfp             0x3'ad9d          Code  Gb  fpinit_M.o [27]
+__iar_data_init3           0x3'ad8d    0x28  Code  Gb  data_init.o [30]
+__iar_init_vfp             0x3'adb5          Code  Gb  fpinit_M.o [27]
 __iar_lz77_init_single3
-                           0x3'af75    0x78  Code  Gb  lz77_init_single.o [30]
-__iar_program_start        0x3'adc1          Code  Gb  boot_iar.obj [32]
-__iar_program_startC       0x3'ad2d    0x2a  Code  Gb  cstartup_M.obj [32]
-__iar_zero_init3           0x3'af3d    0x38  Code  Gb  zero_init3.o [30]
+                           0x3'af8d    0x78  Code  Gb  lz77_init_single.o [30]
+__iar_program_start        0x3'add9          Code  Gb  boot_iar.obj [32]
+__iar_program_startC       0x3'ad45    0x2a  Code  Gb  cstartup_M.obj [32]
+__iar_zero_init3           0x3'af55    0x38  Code  Gb  zero_init3.o [30]
 __vector_table                  0x0    0x3c  Data  Gb  ti_sysbios_config.o [1]
-_call_main                 0x3'ad69          Code  Gb  cmain_iar.obj [32]
+_call_main                 0x3'ad81          Code  Gb  cmain_iar.obj [32]
 _hposcCoeffs            0x2000'620c    0x10  Data  Gb  osc.o [24]
-_main                      0x3'ad6f          Code  Gb  cmain_iar.obj [32]
+_main                      0x3'ad87          Code  Gb  cmain_iar.obj [32]
 _pthread_cleanupFxn          0xb3dd    0x24  Code  Gb  ti_sysbios_config.o [1]
 _pthread_delete              0xb401    0x26  Code  Lc  ti_sysbios_config.o [1]
 _savedRejoinRspAddr     0x2000'1fe8     0x2  Data  Gb  nwk_util.o [26]
@@ -3556,9 +3558,9 @@ _tmpRejoinState         0x2000'626f     0x1  Data  Gb  zd_app.o [21]
 aExtendedAddress        0x2000'5888     0x8  Data  Gb  zstackstartup.o [4]
 activityObject               0x1fbc    0x28  Data  Wk  mac_radio.o [28]
 addedLen                0x2000'60dc     0x4  Data  Lc  mac_duty_cycle.o [28]
-aesccmCC26XXHWAttrs        0x3'b017     0x1  Data  Gb  ti_drivers_config.o [1]
+aesccmCC26XXHWAttrs        0x3'b02f     0x1  Data  Gb  ti_drivers_config.o [1]
 aesccmCC26XXObjects     0x2000'4238    0x18  Data  Gb  ti_drivers_config.o [1]
-aesecbCC26XXHWAttrs        0x3'b018     0x1  Data  Gb  ti_drivers_config.o [1]
+aesecbCC26XXHWAttrs        0x3'b030     0x1  Data  Gb  ti_drivers_config.o [1]
 aesecbCC26XXObjects     0x2000'4250    0x24  Data  Gb  ti_drivers_config.o [1]
 afAPSF_ConfigGet             0x2985    0x26  Code  Gb  af.o [16]
 afAPSF_ConfigSet             0x29ab    0x20  Code  Gb  af.o [16]
@@ -3577,7 +3579,7 @@ afNumEndPoints               0x2917    0x14  Code  Gb  af.o [16]
 afReflectError               0x2395    0x3e  Code  Gb  af.o [16]
 afRegister                   0x22d3    0x2a  Code  Gb  af.o [16]
 afRegisterExtended           0x2281    0x52  Code  Gb  af.o [16]
-appMsg                     0x3'24b1   0x4e0  Code  Lc  zstacktask.o [15]
+appMsg                     0x3'24c9   0x4e0  Code  Lc  zstacktask.o [15]
 appSem                  0x2000'49dc    0x1c  Data  Lc  zcl_samplesw.o [2]
 appSemHandle            0x2000'49d8     0x4  Data  Lc  zcl_samplesw.o [2]
 appServiceTaskEvents    0x2000'49f8     0x4  Data  Lc  zcl_samplesw.o [2]
@@ -3779,10 +3781,10 @@ bindingAddrMgsHelperConvertShort
 bindingAddrMgsHelperFind
                            0x2'4553    0x32  Code  Gb  binding_table.o [18]
 blockingTransferCallback
-                           0x3'aa8d     0x8  Code  Lc  SPICC26X2DMA.c.obj [25]
+                           0x3'aaa5     0x8  Code  Lc  SPICC26X2DMA.c.obj [25]
 bucketLen               0x2000'60e4     0x4  Data  Lc  mac_duty_cycle.o [28]
-buildMsgCapInfo            0x3'2d63    0x2a  Code  Lc  zstacktask.o [15]
-buildMsgServerCap          0x3'2d8d    0x3a  Code  Lc  zstacktask.o [15]
+buildMsgCapInfo            0x3'2d7b    0x2a  Code  Lc  zstacktask.o [15]
+buildMsgServerCap          0x3'2da5    0x3a  Code  Lc  zstacktask.o [15]
 cGP_processMCPSDataInd     0x2'8993    0xc0  Code  Gb  cgp_stub.o [26]
 ccmStar                    0x1'804b   0x112  Code  Gb  ssp.o [26]
 childIndex              0x2000'627f     0x1  Data  Gb  zd_profile.o [21]
@@ -3791,13 +3793,13 @@ coexMetricsStruct       0x2000'5f44     0xc  Data  Gb  mac_low_level.o [28]
 coexOverrideUseCases    0x2000'5ff4     0x8  Data  Gb  mac.o [28]
 commissioningNotificationMsg
                         0x2000'29c4    0x14  Data  Gb  gp_common.o [7]
-configNextTransfer         0x3'aa95   0x116  Code  Lc  SPICC26X2DMA.c.obj [25]
+configNextTransfer         0x3'aaad   0x116  Code  Lc  SPICC26X2DMA.c.obj [25]
 configureRFCoreClocks        0xe707     0x4  Code  Lc  PowerCC26X2.c.obj [25]
 configureXOSCHF              0xe75f    0xe4  Code  Lc  PowerCC26X2.c.obj [25]
 conflictedAddrTable     0x2000'58bc     0xc  Data  Lc  nwk_util.o [26]
 convertCapInfo             0x1'8925    0x44  Code  Lc  zmac.o [22]
-convertCapabilityInfo      0x3'2e0b    0x3a  Code  Lc  zstacktask.o [15]
-convertMsgTransOptions     0x3'2dc7    0x44  Code  Lc  zstacktask.o [15]
+convertCapabilityInfo      0x3'2e23    0x3a  Code  Lc  zstacktask.o [15]
+convertMsgTransOptions     0x3'2ddf    0x44  Code  Lc  zstacktask.o [15]
 convertToTxOptions         0x1'8969    0x2a  Code  Lc  zmac.o [22]
 convertTxOptions           0x2'2217    0x32  Code  Lc  zcl_port.o [9]
 convertTxOptions           0x1'81fd    0x6a  Code  Gb  zmac.o [22]
@@ -3807,12 +3809,12 @@ crc_table                     0x110   0x100  Data  Lc  crc.o [3]
 crc_update                 0x2'eed5    0x20  Code  Gb  crc.o [3]
 createTimerEntry           0x1'0419    0xd6  Code  Lc  osal_port_timers.o [19]
 csmPhy                  0x2000'62aa     0x1  Data  Gb  hmac_global.o [28]
-csnCallback                0x3'abad    0x6e  Code  Lc  SPICC26X2DMA.c.obj [25]
+csnCallback                0x3'abc5    0x6e  Code  Lc  SPICC26X2DMA.c.obj [25]
 dGP_DataCnf                0x2'6b2b    0x60  Code  Gb  dgp_stub.o [26]
 dGP_DataInd                0x2'6829   0x302  Code  Gb  dgp_stub.o [26]
 dGP_StubHandle          0x2000'6256     0x1  Data  Gb  gp_common.o [7]
 dGP_findHandle             0x2'6b8b    0x1e  Code  Gb  dgp_stub.o [26]
-dataLength                 0x3'6864     0x4  Data  Lc  UART2CC26X2.c.obj [25]
+dataLength                 0x3'687c     0x4  Data  Lc  UART2CC26X2.c.obj [25]
 dbgViolations           0x2000'60d8     0x4  Data  Lc  mac_duty_cycle.o [28]
 dcBucket                0x2000'6100    0x34  Data  Gb  mac_duty_cycle.o [28]
 dcCritical              0x2000'60f0     0x4  Data  Gb  mac_duty_cycle.o [28]
@@ -3827,12 +3829,12 @@ defaultTCLinkKey              0xc74    0x10  Data  Gb  nwk_globals.o [18]
 devStartMode            0x2000'6275     0x1  Data  Gb  zd_app.o [21]
 devState                0x2000'6274     0x1  Data  Gb  zd_app.o [21]
 dgp_DataIndList         0x2000'29c0     0x4  Data  Gb  gp_common.o [7]
-disableFlashCache          0x3'9877    0x38  Code  Lc  NVSCC26XX.c.obj [25]
+disableFlashCache          0x3'988f    0x38  Code  Lc  NVSCC26XX.c.obj [25]
 distributedDefaultKey         0xc54    0x10  Data  Gb  nwk_globals.o [18]
 distributedFrameCounter
                         0x2000'60b8     0x4  Data  Gb  ssp.o [26]
-dmaNullConfig              0x3'acdc     0x8  Data  Lc  SPICC26X2DMA.c.obj [25]
-dmaRxConfig                0x3'acd4     0x8  Data  Lc  SPICC26X2DMA.c.obj [25]
+dmaNullConfig              0x3'acf4     0x8  Data  Lc  SPICC26X2DMA.c.obj [25]
+dmaRxConfig                0x3'acec     0x8  Data  Lc  SPICC26X2DMA.c.obj [25]
 dmaSpi0RxAltControlTableEntry {Abs}
                         0x2000'1a30    0x10  Data  Lc  ti_drivers_config.o [1]
 dmaSpi0RxControlTableEntry {Abs}
@@ -3841,15 +3843,15 @@ dmaSpi0TxAltControlTableEntry {Abs}
                         0x2000'1a40    0x10  Data  Lc  ti_drivers_config.o [1]
 dmaSpi0TxControlTableEntry {Abs}
                         0x2000'1840    0x10  Data  Lc  ti_drivers_config.o [1]
-dmaTxConfig                0x3'accc     0x8  Data  Lc  SPICC26X2DMA.c.obj [25]
+dmaTxConfig                0x3'ace4     0x8  Data  Lc  SPICC26X2DMA.c.obj [25]
 dmaUart0RxControlTableEntry {Abs}
                         0x2000'1810    0x10  Data  Lc  ti_drivers_config.o [1]
 dmaUart0TxControlTableEntry {Abs}
                         0x2000'1820    0x10  Data  Lc  ti_drivers_config.o [1]
-doErase                    0x3'97f9    0x7e  Code  Lc  NVSCC26XX.c.obj [25]
-doErase                    0x3'9dcd    0xd0  Code  Lc  NVSSPI25X.c.obj [25]
-doRead                     0x3'9ea3    0x84  Code  Lc  NVSSPI25X.c.obj [25]
-doWriteVerify              0x3'9d71    0x5c  Code  Lc  NVSSPI25X.c.obj [25]
+doErase                    0x3'9811    0x7e  Code  Lc  NVSCC26XX.c.obj [25]
+doErase                    0x3'9de5    0xd0  Code  Lc  NVSSPI25X.c.obj [25]
+doRead                     0x3'9ebb    0x84  Code  Lc  NVSSPI25X.c.obj [25]
+doWriteVerify              0x3'9d89    0x5c  Code  Lc  NVSSPI25X.c.obj [25]
 dutyCycleClkHandle      0x2000'6134     0x4  Data  Lc  mac_duty_cycle.o [28]
 emptyClockFunc               0xe6d5     0x2  Code  Lc  PowerCC26X2.c.obj [25]
 enhancedAckBuf          0x2000'5e08    0xfc  Data  Gb  hmac_global.o [28]
@@ -3857,62 +3859,62 @@ entityEPDescs           0x2000'490c    0xc8  Data  Lc  zcl_port.o [9]
 entropyPool             0x2000'2918    0x1c  Data  Lc  TRNGCC26XX.c.obj [25]
 entropyPoolBuffer       0x2000'2938    0x20  Data  Lc  TRNGCC26XX.c.obj [25]
 epList                  0x2000'28ec     0x4  Data  Gb  af.o [16]
-epTableAddNewEntry         0x3'2cab    0x3e  Code  Lc  zstacktask.o [15]
+epTableAddNewEntry         0x3'2cc3    0x3e  Code  Lc  zstacktask.o [15]
 epTableFindEntryConnection
-                           0x3'2ce9    0x1c  Code  Lc  zstacktask.o [15]
-epTableFindEntryEP         0x3'248d    0x1e  Code  Lc  zstacktask.o [15]
-epTableNumEntries          0x3'2d41    0x16  Code  Lc  zstacktask.o [15]
-epTableRemoveEntry         0x3'2d05    0x3c  Code  Lc  zstacktask.o [15]
+                           0x3'2d01    0x1c  Code  Lc  zstacktask.o [15]
+epTableFindEntryEP         0x3'24a5    0x1e  Code  Lc  zstacktask.o [15]
+epTableNumEntries          0x3'2d59    0x16  Code  Lc  zstacktask.o [15]
+epTableRemoveEntry         0x3'2d1d    0x3c  Code  Lc  zstacktask.o [15]
 errorSpin                  0x2'7b41     0x2  Code  Lc  CryptoResourceCC26XX.c.obj [25]
-extFlashSpiRead            0x3'a02d    0x24  Code  Lc  NVSSPI25X.c.obj [25]
-extFlashSpiWrite           0x3'9fe5    0x48  Code  Lc  NVSSPI25X.c.obj [25]
-extFlashWaitReady          0x3'9f2d    0x70  Code  Lc  NVSSPI25X.c.obj [25]
+extFlashSpiRead            0x3'a045    0x24  Code  Lc  NVSSPI25X.c.obj [25]
+extFlashSpiWrite           0x3'9ffd    0x48  Code  Lc  NVSSPI25X.c.obj [25]
+extFlashWaitReady          0x3'9f45    0x70  Code  Lc  NVSSPI25X.c.obj [25]
 extFlashWaitReady::wbuf
-                           0x3'a05c     0x1  Data  Lc  NVSSPI25X.c.obj [25]
-extFlashWriteEnable        0x3'9fa5    0x40  Code  Lc  NVSSPI25X.c.obj [25]
+                           0x3'a074     0x1  Data  Lc  NVSSPI25X.c.obj [25]
+extFlashWriteEnable        0x3'9fbd    0x40  Code  Lc  NVSSPI25X.c.obj [25]
 extFlashWriteEnable::wbuf
-                           0x3'a060     0x1  Data  Lc  NVSSPI25X.c.obj [25]
+                           0x3'a078     0x1  Data  Lc  NVSSPI25X.c.obj [25]
 fcf                     0x2000'6242     0x2  Data  Lc  mac_rx.o [28]
 fhObject                0x2000'5c68    0x6c  Data  Gb  hmac_global.o [28]
 fillAndSend                0x1'51e9    0x84  Code  Lc  zd_profile.o [21]
 flashBuf0 {Abs}            0x5'2000  0x4000  Data  Lc  ti_drivers_config.o [1]
-flushFifos                 0x3'ac1b    0x32  Code  Lc  SPICC26X2DMA.c.obj [25]
-frameFormat                0x3'acb4    0x18  Data  Lc  SPICC26X2DMA.c.obj [25]
-freeEpItem                 0x3'2d57     0xc  Code  Lc  zstacktask.o [15]
-gAPS_MAX_GROUPS            0x3'b016     0x1  Data  Gb  nwk_globals.o [18]
+flushFifos                 0x3'ac33    0x32  Code  Lc  SPICC26X2DMA.c.obj [25]
+frameFormat                0x3'accc    0x18  Data  Lc  SPICC26X2DMA.c.obj [25]
+freeEpItem                 0x3'2d6f     0xc  Code  Lc  zstacktask.o [15]
+gAPS_MAX_GROUPS            0x3'b02e     0x1  Data  Gb  nwk_globals.o [18]
 gAction                 0x2000'6260     0x1  Data  Gb  nvocmp.o [3]
 gBIND_REC_SIZE             0x1'f042     0x2  Data  Gb  nwk_globals.o [18]
 gDEFAULT_ROUTE_REQUEST_RADIUS
-                           0x3'ad73     0x1  Data  Gb  nwk_globals.o [18]
-gDEF_NWK_RADIUS            0x3'adbe     0x1  Data  Gb  nwk_globals.o [18]
-gGOOD_LINK_COST            0x3'69d6     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'ad8b     0x1  Data  Gb  nwk_globals.o [18]
+gDEF_NWK_RADIUS            0x3'add6     0x1  Data  Gb  nwk_globals.o [18]
+gGOOD_LINK_COST            0x3'69ee     0x1  Data  Gb  nwk_globals.o [18]
 gGP_TX_QUEUE_MAX_ENTRY     0x2'3ecf     0x1  Data  Gb  gp_common.o [7]
-gLINK_DOWN_TRIGGER         0x3'5fc7     0x1  Data  Gb  nwk_globals.o [18]
+gLINK_DOWN_TRIGGER         0x3'5fdf     0x1  Data  Gb  nwk_globals.o [18]
 gLINK_STATUS_JITTER_MASK
                            0x1'6a12     0x2  Data  Gb  nwk_globals.o [18]
-gMAX_BCAST                 0x3'6ee6     0x1  Data  Gb  nwk_globals.o [18]
+gMAX_BCAST                 0x3'6efe     0x1  Data  Gb  nwk_globals.o [18]
 gMAX_BINDING_CLUSTER_IDS
-                           0x3'b015     0x1  Data  Gb  nwk_globals.o [18]
-gMAX_BROADCAST_QUEUED      0x3'5fc6     0x1  Data  Gb  nwk_globals.o [18]
-gMAX_NEIGHBOR_ENTRIES      0x3'1606     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'b02d     0x1  Data  Gb  nwk_globals.o [18]
+gMAX_BROADCAST_QUEUED      0x3'5fde     0x1  Data  Gb  nwk_globals.o [18]
+gMAX_NEIGHBOR_ENTRIES      0x3'161e     0x1  Data  Gb  nwk_globals.o [18]
 gMAX_NOT_MYCHILD_DEVICES
-                           0x3'adbf     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'add7     0x1  Data  Gb  nwk_globals.o [18]
 gMAX_NWK_FRAMECOUNTER_CHANGES
                               0xc4c     0x4  Data  Gb  nwk_globals.o [18]
 gMAX_NWK_SEC_MATERIAL_TABLE_ENTRIES
                            0x2'ed9a     0x1  Data  Gb  nwk_globals.o [18]
-gMAX_PASSIVE_ACK_CNT       0x3'69d7     0x1  Data  Gb  nwk_globals.o [18]
+gMAX_PASSIVE_ACK_CNT       0x3'69ef     0x1  Data  Gb  nwk_globals.o [18]
 gMAX_RREQ_ENTRIES          0x2'eed3     0x1  Data  Gb  nwk_globals.o [18]
 gMAX_RTG_ENTRIES           0x2'ed9b     0x1  Data  Gb  nwk_globals.o [18]
 gMAX_RTG_SRC_ENTRIES       0x2'eed2     0x1  Data  Gb  nwk_globals.o [18]
-gMAX_SOURCE_ROUTE          0x3'1607     0x1  Data  Gb  nwk_globals.o [18]
+gMAX_SOURCE_ROUTE          0x3'161f     0x1  Data  Gb  nwk_globals.o [18]
 gMIN_TREE_LQI           0x2000'1ff4     0x1  Data  Gb  nwk_globals.o [18]
-gMTO_ROUTE_EXPIRY_TIME     0x3'ad72     0x1  Data  Gb  nwk_globals.o [18]
+gMTO_ROUTE_EXPIRY_TIME     0x3'ad8a     0x1  Data  Gb  nwk_globals.o [18]
 gMTO_RREQ_LIMIT_TIME       0x1'6196     0x2  Data  Gb  nwk_globals.o [18]
 gNWK_CONFLICTED_ADDR_EXPIRY_TIME
-                           0x3'ad56     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'ad6e     0x1  Data  Gb  nwk_globals.o [18]
 gNWK_FREQ_AGILITY_ALL_MAC_ERRS
-                           0x3'ad57     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'ad6f     0x1  Data  Gb  nwk_globals.o [18]
 gNWK_INDIRECT_CNT_RTG_TMR
                            0x2'7b07     0x1  Data  Gb  nwk_globals.o [18]
 gNWK_INDIRECT_MSG_MAX_ALL
@@ -3922,7 +3924,7 @@ gNWK_INDIRECT_MSG_MAX_PER
 gNWK_JOIN_SECURITY_TIMEOUT_PERIOD
                               0xc50     0x4  Data  Gb  nwk_globals.o [18]
 gNWK_MAX_BINDING_ENTRIES
-                           0x3'b014     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'b02c     0x1  Data  Gb  nwk_globals.o [18]
 gNWK_MAX_BROADCAST_JITTER
                            0x1'cd0a     0x2  Data  Gb  nwk_globals.o [18]
 gNWK_MAX_DATABUFS_SCHEDULED
@@ -3937,7 +3939,7 @@ gNWK_MIN_ENDDEVICE_CHILDREN
 gNWK_MIN_ROUTER_CHILDREN
                              0x33fa     0x2  Data  Gb  nwk_globals.o [18]
 gNWK_TREE_ALLOCATE_ROUTERADDR_FOR_ENDDEVICE
-                           0x3'6ee7     0x1  Data  Gb  nwk_globals.o [18]
+                           0x3'6eff     0x1  Data  Gb  nwk_globals.o [18]
 gZDSECMGR_ENTRY_MAX        0x2'3c26     0x2  Data  Gb  zd_sec_mgr.o [21]
 gZDSECMGR_TC_ATTEMPT_DEFAULT_KEY
                         0x2000'6284     0x1  Data  Gb  zd_sec_mgr.o [21]
@@ -3963,14 +3965,14 @@ gpAppTempMasterTimeoutClkHandle
                         0x2000'2aac     0x4  Data  Gb  gp_common.o [7]
 gpApplicationAllowChannelChange
                         0x2000'6255     0x1  Data  Gb  gp_common.o [7]
-gpCheckAnnceMsgSend        0x3'5c73    0x4e  Code  Lc  zstacktask.o [15]
+gpCheckAnnceMsgSend        0x3'5c8b    0x4e  Code  Lc  zstacktask.o [15]
 gpCmdList               0x2000'48e8     0x4  Data  Lc  zcl.o [9]
 gpConflictAddr          0x2000'6232     0x2  Data  Lc  dgp_stub.o [26]
-gpDataIndMsgSend           0x3'5ad1    0xd8  Code  Lc  zstacktask.o [15]
+gpDataIndMsgSend           0x3'5ae9    0xd8  Code  Lc  zstacktask.o [15]
 gpDataSendEvent         0x2000'621c     0x2  Data  Lc  gp_common.o [7]
 gpExpireDuplicateEvent  0x2000'621e     0x2  Data  Lc  gp_common.o [7]
 gpLookForGpd               0x2'608d    0x7a  Code  Gb  gp_common.o [7]
-gpSecRecMsgSend            0x3'5ba9    0x68  Code  Lc  zstacktask.o [15]
+gpSecRecMsgSend            0x3'5bc1    0x68  Code  Lc  zstacktask.o [15]
 gpServiceEvents         0x2000'4bbc     0x4  Data  Lc  zstackstartup.o [4]
 gpTempMaster            0x2000'6259     0x1  Data  Gb  gp_proxy.o [7]
 gpTempMasterTimeoutEvent
@@ -3987,7 +3989,7 @@ gp_CheckAnnouncedDevice
                            0x2'5add   0x118  Code  Gb  gp_proxy_table.o [7]
 gp_CmdPayloadMsgClean      0x2'51d7    0x32  Code  Gb  zcl_green_power.o [9]
 gp_CommissioningModeInd
-                           0x3'5919    0x4e  Code  Lc  zstacktask.o [15]
+                           0x3'5931    0x4e  Code  Lc  zstacktask.o [15]
 gp_CreateCmdPayloadMsgList
                            0x2'5067    0x26  Code  Gb  zcl_green_power.o [9]
 gp_CreateNotificationMsgList
@@ -4090,8 +4092,8 @@ iar_startup_exec             0xe121     0x8  Code  Gb  ti_sysbios_config.o [1]
 iar_startup_reset            0xe119     0x8  Code  Gb  ti_sysbios_config.o [1]
 ieeeCoexEnabled         0x2000'62bd     0x1  Data  Gb  mac.o [28]
 initCalled              0x2000'6068     0x1  Data  Lc  GPIOCC26X2.c.obj [25]
-initHw                     0x3'ac4d    0x52  Code  Lc  SPICC26X2DMA.c.obj [25]
-isDevicePartOfNetwork      0x3'58bf    0x5a  Code  Lc  zstacktask.o [15]
+initHw                     0x3'ac65    0x52  Code  Lc  SPICC26X2DMA.c.obj [25]
+isDevicePartOfNetwork      0x3'58d7    0x5a  Code  Lc  zstacktask.o [15]
 isEndDeviceTimeoutRspReceived
                         0x2000'6296     0x1  Data  Gb  nwk_util.o [26]
 isInitialized           0x2000'62d6     0x1  Data  Lc  AESCCMCC26XX.c.obj [25]
@@ -4118,7 +4120,7 @@ macApiAssociateReq {Abs}
 macApiAssociateRsp {Abs}
                         0x1003'6399          Data  Gb  <internal module>
 macApiBadState {Abs}    0x1003'9e0d          Data  Gb  <internal module>
-macApiBeaconStartReq       0x3'80b5    0xbc  Code  Gb  mac_hl_patch.o [28]
+macApiBeaconStartReq       0x3'80cd    0xbc  Code  Gb  mac_hl_patch.o [28]
 macApiDataReq {Abs}     0x1003'6ef5          Data  Gb  <internal module>
 macApiDisassociateReq {Abs}
                         0x1003'9955          Data  Gb  <internal module>
@@ -4126,9 +4128,9 @@ macApiOrphanRsp {Abs}   0x1003'60fd          Data  Gb  <internal module>
 macApiPending {Abs}     0x1003'9b81          Data  Gb  <internal module>
 macApiPollReq {Abs}     0x1003'7ab9          Data  Gb  <internal module>
 macApiPurgeReq {Abs}    0x1003'5eb1          Data  Gb  <internal module>
-macApiPwrOnReq             0x3'8c7d     0x2  Code  Gb  mac_pwr.o [28]
+macApiPwrOnReq             0x3'8c95     0x2  Code  Gb  mac_pwr.o [28]
 macApiScanReq {Abs}     0x1003'a2ad          Data  Gb  <internal module>
-macApiStartReq             0x3'7fd1    0xe4  Code  Gb  mac_hl_patch.o [28]
+macApiStartReq             0x3'7fe9    0xe4  Code  Gb  mac_hl_patch.o [28]
 macApiSyncReq {Abs}     0x1003'4bcd          Data  Gb  <internal module>
 macApiUnsupported {Abs}
                         0x1003'9e25          Data  Gb  <internal module>
@@ -4146,10 +4148,10 @@ macAssocRxDisassoc {Abs}
 macAssociateCnf {Abs}   0x1003'7d79          Data  Gb  <internal module>
 macAssociatingSt             0x1d6c    0x74  Data  Gb  hmac_global.o [28]
 macAutoPendAddSrcMatchTableEntry
-                           0x3'89ed    0xbc  Code  Gb  mac_hl_patch.o [28]
+                           0x3'8a05    0xbc  Code  Gb  mac_hl_patch.o [28]
 macAutoPendMaintainSrcMatchTable {Abs}
                         0x1003'6fc5          Data  Gb  <internal module>
-macAutoPoll                0x3'7b51    0x86  Code  Gb  mac_hl_patch.o [28]
+macAutoPoll                0x3'7b69    0x86  Code  Gb  mac_hl_patch.o [28]
 macBcTimerHandler {Abs}
                         0x1003'9e69          Data  Gb  <internal module>
 macBeacon               0x2000'5aa0    0x20  Data  Gb  hmac_global.o [28]
@@ -4159,7 +4161,7 @@ macBeaconCheckSched {Abs}
                         0x1003'55dd          Data  Gb  <internal module>
 macBeaconCheckStartTime {Abs}
                         0x1003'4715          Data  Gb  <internal module>
-macBeaconCheckTxTime       0x3'8911    0xdc  Code  Gb  mac_hl_patch.o [28]
+macBeaconCheckTxTime       0x3'8929    0xdc  Code  Gb  mac_hl_patch.o [28]
 macBeaconClearIndirect {Abs}
                         0x1003'4921          Data  Gb  <internal module>
 macBeaconCoord          0x2000'5a20    0x3c  Data  Gb  hmac_global.o [28]
@@ -4196,7 +4198,7 @@ macBeaconSyncLoss {Abs}
                         0x1003'5065          Data  Gb  <internal module>
 macBeaconTxCallback {Abs}
                         0x1003'4781          Data  Gb  <internal module>
-macBlacklistChecking       0x3'8181     0x4  Code  Gb  mac_hl_patch.o [28]
+macBlacklistChecking       0x3'8199     0x4  Code  Gb  mac_hl_patch.o [28]
 macBroadcastPendCallback {Abs}
                         0x1003'5355          Data  Gb  <internal module>
 macBuildAssociateReq {Abs}
@@ -4208,11 +4210,11 @@ macBuildBeaconNotifyInd {Abs}
                         0x1003'94f1          Data  Gb  <internal module>
 macBuildCommonReq {Abs}
                         0x1003'8c1d          Data  Gb  <internal module>
-macBuildDataFrame          0x3'86cd   0x168  Code  Gb  mac_hl_patch.o [28]
+macBuildDataFrame          0x3'86e5   0x168  Code  Gb  mac_hl_patch.o [28]
 macBuildDisassociateReq {Abs}
                         0x1003'8f61          Data  Gb  <internal module>
 macBuildHeader {Abs}    0x1003'88f1          Data  Gb  <internal module>
-macBuildHeaderIes          0x3'7507   0x142  Code  Gb  mac_hl_patch.o [28]
+macBuildHeaderIes          0x3'751f   0x142  Code  Gb  mac_hl_patch.o [28]
 macBuildPayloadCoexistIe {Abs}
                         0x1003'80d9          Data  Gb  <internal module>
 macBuildPayloadIes {Abs}
@@ -4223,20 +4225,20 @@ macBuildWSAsyncMsg {Abs}
                         0x1003'9855          Data  Gb  <internal module>
 macBuildWSAsyncReq {Abs}
                         0x1003'92e1          Data  Gb  <internal module>
-macCanSleep                0x3'8e35    0x48  Code  Gb  mac_sleep.o [28]
+macCanSleep                0x3'8e4d    0x48  Code  Gb  mac_sleep.o [28]
 macCbackEventTbl             0x1f60     0xc  Data  Gb  hmac_global.o [28]
 macCbackForEvent {Abs}  0x1003'85f1          Data  Gb  <internal module>
-macCcmDecrypt              0x3'7463    0xa4  Code  Gb  mac_hl_patch.o [28]
-macCcmEncrypt              0x3'73cd    0x96  Code  Gb  mac_hl_patch.o [28]
+macCcmDecrypt              0x3'747b    0xa4  Code  Gb  mac_hl_patch.o [28]
+macCcmEncrypt              0x3'73e5    0x96  Code  Gb  mac_hl_patch.o [28]
 macCcmStarInverseTransform
-                           0x3'8189     0x4  Code  Gb  mac_hl_patch.o [28]
-macCcmStarTransform        0x3'8199     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'81a1     0x4  Code  Gb  mac_hl_patch.o [28]
+macCcmStarTransform        0x3'81b1     0x4  Code  Gb  mac_hl_patch.o [28]
 macCfg                  0x2000'1abc    0x10  Data  Gb  mac_cfg.o [12]
 macCheckIndPacket {Abs}
                         0x1003'7361          Data  Gb  <internal module>
 macCheckPendAddr {Abs}  0x1003'50ed          Data  Gb  <internal module>
-macCheckPhyMode            0x3'7313    0x24  Code  Gb  mac_hl_patch.o [28]
-macCheckPhyRate            0x3'72c5    0x4e  Code  Gb  mac_hl_patch.o [28]
+macCheckPhyMode            0x3'732b    0x24  Code  Gb  mac_hl_patch.o [28]
+macCheckPhyRate            0x3'72dd    0x4e  Code  Gb  mac_hl_patch.o [28]
 macCheckSched {Abs}     0x1003'74e1          Data  Gb  <internal module>
 macCmdBufSize                0x1cbc    0x10  Data  Gb  hmac_global.o [28]
 macCmdIncludeFHIe            0x1c84    0x38  Data  Gb  hmac_global.o [28]
@@ -4269,7 +4271,7 @@ macDataSend {Abs}       0x1003'74c1          Data  Gb  <internal module>
 macDataSetSched         0x2000'5b40     0x4  Data  Gb  hmac_global.o [28]
 macDataTxBeaconComplete
                         0x2000'5b3c     0x4  Data  Gb  hmac_global.o [28]
-macDataTxComplete          0x3'8835    0xdc  Code  Gb  mac_hl_patch.o [28]
+macDataTxComplete          0x3'884d    0xdc  Code  Gb  mac_hl_patch.o [28]
 macDataTxDelay          0x2000'5b50    0x10  Data  Gb  hmac_global.o [28]
 macDataTxDelayCallback {Abs}
                         0x1003'7529          Data  Gb  <internal module>
@@ -4285,7 +4287,7 @@ macDevice               0x2000'5bac    0x2c  Data  Gb  hmac_global.o [28]
 macDeviceAction1        0x2000'5b60    0x38  Data  Gb  hmac_global.o [28]
 macDeviceAction2        0x2000'5b98    0x14  Data  Gb  hmac_global.o [28]
 macDeviceDescriptorLookup
-                           0x3'77ed     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'7805     0x4  Code  Gb  mac_hl_patch.o [28]
 macDeviceReset {Abs}    0x1003'77a1          Data  Gb  <internal module>
 macDisassocComplete {Abs}
                         0x1003'97c9          Data  Gb  <internal module>
@@ -4298,7 +4300,7 @@ macDutyCycleTimerCB        0x2'9b15    0x3c  Code  Lc  mac_duty_cycle.o [28]
 macDutyCycleUpdatePhy      0x2'99e9     0x8  Code  Lc  mac_duty_cycle.o [28]
 macDutyCycleUpdateTransmission
                            0x2'9aa7    0x3a  Code  Gb  mac_duty_cycle.o [28]
-macEdScanISR               0x3'7a37   0x11a  Code  Gb  mac_hl_patch.o [28]
+macEdScanISR               0x3'7a4f   0x11a  Code  Gb  mac_hl_patch.o [28]
 macEdScanISR::scanDurationMs
                         0x2000'6238     0x2  Data  Lc  mac_hl_patch.o [28]
 macEdScanISR::signalMax
@@ -4331,15 +4333,15 @@ macIeCoexistIePresent {Abs}
                         0x1003'842b          Data  Gb  <internal module>
 macIeFreeList {Abs}     0x1003'84e5          Data  Gb  <internal module>
 macIncomingFrameSecurity
-                           0x3'818d     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'81a5     0x4  Code  Gb  mac_hl_patch.o [28]
 macIncomingFrameSecurityMaterialRetrieval
-                           0x3'8185     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'819d     0x4  Code  Gb  mac_hl_patch.o [28]
 macIncomingKeyUsagePolicyChecking
-                           0x3'77e9     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'7801     0x4  Code  Gb  mac_hl_patch.o [28]
 macIncomingNonSlottedTx {Abs}
                         0x1003'52cd          Data  Gb  <internal module>
 macIncomingSecurityLevelChecking
-                           0x3'77e5     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'77fd     0x4  Code  Gb  mac_hl_patch.o [28]
 macIndirectExpire {Abs}
                         0x1003'58c5          Data  Gb  <internal module>
 macIndirectMark {Abs}   0x1003'61e5          Data  Gb  <internal module>
@@ -4350,7 +4352,7 @@ macIndirectTxFrame {Abs}
                         0x1003'6085          Data  Gb  <internal module>
 macIsCsmOperational {Abs}
                         0x1003'9e7d          Data  Gb  <internal module>
-macKeyDescriptorLookup     0x3'817d     0x4  Code  Gb  mac_hl_patch.o [28]
+macKeyDescriptorLookup     0x3'8195     0x4  Code  Gb  mac_hl_patch.o [28]
 macLowLevelBufferInit      0x2'e649     0xc  Code  Gb  mac_low_level.o [28]
 macLowLevelDiags           0x2'e6ab    0x34  Code  Gb  mac_low_level.o [28]
 macLowLevelInit            0x2'e5c9    0x80  Code  Gb  mac_low_level.o [28]
@@ -4375,7 +4377,7 @@ macMcuTimerCapture         0x2'7d3b    0x18  Code  Gb  mac_mcu.o [28]
 macMgmt                 0x2000'62a8     0x1  Data  Gb  hmac_global.o [28]
 macMgmtAction1          0x2000'5c24    0x30  Data  Gb  hmac_global.o [28]
 macMgmtAction2          0x2000'5c54    0x14  Data  Gb  hmac_global.o [28]
-macMgmtReset               0x3'85a3    0xf2  Code  Gb  mac_hl_patch.o [28]
+macMgmtReset               0x3'85bb    0xf2  Code  Gb  mac_hl_patch.o [28]
 macMlmeSubIePresent {Abs}
                         0x1003'83c5          Data  Gb  <internal module>
 macNoAction {Abs}       0x1003'9ec1          Data  Gb  <internal module>
@@ -4384,9 +4386,9 @@ macNopBackoffRtcTimerId
 macNopBackoffTimerExpiry
                            0x2'87f9    0x1a  Code  Gb  mac.o [28]
 macOutgoingFrameKeyDescRetrieval
-                           0x3'8191     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'81a9     0x4  Code  Gb  mac_hl_patch.o [28]
 macOutgoingFrameSecurity
-                           0x3'8195     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'81ad     0x4  Code  Gb  mac_hl_patch.o [28]
 macOutgoingNonSlottedTx {Abs}
                         0x1003'4999          Data  Gb  <internal module>
 macPanConflictComplete {Abs}
@@ -4400,9 +4402,9 @@ macPendAddrLen {Abs}    0x1003'64a9          Data  Gb  <internal module>
 macPhyChannel           0x2000'62b1     0x1  Data  Gb  lmac_global.o [28]
 macPhyTxPower           0x2000'5f0c     0x4  Data  Gb  mac_radio.o [28]
 macPib                  0x2000'5cd4    0x88  Data  Gb  hmac_global.o [28]
-macPibCheckByPatch         0x3'735b     0x4  Code  Gb  mac_hl_patch.o [28]
+macPibCheckByPatch         0x3'7373     0x4  Code  Gb  mac_hl_patch.o [28]
 macPibDefaults                0x99c    0x88  Data  Gb  mac_cfg.o [12]
-macPibIndex                0x3'7337    0x24  Code  Gb  mac_hl_patch.o [28]
+macPibIndex                0x3'734f    0x24  Code  Gb  mac_hl_patch.o [28]
 macPibReset {Abs}       0x1003'a239          Data  Gb  <internal module>
 macPibTbl                     0xa24    0xf8  Data  Gb  mac_cfg.o [12]
 macPollCnf {Abs}        0x1003'7e3d          Data  Gb  <internal module>
@@ -4418,8 +4420,8 @@ macPollRxDisassoc {Abs}
 macPollingSt                 0x1de0    0x74  Data  Gb  hmac_global.o [28]
 macPrevPeriodRatCount   0x2000'6014     0x4  Data  Gb  mac_symbol_timer.o [28]
 macPwr                  0x2000'62a6     0x1  Data  Gb  mac_pwr.o [28]
-macPwrReset                0x3'8c75     0x8  Code  Gb  mac_pwr.o [28]
-macPwrVote                 0x3'8cd7    0x90  Code  Gb  mac_pwr.o [28]
+macPwrReset                0x3'8c8d     0x8  Code  Gb  mac_pwr.o [28]
+macPwrVote                 0x3'8cef    0x90  Code  Gb  mac_pwr.o [28]
 macRadioComputeLQI         0x2'e37b     0xa  Code  Gb  mac_radio.o [28]
 macRadioCsmaTxCb           0x2'ea27     0xa  Code  Gb  mac_radio_tx.o [28]
 macRadioCsmaTxCbIeee       0x2'e7e1   0x246  Code  Lc  mac_radio_tx.o [28]
@@ -4485,12 +4487,12 @@ macRxAddrVer2Len             0x1fe8     0x4  Data  Lc  mac_rx.o [28]
 macRxAssocRsp {Abs}     0x1003'7871          Data  Gb  <internal module>
 macRxAssociateReq {Abs}
                         0x1003'62b1          Data  Gb  <internal module>
-macRxBackoffHandler        0x3'86c5     0x8  Code  Gb  mac_hl_patch.o [28]
+macRxBackoffHandler        0x3'86dd     0x8  Code  Gb  mac_hl_patch.o [28]
 macRxBackoffRtcTimerId  0x2000'5fe8     0x4  Data  Lc  mac.o [28]
 macRxBackoffTimerExpiry
                            0x2'87e5    0x12  Code  Gb  mac.o [28]
 macRxBeacon {Abs}       0x1003'95bd          Data  Gb  <internal module>
-macRxBeaconCritical        0x3'7bd7   0x212  Code  Gb  mac_hl_patch.o [28]
+macRxBeaconCritical        0x3'7bef   0x212  Code  Gb  mac_hl_patch.o [28]
 macRxBeaconReq {Abs}    0x1003'6419          Data  Gb  <internal module>
 macRxCb                    0x2'8041     0xa  Code  Gb  mac.o [28]
 macRxCbIeee                0x2'7f01   0x140  Code  Lc  mac.o [28]
@@ -4539,9 +4541,9 @@ macScanCnfInit {Abs}    0x1003'a931          Data  Gb  <internal module>
 macScanComplete {Abs}   0x1003'a839          Data  Gb  <internal module>
 macScanFailedInProgress {Abs}
                         0x1003'a96d          Data  Gb  <internal module>
-macScanNextChan            0x3'7de9   0x1e2  Code  Gb  mac_hl_patch.o [28]
+macScanNextChan            0x3'7e01   0x1e2  Code  Gb  mac_hl_patch.o [28]
 macScanRxBeacon {Abs}   0x1003'a599          Data  Gb  <internal module>
-macScanRxCoordRealign      0x3'78e3    0xce  Code  Gb  mac_hl_patch.o [28]
+macScanRxCoordRealign      0x3'78fb    0xce  Code  Gb  mac_hl_patch.o [28]
 macScanStartTimer {Abs}
                         0x1003'a8b9          Data  Gb  <internal module>
 macScanningSt                0x1e54    0x74  Data  Gb  hmac_global.o [28]
@@ -4558,7 +4560,7 @@ macSendMsgDataSize           0x1f54     0xc  Data  Gb  hmac_global.o [28]
 macSendReceiveCmd          0x2'831b     0x8  Code  Gb  mac.o [28]
 macSendReceiveCmdIeee      0x2'804b   0x2d0  Code  Gb  mac.o [28]
 macServiceEvents        0x2000'4bb4     0x4  Data  Lc  zstackstartup.o [4]
-macSetDefaultsByPatch      0x3'735f    0x6e  Code  Gb  mac_hl_patch.o [28]
+macSetDefaultsByPatch      0x3'7377    0x6e  Code  Gb  mac_hl_patch.o [28]
 macSetDefaultsByPhyID {Abs}
                         0x1003'9095          Data  Gb  <internal module>
 macSetDefaultsByRE {Abs}
@@ -4572,9 +4574,9 @@ macSetupFsCmd              0x2'7e79    0x22  Code  Gb  mac.o [28]
 macSetupRATChanCompare     0x2'83d7   0x14c  Code  Gb  mac.o [28]
 macSetupReceiveCmd         0x2'7e9b    0x66  Code  Gb  mac.o [28]
 macSfdDetectCback       0x2000'5f68     0x4  Data  Gb  mac.o [28]
-macSleep                   0x3'8da5    0x90  Code  Gb  mac_sleep.o [28]
+macSleep                   0x3'8dbd    0x90  Code  Gb  mac_sleep.o [28]
 macSleepState           0x2000'2027     0x1  Data  Gb  mac_sleep.o [28]
-macSleepWakeUp             0x3'8d75    0x30  Code  Gb  mac_sleep.o [28]
+macSleepWakeUp             0x3'8d8d    0x30  Code  Gb  mac_sleep.o [28]
 macSpecUsecsPerSymbol   0x2000'62c7     0x1  Data  Gb  mac_symbol_timer.o [28]
 macSrcExtAddrList       0x2000'5f6c    0x30  Data  Gb  mac.o [28]
 macSrcMatchCheckEnableBit
@@ -4654,7 +4656,7 @@ macSymbolTimerReset        0x2'2dd1     0x8  Code  Gb  mac_symbol_timer.o [28]
 macSymbolTimerRestore      0x2'2f35    0x1a  Code  Gb  mac_symbol_timer.o [28]
 macSymbolTimerRollover  0x2000'6010     0x4  Data  Gb  mac_symbol_timer.o [28]
 macSymbolTimerRolloverCallback
-                           0x3'918d    0x86  Code  Gb  mac_timer.o [28]
+                           0x3'91a5    0x86  Code  Gb  mac_timer.o [28]
 macSymbolTimerSetCount     0x2'2df5    0x2e  Code  Gb  mac_symbol_timer.o [28]
 macSymbolTimerSetRollover
                            0x2'2dd9    0x1c  Code  Gb  mac_symbol_timer.o [28]
@@ -4664,7 +4666,7 @@ macSymbolTimerSetTriggerRollover
                            0x2'2fad    0x14  Code  Gb  mac_symbol_timer.o [28]
 macSymbolTimerTrigger   0x2000'6018     0x4  Data  Gb  mac_symbol_timer.o [28]
 macSymbolTimerTriggerCallback
-                           0x3'9065    0xea  Code  Gb  mac_timer.o [28]
+                           0x3'907d    0xea  Code  Gb  mac_timer.o [28]
 macSymbolTimerUpdateWakeup
                            0x2'2c2b   0x104  Code  Gb  mac_symbol_timer.o [28]
 macSymbolWakeupClock    0x2000'6030     0x4  Data  Lc  mac_symbol_timer.o [28]
@@ -4672,33 +4674,33 @@ macSyncTimeoutCallback {Abs}
                         0x1003'4e8d          Data  Gb  <internal module>
 macTaskId               0x2000'62a7     0x1  Data  Gb  hmac_global.o [28]
 macTasksEvents          0x2000'4208     0x4  Data  Gb  osal_port.o [19]
-macTimer                   0x3'92d5    0x22  Code  Gb  mac_timer.o [28]
+macTimer                   0x3'92ed    0x22  Code  Gb  mac_timer.o [28]
 macTimerActive          0x2000'5d64     0x4  Data  Gb  hmac_global.o [28]
-macTimerAddTimer           0x3'9241    0x60  Code  Gb  mac_timer.o [28]
-macTimerAligned            0x3'92a1    0x34  Code  Gb  mac_timer.o [28]
-macTimerCancel             0x3'9315    0x62  Code  Gb  mac_timer.o [28]
+macTimerAddTimer           0x3'9259    0x60  Code  Gb  mac_timer.o [28]
+macTimerAligned            0x3'92b9    0x34  Code  Gb  mac_timer.o [28]
+macTimerCancel             0x3'932d    0x62  Code  Gb  mac_timer.o [28]
 macTimerCheckUnAlignedQ
-                           0x3'9213    0x2e  Code  Gb  mac_timer.o [28]
-macTimerGetNextTimer       0x3'8fc5    0xa0  Code  Gb  mac_timer.o [28]
-macTimerGetTime            0x3'93c3     0x8  Code  Gb  mac_timer.o [28]
-macTimerInit               0x3'8ead    0x38  Code  Gb  mac_timer.o [28]
+                           0x3'922b    0x2e  Code  Gb  mac_timer.o [28]
+macTimerGetNextTimer       0x3'8fdd    0xa0  Code  Gb  mac_timer.o [28]
+macTimerGetTime            0x3'93db     0x8  Code  Gb  mac_timer.o [28]
+macTimerInit               0x3'8ec5    0x38  Code  Gb  mac_timer.o [28]
 macTimerNewRollover     0x2000'1e50     0x4  Data  Gb  hmac_global.o [28]
-macTimerRealign            0x3'9405    0x82  Code  Gb  mac_timer.o [28]
+macTimerRealign            0x3'941d    0x82  Code  Gb  mac_timer.o [28]
 macTimerRecalcUnaligned
-                           0x3'914f    0x3e  Code  Gb  mac_timer.o [28]
-macTimerRemoveTimer        0x3'92f7    0x1e  Code  Gb  mac_timer.o [28]
+                           0x3'9167    0x3e  Code  Gb  mac_timer.o [28]
+macTimerRemoveTimer        0x3'930f    0x1e  Code  Gb  mac_timer.o [28]
 macTimerRollover        0x2000'1e4c     0x4  Data  Gb  hmac_global.o [28]
 macTimerRolloverValue        0x1f7c    0x40  Data  Gb  hmac_global.o [28]
-macTimerSetRollover        0x3'949f    0x8a  Code  Gb  mac_timer.o [28]
-macTimerStart              0x3'93cb    0x3a  Code  Gb  mac_timer.o [28]
-macTimerSyncRollover       0x3'9487    0x18  Code  Gb  mac_timer.o [28]
-macTimerUpdActive          0x3'9377    0x4c  Code  Gb  mac_timer.o [28]
+macTimerSetRollover        0x3'94b7    0x8a  Code  Gb  mac_timer.o [28]
+macTimerStart              0x3'93e3    0x3a  Code  Gb  mac_timer.o [28]
+macTimerSyncRollover       0x3'949f    0x18  Code  Gb  mac_timer.o [28]
+macTimerUpdActive          0x3'938f    0x4c  Code  Gb  mac_timer.o [28]
 macTimerUpdateSymbolTimer
-                           0x3'8ee5    0xe0  Code  Gb  mac_timer.o [28]
-macTrackPeriodCallback     0x3'79b1    0x86  Code  Gb  mac_hl_patch.o [28]
-macTrackStartCallback      0x3'7733    0x92  Code  Gb  mac_hl_patch.o [28]
+                           0x3'8efd    0xe0  Code  Gb  mac_timer.o [28]
+macTrackPeriodCallback     0x3'79c9    0x86  Code  Gb  mac_hl_patch.o [28]
+macTrackStartCallback      0x3'774b    0x92  Code  Gb  mac_hl_patch.o [28]
 macTrackTimeoutCallback
-                           0x3'7649    0xea  Code  Gb  mac_hl_patch.o [28]
+                           0x3'7661    0xea  Code  Gb  mac_hl_patch.o [28]
 macTxAbortIsr              0x2'a107    0x2a  Code  Gb  mac_tx.o [28]
 macTxAckIsr                0x2'a131     0x8  Code  Gb  mac_tx.o [28]
 macTxAckNotReceivedCallback
@@ -4706,7 +4708,7 @@ macTxAckNotReceivedCallback
 macTxAckReceivedCallback
                            0x2'a1f5    0x56  Code  Gb  mac_tx.o [28]
 macTxActive             0x2000'62ca     0x1  Data  Gb  mac_tx.o [28]
-macTxBackoffHandler        0x3'86b9     0xa  Code  Gb  mac_hl_patch.o [28]
+macTxBackoffHandler        0x3'86d1     0xa  Code  Gb  mac_hl_patch.o [28]
 macTxBackoffRtcTimerId  0x2000'5fe4     0x4  Data  Lc  mac.o [28]
 macTxBackoffTimerExpiry
                            0x2'87d1    0x12  Code  Gb  mac.o [28]
@@ -4745,15 +4747,15 @@ macUpdatePanId {Abs}    0x1003'b9f1          Data  Gb  <internal module>
 macUpdatePayloadIEPtr {Abs}
                         0x1003'8489          Data  Gb  <internal module>
 macWSAsyncCnf {Abs}     0x1003'9da1          Data  Gb  <internal module>
-macWrapper8ByteUnused      0x3'77c5    0x20  Code  Gb  mac_hl_patch.o [28]
-macWrapperAddDevice        0x3'8175     0x4  Code  Gb  mac_hl_patch.o [28]
+macWrapper8ByteUnused      0x3'77dd    0x20  Code  Gb  mac_hl_patch.o [28]
+macWrapperAddDevice        0x3'818d     0x4  Code  Gb  mac_hl_patch.o [28]
 macWrapperAddKeyInitFCtr
-                           0x3'8171     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'8189     0x4  Code  Gb  mac_hl_patch.o [28]
 macWrapperDeleteAllDevices
-                           0x3'83b5   0x160  Code  Gb  mac_hl_patch.o [28]
-macWrapperDeleteDevice     0x3'8179     0x4  Code  Gb  mac_hl_patch.o [28]
+                           0x3'83cd   0x160  Code  Gb  mac_hl_patch.o [28]
+macWrapperDeleteDevice     0x3'8191     0x4  Code  Gb  mac_hl_patch.o [28]
 macWrapperDeleteKeyAndAssociatedDevices
-                           0x3'819d   0x210  Code  Gb  mac_hl_patch.o [28]
+                           0x3'81b5   0x210  Code  Gb  mac_hl_patch.o [28]
 macWrapperGetDefaultSourceKey {Abs}
                         0x1003'c6e9          Data  Gb  <internal module>
 mac_msg_deallocate {Abs}
@@ -4762,9 +4764,9 @@ main                       0x2'f0e7    0x8e  Code  Gb  main.o [4]
 main::dummyExtAddr            0xc04     0x8  Data  Lc  main.o [4]
 maxPowerIeee            0x2000'1afc     0x8  Data  Gb  mac_user_config.o [10]
 maxSupportedEndpoints   0x2000'201f     0x1  Data  Gb  zstacktask.o [15]
-memcmp                     0x2'fd25          Code  Gb  memcmp.o [30]
-memcpy                     0x3'af1d     0xc  Code  Gb  memcpy.o [30]
-memset                     0x3'af29    0x14  Code  Gb  memset.o [30]
+memcmp                     0x2'fd3d          Code  Gb  memcmp.o [30]
+memcpy                     0x3'af35     0xc  Code  Gb  memcpy.o [30]
+memset                     0x3'af41    0x14  Code  Gb  memset.o [30]
 myTask                  0x2000'2cbc    0x58  Data  Gb  main.o [4]
 myTaskStack             0x2000'2d14   0xbb8  Data  Gb  main.o [4]
 nb                      0x2000'62d0     0x1  Data  Lc  mac_tx.o [28]
@@ -5015,7 +5017,7 @@ pZMac_AppCallback       0x2000'4bb0     0x4  Data  Gb  zmac_cb.o [22]
 pZStackCfg              0x2000'4bd8     0x4  Data  Gb  zstackstartup.o [4]
 pZclGp_gppBlockedGPDID  0x2000'2c00     0x4  Data  Lc  gp_common.o [7]
 pZclGp_gppProxyTable    0x2000'2ab8   0x148  Data  Lc  gp_common.o [7]
-parityType                 0x3'686c     0x8  Data  Lc  UART2CC26X2.c.obj [25]
+parityType                 0x3'6884     0x8  Data  Lc  UART2CC26X2.c.obj [25]
 patchImageIeee802154         0x20a8   0x1ac  Data  Lc  rf_patch_cpe_ieee_802_15_4.c.cc13x2.iar.o [29]
 pbindAddEntry           0x2000'299c     0x4  Data  Gb  binding_table.o [18]
 pbindNumOfEntries       0x2000'29a0     0x4  Data  Gb  binding_table.o [18]
@@ -5047,138 +5049,138 @@ pnwk_ScanPANChanVerify  0x2000'5978     0x4  Data  Gb  nl_mede.o [26]
 ppgCommissioningWindow     0x2'3ece     0x1  Data  Gb  gp_common.o [7]
 prefixStrings           0x2000'1da8     0x8  Data  Lc  ti_sysbios_config.o [1]
 prevDevState            0x2000'1ff7     0x1  Data  Gb  zd_app.o [21]
-processAfConfigGetReq      0x3'5039    0x40  Code  Lc  zstacktask.o [15]
-processAfConfigSetReq      0x3'5079    0x30  Code  Lc  zstacktask.o [15]
-processAfDataConfirm       0x3'2991    0x50  Code  Lc  zstacktask.o [15]
-processAfDataReq           0x3'50a9   0x13e  Code  Lc  zstacktask.o [15]
+processAfConfigGetReq      0x3'5051    0x40  Code  Lc  zstacktask.o [15]
+processAfConfigSetReq      0x3'5091    0x30  Code  Lc  zstacktask.o [15]
+processAfDataConfirm       0x3'29a9    0x50  Code  Lc  zstacktask.o [15]
+processAfDataReq           0x3'50c1   0x13e  Code  Lc  zstacktask.o [15]
 processAfIncomingMsgInd
-                           0x3'2a41    0xd4  Code  Lc  zstacktask.o [15]
+                           0x3'2a59    0xd4  Code  Lc  zstacktask.o [15]
 processAfReflectErrorInd
-                           0x3'29e1    0x60  Code  Lc  zstacktask.o [15]
-processAfRegisterReq       0x3'4dcd   0x1fc  Code  Lc  zstacktask.o [15]
-processAfUnRegisterReq     0x3'4ffd    0x3c  Code  Lc  zstacktask.o [15]
-processApsAddGroup         0x3'3d2f    0x6a  Code  Lc  zstacktask.o [15]
+                           0x3'29f9    0x60  Code  Lc  zstacktask.o [15]
+processAfRegisterReq       0x3'4de5   0x1fc  Code  Lc  zstacktask.o [15]
+processAfUnRegisterReq     0x3'5015    0x3c  Code  Lc  zstacktask.o [15]
+processApsAddGroup         0x3'3d47    0x6a  Code  Lc  zstacktask.o [15]
 processApsCountAllGroups
-                           0x3'3d99     0xe  Code  Lc  zstacktask.o [15]
+                           0x3'3db1     0xe  Code  Lc  zstacktask.o [15]
 processApsFindAllGroupsReq
-                           0x3'3c73    0x44  Code  Lc  zstacktask.o [15]
-processApsFindGroupReq     0x3'3cb7    0x78  Code  Lc  zstacktask.o [15]
+                           0x3'3c8b    0x44  Code  Lc  zstacktask.o [15]
+processApsFindGroupReq     0x3'3ccf    0x78  Code  Lc  zstacktask.o [15]
 processApsRemoveAllGroups
-                           0x3'3c55    0x1e  Code  Lc  zstacktask.o [15]
-processApsRemoveGroup      0x3'3c2f    0x26  Code  Lc  zstacktask.o [15]
+                           0x3'3c6d    0x1e  Code  Lc  zstacktask.o [15]
+processApsRemoveGroup      0x3'3c47    0x26  Code  Lc  zstacktask.o [15]
 processBdbAddInstallCodeReq
-                           0x3'5801    0x22  Code  Lc  zstacktask.o [15]
+                           0x3'5819    0x22  Code  Lc  zstacktask.o [15]
 processBdbCBKETCLinkKeyExchangeAttemptReq
-                           0x3'5845    0x1e  Code  Lc  zstacktask.o [15]
+                           0x3'585d    0x1e  Code  Lc  zstacktask.o [15]
 processBdbFilterNwkDescCompleteReq
-                           0x3'5881     0xe  Code  Lc  zstacktask.o [15]
+                           0x3'5899     0xe  Code  Lc  zstacktask.o [15]
 processBdbGenerateInstallCodeCRCReq
-                           0x3'57df    0x22  Code  Lc  zstacktask.o [15]
+                           0x3'57f7    0x22  Code  Lc  zstacktask.o [15]
 processBdbGetAttributesReq
-                           0x3'575d    0x60  Code  Lc  zstacktask.o [15]
+                           0x3'5775    0x60  Code  Lc  zstacktask.o [15]
 processBdbGetFBInitiatorStatusReq
-                           0x3'57bd    0x22  Code  Lc  zstacktask.o [15]
+                           0x3'57d5    0x22  Code  Lc  zstacktask.o [15]
 processBdbGetIdentifyActiveEndpointReq
-                           0x3'5631    0x20  Code  Lc  zstacktask.o [15]
+                           0x3'5649    0x20  Code  Lc  zstacktask.o [15]
 processBdbNwkDescFreeReq
-                           0x3'5863    0x1e  Code  Lc  zstacktask.o [15]
+                           0x3'587b    0x1e  Code  Lc  zstacktask.o [15]
 processBdbRecoverNwkReq
-                           0x3'588f    0x20  Code  Lc  zstacktask.o [15]
+                           0x3'58a7    0x20  Code  Lc  zstacktask.o [15]
 processBdbResetLocalActionReq
-                           0x3'56cf     0xe  Code  Lc  zstacktask.o [15]
+                           0x3'56e7     0xe  Code  Lc  zstacktask.o [15]
 processBdbSetActiveCentralizedLinkKeyReq
-                           0x3'5823    0x22  Code  Lc  zstacktask.o [15]
+                           0x3'583b    0x22  Code  Lc  zstacktask.o [15]
 processBdbSetAttributesReq
-                           0x3'56dd    0x80  Code  Lc  zstacktask.o [15]
+                           0x3'56f5    0x80  Code  Lc  zstacktask.o [15]
 processBdbSetEpDescListToActiveEndpoint
-                           0x3'56a3    0x2c  Code  Lc  zstacktask.o [15]
+                           0x3'56bb    0x2c  Code  Lc  zstacktask.o [15]
 processBdbSetIdentifyActiveEndpointReq
-                           0x3'5613    0x1e  Code  Lc  zstacktask.o [15]
+                           0x3'562b    0x1e  Code  Lc  zstacktask.o [15]
 processBdbStartCommissioningReq
-                           0x3'55f5    0x1e  Code  Lc  zstacktask.o [15]
+                           0x3'560d    0x1e  Code  Lc  zstacktask.o [15]
 processBdbStopInitiatorFindingBindingReq
-                           0x3'5651     0xe  Code  Lc  zstacktask.o [15]
+                           0x3'5669     0xe  Code  Lc  zstacktask.o [15]
 processBdbZclIdentifyCmdIndReq
-                           0x3'565f    0x24  Code  Lc  zstacktask.o [15]
+                           0x3'5677    0x24  Code  Lc  zstacktask.o [15]
 processDevForceMacParamsReq
-                           0x3'3aa7    0x5e  Code  Lc  zstacktask.o [15]
+                           0x3'3abf    0x5e  Code  Lc  zstacktask.o [15]
 processDevForceNetworkSettingsReq
-                           0x3'398f    0x9e  Code  Lc  zstacktask.o [15]
+                           0x3'39a7    0x9e  Code  Lc  zstacktask.o [15]
 processDevForceNetworkUpdateReq
-                           0x3'3a35    0x72  Code  Lc  zstacktask.o [15]
-processDevJoinReq          0x3'3911    0x52  Code  Lc  zstacktask.o [15]
+                           0x3'3a4d    0x72  Code  Lc  zstacktask.o [15]
+processDevJoinReq          0x3'3929    0x52  Code  Lc  zstacktask.o [15]
 processDevNwkCheckRouteReq
-                           0x3'41bd    0x30  Code  Lc  zstacktask.o [15]
+                           0x3'41d5    0x30  Code  Lc  zstacktask.o [15]
 processDevNwkDiscoveryReq
-                           0x3'3b77    0x9e  Code  Lc  zstacktask.o [15]
+                           0x3'3b8f    0x9e  Code  Lc  zstacktask.o [15]
 processDevNwkManagerSet
-                           0x3'3e4d     0x8  Code  Lc  zstacktask.o [15]
-processDevNwkRouteReq      0x3'4173    0x4a  Code  Lc  zstacktask.o [15]
-processDevStartReq         0x3'38c3    0x1e  Code  Lc  zstacktask.o [15]
-processDevStateChange      0x3'3849    0x16  Code  Lc  zstacktask.o [15]
+                           0x3'3e65     0x8  Code  Lc  zstacktask.o [15]
+processDevNwkRouteReq      0x3'418b    0x4a  Code  Lc  zstacktask.o [15]
+processDevStartReq         0x3'38db    0x1e  Code  Lc  zstacktask.o [15]
+processDevStateChange      0x3'3861    0x16  Code  Lc  zstacktask.o [15]
 processDevUpdateNeighborTxCostReq
-                           0x3'3b05    0x52  Code  Lc  zstacktask.o [15]
-processDevZDOCBReq         0x3'4a29   0x3a4  Code  Lc  zstacktask.o [15]
+                           0x3'3b1d    0x52  Code  Lc  zstacktask.o [15]
+processDevZDOCBReq         0x3'4a41   0x3a4  Code  Lc  zstacktask.o [15]
 processGetZCLFrameCounterReq
-                           0x3'5683    0x20  Code  Lc  zstacktask.o [15]
+                           0x3'569b    0x20  Code  Lc  zstacktask.o [15]
 processGpAddressConfict
-                           0x3'5cc1    0x1a  Code  Lc  zstacktask.o [15]
+                           0x3'5cd9    0x1a  Code  Lc  zstacktask.o [15]
 processGpAllowChannelChangeReq
-                           0x3'58af    0x10  Code  Lc  zstacktask.o [15]
-processGpSecRsp            0x3'5c11    0x62  Code  Lc  zstacktask.o [15]
+                           0x3'58c7    0x10  Code  Lc  zstacktask.o [15]
+processGpSecRsp            0x3'5c29    0x62  Code  Lc  zstacktask.o [15]
 processPauseResumeDeviceReq
-                           0x3'5cdb    0x18  Code  Lc  zstacktask.o [15]
+                           0x3'5cf3    0x18  Code  Lc  zstacktask.o [15]
 processSecApsLinkKeyGetReq
-                           0x3'3f23    0xd0  Code  Lc  zstacktask.o [15]
+                           0x3'3f3b    0xd0  Code  Lc  zstacktask.o [15]
 processSecApsLinkKeyRemoveReq
-                           0x3'40ef    0x84  Code  Lc  zstacktask.o [15]
+                           0x3'4107    0x84  Code  Lc  zstacktask.o [15]
 processSecApsLinkKeySetReq
-                           0x3'3ff3    0xfc  Code  Lc  zstacktask.o [15]
-processSecApsRemoveReq     0x3'3da7    0x14  Code  Lc  zstacktask.o [15]
-processSecMgrAppKeyReq     0x3'3e07    0x32  Code  Lc  zstacktask.o [15]
+                           0x3'400b    0xfc  Code  Lc  zstacktask.o [15]
+processSecApsRemoveReq     0x3'3dbf    0x14  Code  Lc  zstacktask.o [15]
+processSecMgrAppKeyReq     0x3'3e1f    0x32  Code  Lc  zstacktask.o [15]
 processSecMgrAppKeyTypeSet
-                           0x3'3e39    0x14  Code  Lc  zstacktask.o [15]
+                           0x3'3e51    0x14  Code  Lc  zstacktask.o [15]
 processSecMgrSetupPartner
-                           0x3'3dcf    0x38  Code  Lc  zstacktask.o [15]
-processSecNwkKeyGetReq     0x3'3ec5    0x5e  Code  Lc  zstacktask.o [15]
-processSecNwkKeySetReq     0x3'3e69    0x5c  Code  Lc  zstacktask.o [15]
+                           0x3'3de7    0x38  Code  Lc  zstacktask.o [15]
+processSecNwkKeyGetReq     0x3'3edd    0x5e  Code  Lc  zstacktask.o [15]
+processSecNwkKeySetReq     0x3'3e81    0x5c  Code  Lc  zstacktask.o [15]
 processSecNwkKeySwitchReq
-                           0x3'3e55    0x14  Code  Lc  zstacktask.o [15]
+                           0x3'3e6d    0x14  Code  Lc  zstacktask.o [15]
 processSecNwkKeyUpdateReq
-                           0x3'3dbb    0x14  Code  Lc  zstacktask.o [15]
+                           0x3'3dd3    0x14  Code  Lc  zstacktask.o [15]
 processSetNwkFrameFwdNoticationReq
-                           0x3'3b57    0x20  Code  Lc  zstacktask.o [15]
+                           0x3'3b6f    0x20  Code  Lc  zstacktask.o [15]
 processSysConfigReadReq
-                           0x3'41ed   0x3e8  Code  Lc  zstacktask.o [15]
+                           0x3'4205   0x3e8  Code  Lc  zstacktask.o [15]
 processSysConfigWriteReq
-                           0x3'45e9   0x334  Code  Lc  zstacktask.o [15]
+                           0x3'4601   0x334  Code  Lc  zstacktask.o [15]
 processSysForceLinkStatusReq
-                           0x3'3c15    0x1a  Code  Lc  zstacktask.o [15]
+                           0x3'3c2d    0x1a  Code  Lc  zstacktask.o [15]
 processSysNwkInfoReadReq
-                           0x3'491d    0xe8  Code  Lc  zstacktask.o [15]
-processSysResetReq         0x3'3963    0x2c  Code  Lc  zstacktask.o [15]
+                           0x3'4935    0xe8  Code  Lc  zstacktask.o [15]
+processSysResetReq         0x3'397b    0x2c  Code  Lc  zstacktask.o [15]
 processSysSetTxPowerReq
-                           0x3'38e1    0x30  Code  Lc  zstacktask.o [15]
-processSysVersionReq       0x3'3891    0x32  Code  Lc  zstacktask.o [15]
+                           0x3'38f9    0x30  Code  Lc  zstacktask.o [15]
+processSysVersionReq       0x3'38a9    0x32  Code  Lc  zstacktask.o [15]
 processZdoActiveEndpointsReq
-                           0x3'529f    0x34  Code  Lc  zstacktask.o [15]
-processZdoBindReq          0x3'5379    0xbe  Code  Lc  zstacktask.o [15]
+                           0x3'52b7    0x34  Code  Lc  zstacktask.o [15]
+processZdoBindReq          0x3'5391    0xbe  Code  Lc  zstacktask.o [15]
 processZdoDeviceAnnounceReq
-                           0x3'557f    0x30  Code  Lc  zstacktask.o [15]
+                           0x3'5597    0x30  Code  Lc  zstacktask.o [15]
 processZdoEndDeviceBindReq
-                           0x3'5323    0x56  Code  Lc  zstacktask.o [15]
-processZdoIeeeAddrReq      0x3'520d    0x28  Code  Lc  zstacktask.o [15]
-processZdoMatchDescReq     0x3'52d3    0x50  Code  Lc  zstacktask.o [15]
-processZdoMgmtLeaveReq     0x3'54c9    0x80  Code  Lc  zstacktask.o [15]
+                           0x3'533b    0x56  Code  Lc  zstacktask.o [15]
+processZdoIeeeAddrReq      0x3'5225    0x28  Code  Lc  zstacktask.o [15]
+processZdoMatchDescReq     0x3'52eb    0x50  Code  Lc  zstacktask.o [15]
+processZdoMgmtLeaveReq     0x3'54e1    0x80  Code  Lc  zstacktask.o [15]
 processZdoMgmtPermitJoinReq
-                           0x3'5549    0x36  Code  Lc  zstacktask.o [15]
-processZdoNodeDescReq      0x3'5235    0x34  Code  Lc  zstacktask.o [15]
-processZdoNwkAddrReq       0x3'51e7    0x26  Code  Lc  zstacktask.o [15]
+                           0x3'5561    0x36  Code  Lc  zstacktask.o [15]
+processZdoNodeDescReq      0x3'524d    0x34  Code  Lc  zstacktask.o [15]
+processZdoNwkAddrReq       0x3'51ff    0x26  Code  Lc  zstacktask.o [15]
 processZdoSetBindUnbindAuthAddrReq
-                           0x3'55af    0x38  Code  Lc  zstacktask.o [15]
+                           0x3'55c7    0x38  Code  Lc  zstacktask.o [15]
 processZdoSimpleDescReq
-                           0x3'5269    0x36  Code  Lc  zstacktask.o [15]
-processZdoUnbindReq        0x3'543d    0x8c  Code  Lc  zstacktask.o [15]
+                           0x3'5281    0x36  Code  Lc  zstacktask.o [15]
+processZdoUnbindReq        0x3'5455    0x8c  Code  Lc  zstacktask.o [15]
 proxyTableCpy              0x2'622f     0xa  Code  Gb  gp_common.o [7]
 pt_ZclReadGetProxyEntry
                            0x2'5231   0x2d8  Code  Gb  gp_proxy_table.o [7]
@@ -5227,12 +5229,12 @@ requestLinkKeyTimeout   0x2000'1e28     0x4  Data  Gb  zd_sec_mgr.o [21]
 requestNewTrustCenterLinkKey
                         0x2000'1ff8     0x1  Data  Gb  zd_sec_mgr.o [21]
 resourceDB                   0x1fec    0x54  Data  Gb  PowerCC26X2.c.obj [25]
-restoreFlashCache          0x3'98af    0x1c  Code  Lc  NVSCC26XX.c.obj [25]
+restoreFlashCache          0x3'98c7    0x1c  Code  Lc  NVSCC26XX.c.obj [25]
 retryCnt                0x2000'6276     0x1  Data  Gb  zd_app.o [21]
 rfSelect                   0x2'f069    0x24  Code  Gb  mac_user_config.o [10]
 rfSetConfigIeee            0x2'ef25   0x144  Code  Gb  mac_settings.o [13]
 rf_patch_cpe_ieee_802_15_4
-                           0x3'ace5    0x38  Code  Gb  rf_patch_cpe_ieee_802_15_4.c.cc13x2.iar.o [29]
+                           0x3'acfd    0x38  Code  Gb  rf_patch_cpe_ieee_802_15_4.c.cc13x2.iar.o [29]
 rreqCounter             0x2000'6297     0x1  Data  Gb  rtg.o [26]
 rtDiscTable             0x2000'3f8c    0x50  Data  Gb  nwk_globals.o [18]
 rtgFindRandomNeighbor        0x9235   0x1b4  Code  Lc  rtg.o [26]
@@ -5252,7 +5254,7 @@ rxDiscardFrame             0x2'982b    0x1c  Code  Lc  mac_rx.o [28]
 rxDone                     0x2'97ab    0x16  Code  Lc  mac_rx.o [28]
 rxFcsIsr                   0x2'95a5   0x1cc  Code  Lc  mac_rx.o [28]
 rxFhRsl                 0x2000'62b0     0x1  Data  Gb  lmac_global.o [28]
-rxFifoThreshold            0x3'687c     0x8  Data  Lc  UART2CC26X2.c.obj [25]
+rxFifoThreshold            0x3'6894     0x8  Data  Lc  UART2CC26X2.c.obj [25]
 rxFilter                0x2000'62c3     0x1  Data  Lc  mac_rx.o [28]
 rxNextLen               0x2000'623e     0x2  Data  Lc  mac_rx.o [28]
 rxPayloadIsr               0x2'956b    0x3a  Code  Lc  mac_rx.o [28]
@@ -5275,47 +5277,47 @@ sectorBaseMask          0x2000'6090     0x4  Data  Lc  NVSCC26XX.c.obj [25]
 sectorSize              0x2000'608c     0x4  Data  Lc  NVSCC26XX.c.obj [25]
 sem_post                     0xb429     0xe  Code  Gb  ti_sysbios_config.o [1]
 sem_wait                     0xb437    0x12  Code  Gb  ti_sysbios_config.o [1]
-sendActiveEPRsp            0x3'35a7    0x14  Code  Lc  zstacktask.o [15]
-sendActiveEPRspInd         0x3'35bd    0x6a  Code  Lc  zstacktask.o [15]
-sendBeaconNotifyInd        0x3'2fd5    0x8a  Code  Lc  zstacktask.o [15]
-sendBindRsp                0x3'36a7    0x16  Code  Lc  zstacktask.o [15]
-sendBindRspInd             0x3'36bd    0x3c  Code  Lc  zstacktask.o [15]
-sendDevPermitJoinInd       0x3'3211    0x34  Code  Lc  zstacktask.o [15]
-sendDevStateChangeInd      0x3'3861    0x30  Code  Lc  zstacktask.o [15]
-sendDeviceAnnounce         0x3'32a3    0x16  Code  Lc  zstacktask.o [15]
-sendDeviceAnnounceInd      0x3'32b9    0x54  Code  Lc  zstacktask.o [15]
-sendEndDeviceBindRsp       0x3'36f9    0x16  Code  Lc  zstacktask.o [15]
+sendActiveEPRsp            0x3'35bf    0x14  Code  Lc  zstacktask.o [15]
+sendActiveEPRspInd         0x3'35d5    0x6a  Code  Lc  zstacktask.o [15]
+sendBeaconNotifyInd        0x3'2fed    0x8a  Code  Lc  zstacktask.o [15]
+sendBindRsp                0x3'36bf    0x16  Code  Lc  zstacktask.o [15]
+sendBindRspInd             0x3'36d5    0x3c  Code  Lc  zstacktask.o [15]
+sendDevPermitJoinInd       0x3'3229    0x34  Code  Lc  zstacktask.o [15]
+sendDevStateChangeInd      0x3'3879    0x30  Code  Lc  zstacktask.o [15]
+sendDeviceAnnounce         0x3'32bb    0x16  Code  Lc  zstacktask.o [15]
+sendDeviceAnnounceInd      0x3'32d1    0x54  Code  Lc  zstacktask.o [15]
+sendEndDeviceBindRsp       0x3'3711    0x16  Code  Lc  zstacktask.o [15]
 sendEndDeviceBindRspInd
-                           0x3'3711    0x3c  Code  Lc  zstacktask.o [15]
+                           0x3'3729    0x3c  Code  Lc  zstacktask.o [15]
 sendGpSecRsp               0x2'6ff7    0x28  Code  Gb  dgp_stub.o [26]
-sendIeeeAddrRsp            0x3'3397    0x14  Code  Lc  zstacktask.o [15]
-sendIeeeAddrRspInd         0x3'33ad    0x76  Code  Lc  zstacktask.o [15]
-sendJoinCnfInd             0x3'314d    0x3a  Code  Lc  zstacktask.o [15]
-sendLeaveInd               0x3'3199    0x60  Code  Lc  zstacktask.o [15]
-sendMatchDescRsp           0x3'3627    0x14  Code  Lc  zstacktask.o [15]
-sendMatchDescRspInd        0x3'363d    0x6a  Code  Lc  zstacktask.o [15]
-sendMgmtLeaveRsp           0x3'37a1    0x16  Code  Lc  zstacktask.o [15]
-sendMgmtLeaveRspInd        0x3'37b9    0x3c  Code  Lc  zstacktask.o [15]
-sendMgmtPermitJoinRsp      0x3'37f5    0x16  Code  Lc  zstacktask.o [15]
+sendIeeeAddrRsp            0x3'33af    0x14  Code  Lc  zstacktask.o [15]
+sendIeeeAddrRspInd         0x3'33c5    0x76  Code  Lc  zstacktask.o [15]
+sendJoinCnfInd             0x3'3165    0x3a  Code  Lc  zstacktask.o [15]
+sendLeaveInd               0x3'31b1    0x60  Code  Lc  zstacktask.o [15]
+sendMatchDescRsp           0x3'363f    0x14  Code  Lc  zstacktask.o [15]
+sendMatchDescRspInd        0x3'3655    0x6a  Code  Lc  zstacktask.o [15]
+sendMgmtLeaveRsp           0x3'37b9    0x16  Code  Lc  zstacktask.o [15]
+sendMgmtLeaveRspInd        0x3'37d1    0x3c  Code  Lc  zstacktask.o [15]
+sendMgmtPermitJoinRsp      0x3'380d    0x16  Code  Lc  zstacktask.o [15]
 sendMgmtPermitJoinRspInd
-                           0x3'380d    0x3c  Code  Lc  zstacktask.o [15]
-sendMsgToAllCBMsgs         0x3'2e7b    0x32  Code  Lc  zstacktask.o [15]
-sendMsgToAllCBs            0x3'2e45    0x36  Code  Lc  zstacktask.o [15]
-sendNodeDescRsp            0x3'3423    0x14  Code  Lc  zstacktask.o [15]
-sendNodeDescRspInd         0x3'3439    0xac  Code  Lc  zstacktask.o [15]
-sendNwkAddrRsp             0x3'330d    0x14  Code  Lc  zstacktask.o [15]
-sendNwkAddrRspInd          0x3'3321    0x76  Code  Lc  zstacktask.o [15]
-sendNwkDiscCnf             0x3'2f8d    0x34  Code  Lc  zstacktask.o [15]
+                           0x3'3825    0x3c  Code  Lc  zstacktask.o [15]
+sendMsgToAllCBMsgs         0x3'2e93    0x32  Code  Lc  zstacktask.o [15]
+sendMsgToAllCBs            0x3'2e5d    0x36  Code  Lc  zstacktask.o [15]
+sendNodeDescRsp            0x3'343b    0x14  Code  Lc  zstacktask.o [15]
+sendNodeDescRspInd         0x3'3451    0xac  Code  Lc  zstacktask.o [15]
+sendNwkAddrRsp             0x3'3325    0x14  Code  Lc  zstacktask.o [15]
+sendNwkAddrRspInd          0x3'3339    0x76  Code  Lc  zstacktask.o [15]
+sendNwkDiscCnf             0x3'2fa5    0x34  Code  Lc  zstacktask.o [15]
 sendNwkFrameFwdNotificationCBMsg
-                           0x3'2ebd    0x4c  Code  Lc  zstacktask.o [15]
+                           0x3'2ed5    0x4c  Code  Lc  zstacktask.o [15]
 sendReqDefaultRsp          0x2'77fd    0x72  Code  Lc  zstackapi.o [5]
-sendSimpleDescRsp          0x3'34e5    0x14  Code  Lc  zstacktask.o [15]
-sendSimpleDescRspInd       0x3'34f9    0xae  Code  Lc  zstacktask.o [15]
-sendTcDeviceInd            0x3'325d    0x46  Code  Lc  zstacktask.o [15]
-sendUnbindRsp              0x3'374d    0x16  Code  Lc  zstacktask.o [15]
-sendUnbindRspInd           0x3'3765    0x3c  Code  Lc  zstacktask.o [15]
-sendZdoConcentratorInd     0x3'30f5    0x44  Code  Lc  zstacktask.o [15]
-sendZdoSrcRtgInd           0x3'3071    0x70  Code  Lc  zstacktask.o [15]
+sendSimpleDescRsp          0x3'34fd    0x14  Code  Lc  zstacktask.o [15]
+sendSimpleDescRspInd       0x3'3511    0xae  Code  Lc  zstacktask.o [15]
+sendTcDeviceInd            0x3'3275    0x46  Code  Lc  zstacktask.o [15]
+sendUnbindRsp              0x3'3765    0x16  Code  Lc  zstacktask.o [15]
+sendUnbindRspInd           0x3'377d    0x3c  Code  Lc  zstacktask.o [15]
+sendZdoConcentratorInd     0x3'310d    0x44  Code  Lc  zstacktask.o [15]
+sendZdoSrcRtgInd           0x3'3089    0x70  Code  Lc  zstacktask.o [15]
 seqNumSuppressed        0x2000'62c6     0x1  Data  Lc  mac_rx.o [28]
 setNwkFrameFwdNotification
                            0x1'afad     0x8  Code  Gb  nwk.o [26]
@@ -5325,7 +5327,7 @@ spiCsnGpioIndex         0x2000'60ac     0x4  Data  Lc  NVSSPI25X.c.obj [25]
 spiHandle               0x2000'60a8     0x4  Data  Lc  NVSSPI25X.c.obj [25]
 spiHandleUsers          0x2000'6094     0x4  Data  Lc  NVSSPI25X.c.obj [25]
 spiHandles              0x2000'6098    0x10  Data  Lc  NVSSPI25X.c.obj [25]
-spiPostNotify              0x3'aca9     0xc  Code  Lc  SPICC26X2DMA.c.obj [25]
+spiPostNotify              0x3'acc1     0xc  Code  Lc  SPICC26X2DMA.c.obj [25]
 sspAesEncrypt              0x1'ea1f    0x30  Code  Gb  ssp_hash.o [26]
 sspMMOHash                 0x1'e7bd   0x262  Code  Gb  ssp_hash.o [26]
 stackEventID            0x2000'422c     0x4  Data  Lc  osal_port_timers.o [19]
@@ -5346,7 +5348,7 @@ stackTask_getStackServiceId
                            0x2'f229     0x8  Code  Gb  zstackstartup.o [4]
 stackTask_init             0x2'f1b9    0x70  Code  Gb  zstackstartup.o [4]
 state                   0x2000'604c    0x14  Data  Lc  Random.c.obj [25]
-stopBits                   0x3'6868     0x2  Data  Lc  UART2CC26X2.c.obj [25]
+stopBits                   0x3'6880     0x2  Data  Lc  UART2CC26X2.c.obj [25]
 strlen                     0x2'3c65          Code  Gb  strlen.o [30]
 switchToTCXO                 0xe881     0xc  Code  Lc  PowerCC26X2.c.obj [25]
 switchXOSCHF                 0xe70b    0x54  Code  Lc  PowerCC26X2.c.obj [25]
@@ -5424,17 +5426,17 @@ ti_sysbios_family_arm_m3_Hwi_disableInterrupt
 ti_sysbios_family_arm_m3_Hwi_disablePriority
                               0xf18     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_dispatch
-                           0x3'add1          Code  Gb  Hwi_asm_iar.obj [32]
+                           0x3'ade9          Code  Gb  Hwi_asm_iar.obj [32]
 ti_sysbios_family_arm_m3_Hwi_dispatchC
                              0xc105    0x88  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_dispatchTable
                         0x2000'4734    0xd8  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_dispatcherAutoNestingSupport
-                           0x3'b022     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b03a     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_dispatcherSwiSupport
-                           0x3'b023     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b03b     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_dispatcherTaskSupport
-                           0x3'b024     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b03c     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_doSwiRestore
                              0xc191     0xc  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_doTaskRestore
@@ -5448,7 +5450,7 @@ ti_sysbios_family_arm_m3_Hwi_excFillContext
 ti_sysbios_family_arm_m3_Hwi_excHandler
                              0xbe91    0x1a  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_excHandlerAsm
-                           0x3'aef5          Code  Gb  Hwi_asm_iar.obj [32]
+                           0x3'af0d          Code  Gb  Hwi_asm_iar.obj [32]
 ti_sysbios_family_arm_m3_Hwi_excHandlerFunc
                               0xf2c     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_excHandlerMin
@@ -5472,13 +5474,13 @@ ti_sysbios_family_arm_m3_Hwi_initStack
 ti_sysbios_family_arm_m3_Hwi_initStacks
                            0x1'f065          Code  Gb  Hwi_asm_switch_iar.obj [32]
 ti_sysbios_family_arm_m3_Hwi_interruptsAreDisabledButShouldNotBe
-                           0x3'aeb1          Code  Gb  Hwi_asm_iar.obj [32]
+                           0x3'aec9          Code  Gb  Hwi_asm_iar.obj [32]
 ti_sysbios_family_arm_m3_Hwi_nullIsrFunc
                               0xf30     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_numSparseInterrupts
                               0xf20     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_pendSV
-                           0x3'aeb5          Code  Gb  Hwi_asm_iar.obj [32]
+                           0x3'aecd          Code  Gb  Hwi_asm_iar.obj [32]
 ti_sysbios_family_arm_m3_Hwi_plug
                              0xbdc9    0x14  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_post
@@ -5492,7 +5494,7 @@ ti_sysbios_family_arm_m3_Hwi_priGroup
 ti_sysbios_family_arm_m3_Hwi_restore
                              0xaee3     0x6  Code  Lc  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_return
-                           0x3'aed9          Code  Gb  Hwi_asm_iar.obj [32]
+                           0x3'aef1          Code  Gb  Hwi_asm_iar.obj [32]
 ti_sysbios_family_arm_m3_Hwi_setPriority
                              0xbe45    0x20  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_family_arm_m3_Hwi_startup
@@ -5594,11 +5596,11 @@ ti_sysbios_knl_Clock_swiPriority
 ti_sysbios_knl_Clock_tick
                              0xc87d    0x3c  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Clock_tickMode
-                           0x3'b025     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b03d     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Clock_tickPeriod
                              0x1210     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Clock_tickSource
-                           0x3'b026     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b03e     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Clock_walkQueueDynamic
                              0xc731    0x90  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Clock_workFunc
@@ -5674,9 +5676,9 @@ ti_sysbios_knl_Semaphore_pendTimeout
 ti_sysbios_knl_Semaphore_post
                              0xce05    0x92  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Semaphore_supportsEvents
-                           0x3'b027     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b03f     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Semaphore_supportsPriority
-                           0x3'b028     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b040     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Swi_Instance_finalize
                              0xd1e5     0x6  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Swi_Instance_init
@@ -5768,7 +5770,7 @@ ti_sysbios_knl_Task_blockI
 ti_sysbios_knl_Task_blockI{1}{2}{3}{4}{5}{6}::err
                              0x1670    0x7c  Data  Lc  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_checkStackFlag
-                           0x3'b02c     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b044     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_checkStacks
                              0xd4f5    0xe6  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_checkStacks{15}{16}{17}{18}::err
@@ -5792,7 +5794,7 @@ ti_sysbios_knl_Task_defaultStackSize
 ti_sysbios_knl_Task_delete
                              0xddb3    0x1a  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_deleteTerminatedTasks
-                           0x3'b02d     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b045     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_destruct
                              0xdd91    0x22  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_disable
@@ -5816,11 +5818,11 @@ ti_sysbios_knl_Task_handle
 ti_sysbios_knl_Task_init
                              0xd35f    0x5a  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_initStackFlag
-                           0x3'b02b     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b043     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_moduleStateCheck
                              0xdc47    0x40  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_moduleStateCheckFlag
-                           0x3'b029     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b041     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_moduleStateCheckFxn
                              0x1268     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_moduleStateCheckValue
@@ -5832,7 +5834,7 @@ ti_sysbios_knl_Task_numPriorities
 ti_sysbios_knl_Task_objectCheck
                              0xdcb7    0x1a  Code  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_objectCheckFlag
-                           0x3'b02a     0x1  Data  Gb  ti_sysbios_config.o [1]
+                           0x3'b042     0x1  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_objectCheckFxn
                              0x1270     0x4  Data  Gb  ti_sysbios_config.o [1]
 ti_sysbios_knl_Task_objectCheckValueFxn
@@ -5957,7 +5959,7 @@ txComplete                 0x2'a27b   0x12c  Code  Gb  mac_tx.o [28]
 txCsmaDelay                0x2'a3f9   0x142  Code  Gb  mac_tx.o [28]
 txCsmaGo                   0x2'9f0f    0x1e  Code  Lc  mac_tx.o [28]
 txCsmaPrep                 0x2'9da9   0x100  Code  Lc  mac_tx.o [28]
-txFifoThreshold            0x3'6874     0x8  Data  Lc  UART2CC26X2.c.obj [25]
+txFifoThreshold            0x3'688c     0x8  Data  Lc  UART2CC26X2.c.obj [25]
 txGo                       0x2'9edf    0x30  Code  Lc  mac_tx.o [28]
 txGreenPowerPrep           0x2'9ea9    0x36  Code  Lc  mac_tx.o [28]
 txLbtGo                    0x2'9f2d    0x12  Code  Lc  mac_tx.o [28]
@@ -6144,66 +6146,66 @@ zclSampleAppsGp_ProcessTempMasterTimeoutCallback
 zclSampleSwEpDesc       0x2000'49fc    0x10  Data  Lc  zcl_samplesw.o [2]
 zclSampleSw_Attrs            0x18d8    0x6c  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_BasicResetCB
-                           0x2'faad     0x8  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fac5     0x8  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_CmdCallbacks
                         0x2000'1dbc    0x3c  Data  Lc  zcl_samplesw.o [2]
 zclSampleSw_DstAddr     0x2000'4a10     0xc  Data  Gb  zcl_samplesw.o [2]
-zclSampleSw_HWRevision     0x3'b02e     0x1  Data  Gb  zcl_samplesw_data.o [2]
+zclSampleSw_HWRevision     0x3'b046     0x1  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_IdentifyTime
                         0x2000'6222     0x2  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_InClusterList
                              0x1944     0x4  Data  Gb  zcl_samplesw_data.o [2]
-zclSampleSw_Init           0x2'f769    0x90  Code  Lc  zcl_samplesw.o [2]
+zclSampleSw_Init           0x2'f781    0x90  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ManufacturerName
                              0x18c4    0x14  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_NumAttributes
-                           0x3'b031     0x1  Data  Gb  zcl_samplesw_data.o [2]
+                           0x3'b049     0x1  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_OutClusterList
                              0x1948     0x8  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_PhysicalEnvironment
                         0x2000'626e     0x1  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_PowerSource
-                           0x3'b030     0x1  Data  Gb  zcl_samplesw_data.o [2]
+                           0x3'b048     0x1  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_ProcessCommissioningStatus
-                           0x2'fa93    0x1a  Code  Lc  zcl_samplesw.o [2]
+                           0x2'faab    0x1a  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInDefaultRspCmd
-                           0x2'fb8b     0x4  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fba3     0x4  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInDiscAttrsExtRspCmd
-                           0x2'fbbb    0x16  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fbd3    0x16  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInDiscAttrsRspCmd
-                           0x2'fba5    0x16  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fbbd    0x16  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInDiscCmdsRspCmd
-                           0x2'fb8f    0x16  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fba7    0x16  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInReadRspCmd
-                           0x2'fb3b    0x16  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fb53    0x16  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInReportCmd
-                           0x2'fb67    0x24  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fb7f    0x24  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessInWriteRspCmd
-                           0x2'fb51    0x16  Code  Lc  zcl_samplesw.o [2]
+                           0x2'fb69    0x16  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ProcessIncomingMsg
-                           0x2'fab5    0x86  Code  Lc  zcl_samplesw.o [2]
+                           0x2'facd    0x86  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_ResetAttributesToDefaultValues
-                           0x3'6885    0x18  Code  Gb  zcl_samplesw_data.o [2]
+                           0x3'689d    0x18  Code  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_SimpleDesc  0x2000'1df8    0x14  Data  Gb  zcl_samplesw_data.o [2]
-zclSampleSw_ZCLVersion     0x3'b02f     0x1  Data  Gb  zcl_samplesw_data.o [2]
+zclSampleSw_ZCLVersion     0x3'b047     0x1  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_basic_clusterRevision
                            0x1'f632     0x2  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_identify_clusterRevision
                            0x2'1b6a     0x2  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_initParameters
-                           0x2'f7f9    0x5c  Code  Lc  zcl_samplesw.o [2]
+                           0x2'f811    0x5c  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_initialization
-                           0x2'f6ff    0x6a  Code  Lc  zcl_samplesw.o [2]
+                           0x2'f6ff    0x82  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_initializeClocks
-                           0x2'f855     0x2  Code  Lc  zcl_samplesw.o [2]
+                           0x2'f86d     0x2  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_onoff_clusterRevision
                            0x2'2626     0x2  Data  Gb  zcl_samplesw_data.o [2]
 zclSampleSw_processAfIncomingMsgInd
-                           0x2'f9e3    0xb0  Code  Lc  zcl_samplesw.o [2]
+                           0x2'f9fb    0xb0  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_processZStackMsgs
-                           0x2'f917    0xcc  Code  Lc  zcl_samplesw.o [2]
+                           0x2'f92f    0xcc  Code  Lc  zcl_samplesw.o [2]
 zclSampleSw_process_loop
-                           0x2'f883    0x94  Code  Lc  zcl_samplesw.o [2]
+                           0x2'f89b    0x94  Code  Lc  zcl_samplesw.o [2]
 zclSceneNVID            0x2000'1fd8     0x2  Data  Lc  zcl_port.o [9]
 zclSerializeData           0x1'2c5d   0x15c  Code  Gb  zcl.o [9]
 zclSetSecurityOption       0x1'2a81    0x2a  Code  Lc  zcl.o [9]
@@ -6260,22 +6262,22 @@ zclport_registerZclHandleExternal
                            0x2'1e29    0x64  Code  Gb  zcl_port.o [9]
 zclport_writeNV            0x2'1ef1    0x70  Code  Gb  zcl_port.o [9]
 zdAppServiceEvents      0x2000'4bc8     0x4  Data  Lc  zstackstartup.o [4]
-zdoBeaconNotifyIndCB       0x3'2fc1    0x12  Code  Lc  zstacktask.o [15]
+zdoBeaconNotifyIndCB       0x3'2fd9    0x12  Code  Lc  zstacktask.o [15]
 zdoBindUnbindAuthAddr   0x2000'1e1c     0x8  Data  Gb  zd_object.o [21]
 zdoBindUnbindAuthClusterId
                         0x2000'622a     0x2  Data  Gb  zd_object.o [21]
 zdoBindUnbindAuthEndpoint
                         0x2000'627c     0x1  Data  Gb  zd_object.o [21]
 zdoCBFunc               0x2000'4a50    0x24  Data  Gb  zd_app.o [21]
-zdoConcentratorIndCB       0x3'30e1    0x12  Code  Lc  zstacktask.o [15]
-zdoJoinCnfCB               0x3'3139    0x12  Code  Lc  zstacktask.o [15]
-zdoLeaveIndCB              0x3'3187    0x12  Code  Lc  zstacktask.o [15]
+zdoConcentratorIndCB       0x3'30f9    0x12  Code  Lc  zstacktask.o [15]
+zdoJoinCnfCB               0x3'3151    0x12  Code  Lc  zstacktask.o [15]
+zdoLeaveIndCB              0x3'319f    0x12  Code  Lc  zstacktask.o [15]
 zdoMsgCBs               0x2000'4b48     0x4  Data  Gb  zd_profile.o [21]
-zdoNwkDiscCnfCB            0x3'2f21    0x44  Code  Lc  zstacktask.o [15]
-zdoPermitJoinIndCB         0x3'31f9    0x16  Code  Lc  zstacktask.o [15]
+zdoNwkDiscCnfCB            0x3'2f39    0x44  Code  Lc  zstacktask.o [15]
+zdoPermitJoinIndCB         0x3'3211    0x16  Code  Lc  zstacktask.o [15]
 zdoSendStateChangeMsg        0xea5f    0x42  Code  Lc  zd_object.o [21]
-zdoSrcRtgCB                0x3'305f    0x12  Code  Lc  zstacktask.o [15]
-zdoTcDeviceIndCB           0x3'3245    0x16  Code  Lc  zstacktask.o [15]
+zdoSrcRtgCB                0x3'3077    0x12  Code  Lc  zstacktask.o [15]
+zdoTcDeviceIndCB           0x3'325d    0x16  Code  Lc  zstacktask.o [15]
 zdpExternalStateTaskID  0x2000'1fda     0x2  Data  Gb  zd_object.o [21]
 zdpMsgProcs                  0x1960    0x88  Data  Gb  zd_profile.o [21]
 zdpNwkMgrServiceEvents  0x2000'4bcc     0x4  Data  Lc  zstackstartup.o [4]
@@ -6368,35 +6370,35 @@ zgZdoDirectCB           0x2000'2018     0x1  Data  Gb  zglobals.o [20]
 zgpSharedKey                  0x230    0x10  Data  Gb  gp_common.o [7]
 zmacCBSizeTable              0x1b80    0x14  Data  Gb  zmac_cb.o [22]
 zmain_ext_addr             0x2'f563    0xfc  Code  Lc  zstackstartup.o [4]
-zsProcessZDOMsgs           0x3'2b15   0x196  Code  Lc  zstacktask.o [15]
+zsProcessZDOMsgs           0x3'2b2d   0x196  Code  Lc  zstacktask.o [15]
 zstackServiceEvents     0x2000'4bd4     0x4  Data  Lc  zstackstartup.o [4]
 zstackTasksArr               0x1bf8    0x24  Data  Gb  zstackstartup.o [4]
-zstackTasksCnt             0x3'b033     0x1  Data  Gb  zstackstartup.o [4]
+zstackTasksCnt             0x3'b04b     0x1  Data  Gb  zstackstartup.o [4]
 zstack_user0Cfg         0x2000'1b04    0x5c  Data  Gb  main.o [4]
 
 
-[1] = F:\Zigbee_communication\sw\default\Obj\SysConfig Generated Files
-[2] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application
-[3] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\Services
-[4] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\StartUp
-[5] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\ZStackApi
-[6] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Application\util
-[7] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\gp
-[8] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\touchlink
-[9] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Common\zcl
-[10] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\Config
-[11] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\Debug
-[12] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\HighLevel
-[13] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\MAC\LowLevel
-[14] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\ROM
-[15] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\ZStackTask
-[16] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\af
-[17] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\bdb
-[18] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\nwk
-[19] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\osal_port
-[20] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\sys
-[21] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zdo
-[22] = F:\Zigbee_communication\sw\default\Obj\ZR Sw\Stack\zmac
+[1] = F:\Zigbee_communication\swr\default\Obj\SysConfig Generated Files
+[2] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application
+[3] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\Services
+[4] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\StartUp
+[5] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\ZStackApi
+[6] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Application\util
+[7] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\gp
+[8] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\touchlink
+[9] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Common\zcl
+[10] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\Config
+[11] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\Debug
+[12] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\HighLevel
+[13] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\MAC\LowLevel
+[14] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\ROM
+[15] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\ZStackTask
+[16] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\af
+[17] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\bdb
+[18] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\nwk
+[19] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\osal_port
+[20] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\sys
+[21] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zdo
+[22] = F:\Zigbee_communication\swr\default\Obj\ZR Sw\Stack\zmac
 [23] = dl7M_tln.a
 [24] = driverlib.lib
 [25] = drivers_cc13x2.a
@@ -6408,7 +6410,7 @@ zstack_user0Cfg         0x2000'1b04    0x5c  Data  Gb  main.o [4]
 [31] = shb_l.a
 [32] = sysbios.a
 
-  232'756 bytes of readonly  code memory
+  232'780 bytes of readonly  code memory
     9'658 bytes of readonly  data memory
    19'615 bytes of readwrite data memory
 

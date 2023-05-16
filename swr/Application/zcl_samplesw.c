@@ -506,6 +506,11 @@ static void zclSampleSw_initialization(void)
     UART2_Params_init(&uartParams);
     uartParams.readMode = UART2_Mode_CALLBACK;
     uartParams.readCallback = uartReadCallback;
+    // Set baud rate
+    uartParams.baudRate = 115200;
+    uartParams.parityType = UART2_Parity_NONE;
+    uartParams.stopBits = UART2_StopBits_1;
+    uartParams.dataLength = UART2_DataLen_8;
     uart = UART2_open(CONFIG_UART2_0, &uartParams);
 }
 
@@ -658,7 +663,8 @@ static void zclSampleSw_Init( void )
   // Call BDB initialization. Should be called once from application at startup to restore
   // previous network configuration, if applicable.
   zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
-  zstack_bdbStartCommissioningReq.commissioning_mode = DEFAULT_COMISSIONING_MODE;
+  zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_MODE_NWK_FORMATION | //支持Network Formation
+                                                     BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Finding and Binding（F & B）
   Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
 }
 

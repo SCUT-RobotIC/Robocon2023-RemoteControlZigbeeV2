@@ -1,26 +1,27 @@
-F:\Zigbee_communication\sw\default\BrowseInfo\ZR\ Sw\Application\zcl_samplesw.pbi: \
+F:\Zigbee_communication\swr\default\BrowseInfo\ZR\ Sw\Application\zcl_samplesw.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\utils\RingBuf.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\UART2.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\zstack\stack\gp\gp_interface.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\zstack\stack\gp\cgp_stub.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\zstack\stack\gp\gp_sink.h \
-  F:\Zigbee_communication\sw\Stack\zdo\zd_object.h \
-  F:\Zigbee_communication\sw\Common\gp\gp_interface.h \
-  F:\Zigbee_communication\sw\Common\gp\gp_bit_fields.h \
-  F:\Zigbee_communication\sw\Common\zcl\zcl_green_power.h \
-  F:\Zigbee_communication\sw\Common\gp\gp_proxy.h \
+  F:\Zigbee_communication\swr\Stack\zdo\zd_object.h \
+  F:\Zigbee_communication\swr\Common\gp\gp_interface.h \
+  F:\Zigbee_communication\swr\Common\gp\gp_bit_fields.h \
+  F:\Zigbee_communication\swr\Common\zcl\zcl_green_power.h \
+  F:\Zigbee_communication\swr\Common\gp\gp_proxy.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Semaphore_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Semaphore.h \
-  F:\Zigbee_communication\sw\Common\gp\gp_common.h \
-  F:\Zigbee_communication\sw\Application\util\util_timer.h \
+  F:\Zigbee_communication\swr\Common\gp\gp_common.h \
+  F:\Zigbee_communication\swr\Application\util\util_timer.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iar_intrinsics_common.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\intrinsics.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\GPIO.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\gpio\GPIOCC26XX.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\apps\Button.h \
+  F:\Zigbee_communication\swr\Application\ZStackApi\zstackapi.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Task_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Task.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Types_defs.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Types.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\BIOS.h \
-  F:\Zigbee_communication\sw\Common\zcl\zcl_port.h \
-  F:\Zigbee_communication\sw\ti_drivers_config.h \
-  F:\Zigbee_communication\sw\Application\ui\zcl_sample_app_def.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Error_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Error.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Event_defs.h \
@@ -34,52 +35,48 @@ F:\Zigbee_communication\sw\default\BrowseInfo\ZR\ Sw\Application\zcl_samplesw.pb
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Memory.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Swi_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Swi.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Types_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Types.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdarg.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\xdc\std.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\PWM.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\apps\LED.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iar_intrinsics_common.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\intrinsics.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\GPIO.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\gpio\GPIOCC26XX.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\apps\Button.h \
-  F:\Zigbee_communication\sw\Application\ui\cui.h \
-  F:\Zigbee_communication\sw\Application\ZStackApi\zstackapi.h \
-  F:\Zigbee_communication\sw\Stack\ZStackTask\zstack.h \
-  F:\Zigbee_communication\sw\Stack\gp\cgp_stub.h \
-  F:\Zigbee_communication\sw\Stack\gp\dgp_stub.h \
-  F:\Zigbee_communication\sw\Stack\bdb\bdb_interface.h \
-  F:\Zigbee_communication\sw\Stack\nwk\reflecttrack.h \
-  F:\Zigbee_communication\sw\Stack\nwk\aps.h \
-  F:\Zigbee_communication\sw\Stack\zdo\zd_app.h \
-  F:\Zigbee_communication\sw\Stack\nwk\nwk_util.h \
-  F:\Zigbee_communication\sw\Stack\zdo\zd_config.h \
-  F:\Zigbee_communication\sw\Stack\zdo\zd_profile.h \
-  F:\Zigbee_communication\sw\Stack\bdb\bdb.h \
-  F:\Zigbee_communication\sw\Stack\ZStackTask\zstackmsg.h \
-  F:\Zigbee_communication\sw\Application\ui\zcl_sampleapps_ui.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\BIOS.h \
+  F:\Zigbee_communication\swr\Common\zcl\zcl_port.h \
+  F:\Zigbee_communication\swr\Stack\ZStackTask\zstackmsg.h \
+  F:\Zigbee_communication\swr\ti_drivers_config.h \
+  F:\Zigbee_communication\swr\Stack\gp\dgp_stub.h \
+  F:\Zigbee_communication\swr\Stack\bdb\bdb_interface.h \
+  F:\Zigbee_communication\swr\Stack\gp\cgp_stub.h \
+  F:\Zigbee_communication\swr\Stack\ZStackTask\zstack.h \
+  F:\Zigbee_communication\swr\Stack\nwk\reflecttrack.h \
+  F:\Zigbee_communication\swr\Stack\nwk\aps.h \
+  F:\Zigbee_communication\swr\Stack\zdo\zd_app.h \
+  F:\Zigbee_communication\swr\Stack\nwk\nwk_util.h \
+  F:\Zigbee_communication\swr\Stack\zdo\zd_config.h \
+  F:\Zigbee_communication\swr\Stack\zdo\zd_profile.h \
+  F:\Zigbee_communication\swr\Stack\bdb\bdb.h \
+  F:\Zigbee_communication\swr\Application\ui\zcl_sample_app_def.h \
+  F:\Zigbee_communication\swr\Application\ui\zcl_sampleapps_ui.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\zstack\stack\zcl\zcl_diagnostic.h \
-  F:\Zigbee_communication\sw\Application\Services\nvintf.h \
-  F:\Zigbee_communication\sw\Application\zcl_samplesw.h \
-  F:\Zigbee_communication\sw\Common\zcl\zcl_ha.h \
-  F:\Zigbee_communication\sw\Common\zcl\zcl_general.h \
-  F:\Zigbee_communication\sw\Stack\nwk\aps_groups.h \
-  F:\Zigbee_communication\sw\Stack\sys\zglobals.h \
-  F:\Zigbee_communication\sw\Stack\nwk\binding_table.h \
-  F:\Zigbee_communication\sw\Stack\nwk\nwk_globals.h \
-  F:\Zigbee_communication\sw\Stack\nwk\aps_mede.h \
-  F:\Zigbee_communication\sw\Stack\sec\ssp.h \
-  F:\Zigbee_communication\sw\Stack\nwk\assoc_list.h \
-  F:\Zigbee_communication\sw\Stack\nwk\nl_mede.h \
-  F:\Zigbee_communication\sw\Stack\nwk\nwk_bufs.h \
-  F:\Zigbee_communication\sw\ti_zstack_config.h \
-  F:\Zigbee_communication\sw\Stack\zmac\zmac_internal.h \
-  F:\Zigbee_communication\sw\Stack\zmac\zmac.h \
-  F:\Zigbee_communication\sw\Stack\nwk\nwk.h \
-  F:\Zigbee_communication\sw\Stack\af\af.h \
-  F:\Zigbee_communication\sw\Common\zcl\zcl.h \
-  F:\Zigbee_communication\sw\Stack\sys\zcomdef.h \
+  F:\Zigbee_communication\swr\Application\Services\nvintf.h \
+  F:\Zigbee_communication\swr\Application\zcl_samplesw.h \
+  F:\Zigbee_communication\swr\Common\zcl\zcl_ha.h \
+  F:\Zigbee_communication\swr\Common\zcl\zcl_general.h \
+  F:\Zigbee_communication\swr\Stack\nwk\aps_groups.h \
+  F:\Zigbee_communication\swr\Stack\sys\zglobals.h \
+  F:\Zigbee_communication\swr\Stack\nwk\binding_table.h \
+  F:\Zigbee_communication\swr\Stack\nwk\nwk_globals.h \
+  F:\Zigbee_communication\swr\Stack\nwk\aps_mede.h \
+  F:\Zigbee_communication\swr\Stack\sec\ssp.h \
+  F:\Zigbee_communication\swr\Stack\nwk\assoc_list.h \
+  F:\Zigbee_communication\swr\Stack\nwk\nl_mede.h \
+  F:\Zigbee_communication\swr\Stack\nwk\nwk_bufs.h \
+  F:\Zigbee_communication\swr\ti_zstack_config.h \
+  F:\Zigbee_communication\swr\Stack\zmac\zmac_internal.h \
+  F:\Zigbee_communication\swr\Stack\zmac\zmac.h \
+  F:\Zigbee_communication\swr\Stack\nwk\nwk.h \
+  F:\Zigbee_communication\swr\Stack\af\af.h \
+  F:\Zigbee_communication\swr\Common\zcl\zcl.h \
+  F:\Zigbee_communication\swr\Stack\sys\zcomdef.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_high_level.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_pwr.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_security_pib.h \
@@ -93,28 +90,28 @@ F:\Zigbee_communication\sw\default\BrowseInfo\ZR\ Sw\Application\zcl_samplesw.pb
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_data.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_coord.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_main.h \
-  F:\Zigbee_communication\sw\Stack\ROM\hmac_rom_jt.h \
+  F:\Zigbee_communication\swr\Stack\ROM\hmac_rom_jt.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_timer.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\low_level\cc13xx\mac_radio_tx.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\low_level\cc13xx\mac_radio.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\low_level\cc13xx\mac_symbol_timer.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\low_level\cc13xx\mac_rx_onoff.h \
-  F:\Zigbee_communication\sw\Stack\ROM\lmac_rom_jt.h \
+  F:\Zigbee_communication\swr\Stack\ROM\lmac_rom_jt.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_util.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_sm.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_mgr.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_ie.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_nt.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_dh1cf.h \
-  F:\Zigbee_communication\sw\Stack\sys\comdef.h \
-  F:\Zigbee_communication\sw\Stack\osal_port\osal_port_timers.h \
+  F:\Zigbee_communication\swr\Stack\sys\comdef.h \
+  F:\Zigbee_communication\swr\Stack\osal_port\osal_port_timers.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_stdlib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
-  F:\Zigbee_communication\sw\Stack\osal_port\osal_port.h \
-  F:\Zigbee_communication\sw\Stack\ROM\icall_osal_rom_jt.h \
+  F:\Zigbee_communication\swr\Stack\osal_port\osal_port.h \
+  F:\Zigbee_communication\swr\Stack\ROM\icall_osal_rom_jt.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\low_level\cc13xx\mac_autopend.h \
-  F:\Zigbee_communication\sw\Stack\HAL\RF\rf_mac_api.h \
+  F:\Zigbee_communication\swr\Stack\HAL\RF\rf_mac_api.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\zstack\config\ti_154stack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\chipinfo.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\common\boards\mac_user_config.h \
@@ -164,24 +161,24 @@ F:\Zigbee_communication\sw\default\BrowseInfo\ZR\ Sw\Application\zcl_samplesw.pb
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_types.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_ints.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_nvic.h \
-  F:\Zigbee_communication\sw\Stack\HAL\Platform\hal_defs.h \
-  F:\Zigbee_communication\sw\Stack\HAL\Platform\hal_mcu.h \
+  F:\Zigbee_communication\swr\Stack\HAL\Platform\hal_defs.h \
+  F:\Zigbee_communication\swr\Stack\HAL\Platform\hal_mcu.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\high_level\mac_ie_parse.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\zstack\config\ti_154stack_features.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\common\osal_port\api_mac.h \
-  F:\Zigbee_communication\sw\Application\Services\sdata.h \
+  F:\Zigbee_communication\swr\Application\Services\sdata.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
-  F:\Zigbee_communication\sw\Application\Services\saddr.h \
-  F:\Zigbee_communication\sw\Stack\MAC\mac_api.h \
-  F:\Zigbee_communication\sw\Stack\MAC\HighLevel\mac_high_level.h \
+  F:\Zigbee_communication\swr\Application\Services\saddr.h \
+  F:\Zigbee_communication\swr\Stack\MAC\mac_api.h \
+  F:\Zigbee_communication\swr\Stack\MAC\HighLevel\mac_high_level.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\fh\fh_api.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
-  F:\Zigbee_communication\sw\Stack\HAL\Platform\hal_types.h \
-  F:\Zigbee_communication\sw\Stack\ROM\rom_jt_def_154.h \
-  F:\Zigbee_communication\sw\Stack\ROM\fh_rom_jt.h \
-  F:\Zigbee_communication\sw\Stack\ROM\rom_jt_154.h \
-  F:\Zigbee_communication\sw\Application\zcl_samplesw.c
+  F:\Zigbee_communication\swr\Stack\HAL\Platform\hal_types.h \
+  F:\Zigbee_communication\swr\Stack\ROM\rom_jt_def_154.h \
+  F:\Zigbee_communication\swr\Stack\ROM\fh_rom_jt.h \
+  F:\Zigbee_communication\swr\Stack\ROM\rom_jt_154.h \
+  F:\Zigbee_communication\swr\Application\zcl_samplesw.c

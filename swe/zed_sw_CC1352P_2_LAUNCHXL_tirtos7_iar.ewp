@@ -270,6 +270,7 @@
                     <state>NVOCMP_NVPAGES=2</state>
                     <state>CONFIG_PA_TYPE=APIMAC_HIGH_PA</state>
                     <state>CC1352P_2</state>
+                    <state>ZCL_REPORTING_DEVICE</state>
                 </option>
                 <option>
                     <name>CCPreprocFile</name>
