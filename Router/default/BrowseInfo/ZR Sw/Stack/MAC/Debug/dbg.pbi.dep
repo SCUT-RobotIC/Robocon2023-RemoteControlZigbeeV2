@@ -1,0 +1,18 @@
+F:\Zigbee_communication\Router\default\BrowseInfo\ZR\ Sw\Stack\MAC\Debug\dbg.pbi: \
+  F:\Zigbee_communication\Router\Stack\MAC\Debug\dbg.c \
+  F:\Zigbee_communication\Router\Stack\MAC\Debug\dbg.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\ti154stack\tracer\rfctrc_regs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\inc\hw_memmap.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\cpu.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_types.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\inc\..\inc\hw_chip_def.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_memmap.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_cpu_scs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\driverlib\rom.h

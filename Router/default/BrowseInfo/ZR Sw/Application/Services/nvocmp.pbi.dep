@@ -1,0 +1,47 @@
+F:\Zigbee_communication\Router\default\BrowseInfo\ZR\ Sw\Application\Services\nvocmp.pbi: \
+  F:\Zigbee_communication\Router\Application\Services\nvocmp.c \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ysizet.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_string.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\gates\GateMutexPri.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stddef.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Semaphore.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\xdc\std.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdarg.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Queue.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Error.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Error_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Queue_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Task.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Clock.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Swi.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Swi_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Clock_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\IHeap.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Memory.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\runtime\Memory_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Task_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Event.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Event_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\knl\Semaphore_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\kernel\tirtos7\packages\ti\sysbios\gates\GateMutexPri_defs.h \
+  F:\Zigbee_communication\Router\Application\Services\nvocmp.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\NVS.h \
+  F:\Zigbee_communication\Router\Application\Services\nvintf.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\common\nv\crc.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_stdlib.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\vims.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_types.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\inc\..\inc\hw_chip_def.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_memmap.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_vims.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\debug.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\devices\cc13x2_cc26x2\driverlib\..\driverlib\rom.h
