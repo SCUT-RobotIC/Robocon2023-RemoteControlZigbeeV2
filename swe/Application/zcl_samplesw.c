@@ -459,7 +459,7 @@ void callbackWriteFxn(UART2_Handle handle, void *buffer, size_t count,
         /* TX error occured in UART2_read() */
       while(1){}
     }
-    UART2_read(uart0,UART_readBuff,26,NULL);
+    //UART2_read(uart0,UART_readBuff,26,NULL);
     
     
 
@@ -473,10 +473,12 @@ void callbackWriteFxn(UART2_Handle handle, void *buffer, size_t count,
 static const uint8 tSize=26;
 void uartReadCallback(UART2_Handle handle, void *buf, size_t count, void *userArg, int_fast16_t status)
 {
+  UART2_rxDisable(handle);
   if (status != UART2_STATUS_SUCCESS) {
         /* RX error occured in UART2_read() */
         while(1){}
     }
+  
 
   if(findparent){
       static uint8 seqNum = 0;    
@@ -511,7 +513,12 @@ void uartReadCallback(UART2_Handle handle, void *buf, size_t count, void *userAr
       free(reportCmd->attrList[0].attrData);//ÄÚ´æÊÍ·Å
       free(reportCmd->attrList);
       free(reportCmd);
+      
+      
   }
+  
+  UART2_rxEnable(handle);
+  UART2_read(uart0,UART_readBuff,26,NULL);
     // buf contains the data read from the UART
     // count is the number of bytes read
 
@@ -581,7 +588,7 @@ static void zclSampleSw_initialization(void)
 
     uart0= UART2_open(CONFIG_UART2_0, &uartParams);
     UART2_rxEnable(uart0);
-    
+    UART2_read(uart0,UART_readBuff,26,NULL);
     
 }
 
@@ -899,9 +906,9 @@ static void zclSampleSw_process_loop(void)
     for(;;)
     {
         
-        if(UART2_write(uart0,request,sizeof(request),NULL)==UART2_STATUS_SUCCESS){
-
-        }
+        //if(appServiceTaskEvents&UART2_EVENT_TX_FINISHED){
+            //UART2_write(uart0,request,sizeof(request),NULL);
+        //}
         zstackmsg_genericReq_t *pMsg = NULL;
         bool msgProcessed = FALSE;
 

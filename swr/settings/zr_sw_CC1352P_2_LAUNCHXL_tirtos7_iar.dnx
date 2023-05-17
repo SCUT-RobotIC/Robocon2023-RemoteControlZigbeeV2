@@ -24,7 +24,7 @@
         <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
     </ArmDriver>
     <DebugChecksum>
-        <Checksum>3789687486</Checksum>
+        <Checksum>2284798641</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -42,10 +42,10 @@
         <ShowArgs>0</ShowArgs>
     </CallStack>
     <JLinkDriver>
+        <jlinkResetStyle>12</jlinkResetStyle>
+        <jlinkResetStrategy>2</jlinkResetStrategy>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <CStepIntDis>_ 0</CStepIntDis>
-        <jlinkResetStyle>12</jlinkResetStyle>
-        <jlinkResetStrategy>0</jlinkResetStrategy>
     </JLinkDriver>
     <Trace2>
         <Enabled>0</Enabled>
@@ -81,7 +81,9 @@
         <Bp2>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.668.3" 0 0 1 "" 0 "" 0</Bp2>
         <Bp3>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.1709.5" 0 0 1 "" 0 "" 0</Bp3>
         <Bp4>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.1973.3" 0 0 1 "" 0 "" 0</Bp4>
-        <Count>5</Count>
+        <Bp5>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.1832.3" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 1 "EMUL_CODE" "{$PROJ_DIR$\Application\zcl_samplesw.c}.1768.5" 0 0 1 "" 0 "" 0</Bp6>
+        <Count>7</Count>
     </Breakpoints2>
     <Aliases>
         <A0>_ "C:\.conan\498e5f\1\source\ti\ti154stack\low_level\cc13xx\mac_low_level.c" ""</A0>

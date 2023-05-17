@@ -768,9 +768,9 @@ const uint_least8_t TRNG_count = CONFIG_TRNG_COUNT;
 
 UART2CC26X2_Object uart2CC26X2Objects[CONFIG_UART2_COUNT];
 
-static unsigned char uart2RxRingBuffer0[32];
+static unsigned char uart2RxRingBuffer0[26];
 /* TX ring buffer allocated to be used for nonblocking mode */
-static unsigned char uart2TxRingBuffer0[32];
+static unsigned char uart2TxRingBuffer0[26];
 
 ALLOCATE_CONTROL_TABLE_ENTRY(dmaUart0RxControlTableEntry, UDMA_CHAN_UART0_RX);
 ALLOCATE_CONTROL_TABLE_ENTRY(dmaUart0TxControlTableEntry, UDMA_CHAN_UART0_TX);
@@ -779,7 +779,7 @@ static const UART2CC26X2_HWAttrs uart2CC26X2HWAttrs[CONFIG_UART2_COUNT] = {
   {
     .baseAddr           = UART0_BASE,
     .intNum             = INT_UART0_COMB,
-    .intPriority        = (~0),
+    .intPriority        = 0xa0,
     .rxPin              = CONFIG_GPIO_UART2_0_RX,
     .txPin              = CONFIG_GPIO_UART2_0_TX,
     .ctsPin             = GPIO_INVALID_INDEX,

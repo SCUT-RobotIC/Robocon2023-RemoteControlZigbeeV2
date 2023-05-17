@@ -2161,7 +2161,4 @@
             <name>$PROJ_DIR$\zed_sw.syscfg</name>
         </file>
     </group>
-    <file>
-        <name>$PROJ_DIR$\SysConfig_Generated_Files.ipcf</name>
-    </file>
 </project>

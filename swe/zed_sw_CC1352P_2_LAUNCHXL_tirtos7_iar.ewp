@@ -869,7 +869,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$/cc13x2_cc26x2.icf</state>
+                    <state>F:\Zigbee_communication\swe\cc13x2_cc26x2.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1933,7 +1933,4 @@
             <name>$PROJ_DIR$\zed_sw.syscfg</name>
         </file>
     </group>
-    <file>
-        <name>$PROJ_DIR$\SysConfig_Generated_Files.ipcf</name>
-    </file>
 </project>

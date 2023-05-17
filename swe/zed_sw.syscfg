@@ -100,6 +100,9 @@ SHA21.$name = "CONFIG_SHA2_0";
 TRNG1.$name = "CONFIG_TRNG_0";
 
 UART21.$name              = "CONFIG_UART2_0";
+UART21.rxRingBufferSize   = 26;
+UART21.txRingBufferSize   = 26;
+UART21.interruptPriority  = "5";
 UART21.uart.txPin.$assign = "boosterpack.4";
 UART21.uart.rxPin.$assign = "boosterpack.3";
 scripting.suppress("Connected to hardware,@@@.+?@@@ is connected to XDS110 UART on the CC1352P-2 LaunchPad\\. Consider selecting it in 'use hardware' above\\. @@@.+?@@@", UART21.uart, "txPin");
