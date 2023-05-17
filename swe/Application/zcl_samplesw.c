@@ -1786,7 +1786,8 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_FORMATION:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
-        findparent=true;
+        //findparent=true;
+        //GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
         //YOUR JOB:
       }
       else
@@ -1799,6 +1800,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
         findparent=true;
+        GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
         //YOUR JOB:
         //We are on the nwk, what now?
 #if defined (Z_POWER_TEST)
@@ -1848,6 +1850,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
         findparent=true;
+        GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
         //YOUR JOB:
       }
       else
@@ -1869,6 +1872,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_NETWORK_RESTORED)
       {
         findparent=false;
+        GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_OFF);
         //We did recover from losing parent
       }
       else
