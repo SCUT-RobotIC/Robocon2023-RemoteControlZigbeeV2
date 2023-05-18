@@ -214,7 +214,7 @@
                 <debug>0</debug>
                 <option>
                     <name>CCEncSource</name>
-                    <state>0</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CCEncOutput</name>
@@ -771,7 +771,7 @@
                 <extensions>.syscfg</extensions>
                 <cmdline>$SYSCONFIG_ROOT$/sysconfig_cli.bat -o $PROJ_DIR$ -s "$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/.metadata/product.json" --compiler iar $FILE_PATH$
 </cmdline>
-                <hasPrio>96</hasPrio>
+                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
                 <outputs>
                     <file>

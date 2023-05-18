@@ -161,7 +161,7 @@
 #endif // Z_POWER_TEST
 #include "ti_drivers_config.h"
 #include <ti/drivers/UART2.h>
-
+#include <ti/drivers/apps/LED.h>
 /*********************************************************************
  * MACROS
  */
@@ -189,6 +189,8 @@ uint8_t zclSampleSwSeqNum;
 uint8_t zclSampleSw_OnOffSwitchType = ON_OFF_SWITCH_CONFIGURATION_SWITCH_TYPE_MOMENTARY;
 
 uint8_t zclSampleSw_OnOffSwitchActions;
+
+LED_Handle L_handle;
 
 /*********************************************************************
  * GLOBAL FUNCTIONS
@@ -589,6 +591,13 @@ static void zclSampleSw_initialization(void)
     uart0= UART2_open(CONFIG_UART2_0, &uartParams);
     UART2_rxEnable(uart0);
     UART2_read(uart0,UART_readBuff,26,NULL);
+    LED_Params ledParams;
+    LED_Params_init(&ledParams);
+    L_handle = LED_open(CONFIG_LED_RED, &ledParams);
+    LED_setOn(L_handle, 80);
+    LED_startBlinking(L_handle, 500, LED_BLINK_FOREVER);
+    //GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
+
     
 }
 
@@ -740,9 +749,8 @@ static void zclSampleSw_Init( void )
   // Call BDB initialization. Should be called once from application at startup to restore
   // previous network configuration, if applicable.
   zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
-  zstack_bdbStartCommissioningReq.commissioning_mode = //设备入网
-    BDB_COMMISSIONING_MODE_NWK_STEERING | //支持Network Steering
-    BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Finding and Binding（F & B）
+  zstack_bdbStartCommissioningReq.commissioning_mode = 0;// | //支持Network Steering
+    //BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Finding and Binding（F & B）
 
   Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
 }
@@ -1786,8 +1794,9 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_FORMATION:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
-        //findparent=true;
-        //GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
+        findparent=true;
+        LED_stopBlinking(L_handle);
+        LED_setOn(L_handle, 80);
         //YOUR JOB:
       }
       else
@@ -1800,7 +1809,8 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
         findparent=true;
-        GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
+        LED_stopBlinking(L_handle);
+        LED_setOn(L_handle, 80);
         //YOUR JOB:
         //We are on the nwk, what now?
 #if defined (Z_POWER_TEST)
@@ -1850,11 +1860,15 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
         findparent=true;
-        GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_ON);
+        LED_stopBlinking(L_handle);
+        LED_setOn(L_handle, 80);
         //YOUR JOB:
       }
       else
       {
+        zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
+        zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_NWK_STEERING|BDB_COMMISSIONING_MODE_FINDING_BINDING;
+        Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
         //YOUR JOB:
         //retry?, wait for user interaction?
       }
@@ -1862,7 +1876,10 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_INITIALIZATION:
       //Initialization notification can only be successful. Failure on initialization
       //only happens for ZED and is notified as BDB_COMMISSIONING_PARENT_LOST notification
+        zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
+        zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_NWK_STEERING|BDB_COMMISSIONING_MODE_FINDING_BINDING;
 
+        Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
       //YOUR JOB:
       //We are on a network, what now?
 
@@ -1872,7 +1889,7 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_NETWORK_RESTORED)
       {
         findparent=false;
-        GPIO_write(CONFIG_LED_RED,CONFIG_GPIO_LED_OFF);
+        LED_startBlinking(L_handle,500,LED_BLINK_FOREVER);
         //We did recover from losing parent
       }
       else

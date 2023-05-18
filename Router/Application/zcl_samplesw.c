@@ -162,6 +162,7 @@
 #include "ti_drivers_config.h"
 #include <ti/drivers/UART2.h>
 #include "zcl.h"
+#include <ti/drivers/apps/LED.h>
 /*********************************************************************
  * MACROS
  */
@@ -188,6 +189,7 @@ uint8_t zclSampleSw_OnOffSwitchType = ON_OFF_SWITCH_CONFIGURATION_SWITCH_TYPE_MO
 
 uint8_t zclSampleSw_OnOffSwitchActions;
 
+LED_Handle L_handle;
 /*********************************************************************
  * GLOBAL FUNCTIONS
  */
@@ -512,6 +514,12 @@ static void zclSampleSw_initialization(void)
     uartParams.stopBits = UART2_StopBits_1;
     uartParams.dataLength = UART2_DataLen_8;
     uart = UART2_open(CONFIG_UART2_0, &uartParams);
+    LED_Params ledParams;
+    LED_Params_init(&ledParams);
+    L_handle = LED_open(CONFIG_LED_GREEN, &ledParams);
+    LED_setOn(L_handle, 80);
+    LED_startBlinking(L_handle, 500, LED_BLINK_FOREVER);
+    //LED_stopBlinking(L_handle);
 }
 
 
@@ -663,8 +671,8 @@ static void zclSampleSw_Init( void )
   // Call BDB initialization. Should be called once from application at startup to restore
   // previous network configuration, if applicable.
   zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
-  zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_MODE_NWK_FORMATION | //支持Network Formation
-                                                     BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Finding and Binding（F & B）
+  zstack_bdbStartCommissioningReq.commissioning_mode =0;//BDB_COMMISSIONING_MODE_NWK_FORMATION; //支持Network Formation
+  //BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Finding and Binding（F & B）
   Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
 }
 
@@ -1699,10 +1707,16 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_FORMATION:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
+        LED_stopBlinking(L_handle);
+        LED_setOn(L_handle, 80);
         //YOUR JOB:
       }
       else
       {
+        zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
+        zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_MODE_NWK_FORMATION|BDB_COMMISSIONING_MODE_FINDING_BINDING;
+        //支持Finding and Binding（F & B）
+        Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
         //Want to try other channels?
         //try with bdb_setChannelAttribute
       }
@@ -1710,6 +1724,8 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_NWK_STEERING:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
+        LED_stopBlinking(L_handle);
+        LED_setOn(L_handle, 80);
         //YOUR JOB:
         //We are on the nwk, what now?
 #if defined (Z_POWER_TEST)
@@ -1758,15 +1774,25 @@ static void zclSampleSw_ProcessCommissioningStatus(bdbCommissioningModeMsg_t *bd
     case BDB_COMMISSIONING_FINDING_BINDING:
       if(bdbCommissioningModeMsg->bdbCommissioningStatus == BDB_COMMISSIONING_SUCCESS)
       {
+        LED_stopBlinking(L_handle);
+        LED_setOn(L_handle, 80);
         //YOUR JOB:
       }
       else
       {
+        zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
+        zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_MODE_NWK_FORMATION|BDB_COMMISSIONING_MODE_FINDING_BINDING;
+        //支持Finding and Binding（F & B）
+        Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
         //YOUR JOB:
         //retry?, wait for user interaction?
       }
     break;
     case BDB_COMMISSIONING_INITIALIZATION:
+        zstack_bdbStartCommissioningReq_t zstack_bdbStartCommissioningReq;
+        zstack_bdbStartCommissioningReq.commissioning_mode =BDB_COMMISSIONING_MODE_NWK_FORMATION|BDB_COMMISSIONING_MODE_FINDING_BINDING; //支持Network Formation
+        //支持Finding and Binding（F & B）
+        Zstackapi_bdbStartCommissioningReq(appServiceTaskId,&zstack_bdbStartCommissioningReq);
       //Initialization notification can only be successful. Failure on initialization
       //only happens for ZED and is notified as BDB_COMMISSIONING_PARENT_LOST notification
 
