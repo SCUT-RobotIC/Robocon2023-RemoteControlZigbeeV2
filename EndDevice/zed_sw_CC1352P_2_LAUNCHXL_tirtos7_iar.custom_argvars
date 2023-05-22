@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iarUserArgVars>
-    <group name="SIMPLELINK_CC13XX_CC26XX_SDK" active="true" />
-</iarUserArgVars>
+<iarUserArgVars />

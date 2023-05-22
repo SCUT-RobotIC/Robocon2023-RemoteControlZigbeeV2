@@ -14,15 +14,13 @@
 
 "--xds_hib_address=0x10001932,0x10001214" 
 
-"--drv_communication_log=F:\Zigbee_communication\EndDevice\cspycomm.log" 
-
 "--drv_communication=USB0" 
 
 "--drv_interface_speed=auto" 
 
 "--jlink_initial_speed=1000" 
 
-"--jlink_reset_strategy=0,2" 
+"--jlink_reset_strategy=0,0" 
 
 "--drv_interface=CJTAG" 
 

@@ -16,5 +16,5 @@ F:\Zigbee_communication\EndDevice\default\BrowseInfo\ZED\ Sw\Stack\ROM\icall_osa
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
   F:\Zigbee_communication\EndDevice\Stack\ROM\rom_jt_def_154.h \
   F:\Zigbee_communication\EndDevice\Stack\HAL\Platform\hal_types.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\drivers\dpl\ClockP.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\dpl\ClockP.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stddef.h

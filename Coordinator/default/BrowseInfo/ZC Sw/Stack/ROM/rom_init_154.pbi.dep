@@ -1,0 +1,10 @@
+F:\Zigbee_communication\Coordinator\default\BrowseInfo\ZC\ Sw\Stack\ROM\rom_init_154.pbi: \
+  F:\Zigbee_communication\Coordinator\Stack\ROM\rom_init_154.c \
+  F:\Zigbee_communication\Coordinator\Stack\ROM\rom_jt_def_154.h \
+  F:\Zigbee_communication\Coordinator\Stack\HAL\Platform\hal_types.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h

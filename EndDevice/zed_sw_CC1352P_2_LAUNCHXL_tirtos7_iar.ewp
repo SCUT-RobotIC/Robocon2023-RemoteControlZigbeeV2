@@ -246,7 +246,6 @@
                     <state>ZCL_SCENES</state>
                     <state>ZCL_GROUPS</state>
                     <state>ZCL_ON_OFF</state>
-                    <state>ZCL_REPORT_DESTINATION_DEVICE</state>
                     <state>TIMAC_ROM_PATCH</state>
                     <state>CUI_DISABLE</state>
                     <state>MAX_STATUS_LINES=10</state>
@@ -406,7 +405,6 @@
                     <state>$PROJ_DIR$</state>
                     <state>$PROJ_DIR$/Application/StartUp</state>
                     <state>$PROJ_DIR$/Application/Services</state>
-                    <state>$PROJ_DIR$/Application/ui</state>
                     <state>$PROJ_DIR$/Application/util</state>
                     <state>$PROJ_DIR$/Application/ZStackApi</state>
                     <state>$PROJ_DIR$/Common/gp</state>
@@ -698,7 +696,7 @@
                 </option>
                 <option>
                     <name>AOutputFile</name>
-                    <state></state>
+                    <state>$FILE_BNAME$.o</state>
                 </option>
                 <option>
                     <name>ALimitErrorsCheck</name>
@@ -771,7 +769,7 @@
                 <extensions>.syscfg</extensions>
                 <cmdline>$SYSCONFIG_ROOT$/sysconfig_cli.bat -o $PROJ_DIR$ -s "$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/.metadata/product.json" --compiler iar $FILE_PATH$
 </cmdline>
-                <hasPrio>1</hasPrio>
+                <hasPrio>112</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
                 <outputs>
                     <file>

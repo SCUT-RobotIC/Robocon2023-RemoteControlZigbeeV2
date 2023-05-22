@@ -1,6 +1,6 @@
 F:\Zigbee_communication\EndDevice\default\BrowseInfo\ZED\ Sw\Application\Services\crc.pbi: \
   F:\Zigbee_communication\EndDevice\Application\Services\crc.c \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_6_41_00_17\source\ti\common\nv\crc.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\crc.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
