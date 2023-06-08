@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "F:\Zigbee_communication\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.general.xcl" --backend -f "F:\Zigbee_communication\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.general.xcl" --backend -f "F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "F:\Zigbee_communication\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.general.xcl" --debug_file=$debugfile --backend -f "F:\Zigbee_communication\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.general.xcl" --debug_file=$debugfile --backend -f "F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\settings\zc_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.default.driver.xcl" 
 }

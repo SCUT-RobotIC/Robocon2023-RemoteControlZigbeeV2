@@ -227,16 +227,16 @@ GPIO_PinConfig gpioPinConfigs[31] = {
     /* Owned by CONFIG_SPI_0 as SCLK */
     GPIO_CFG_OUTPUT_INTERNAL | GPIO_CFG_OUT_STR_MED | GPIO_CFG_OUT_LOW, /* CONFIG_PIN_SPI_SCLK */
     GPIO_CFG_NO_DIR, /* DIO_11 */
-    GPIO_CFG_NO_DIR, /* DIO_12 */
-    GPIO_CFG_NO_DIR, /* DIO_13 */
-    /* Owned by CONFIG_BTN_RIGHT as Button GPIO */
-    GPIO_CFG_INPUT_INTERNAL | GPIO_CFG_IN_INT_NONE | GPIO_CFG_PULL_UP_INTERNAL, /* CONFIG_GPIO_BTN2 */
-    /* Owned by CONFIG_BTN_LEFT as Button GPIO */
-    GPIO_CFG_INPUT_INTERNAL | GPIO_CFG_IN_INT_NONE | GPIO_CFG_PULL_UP_INTERNAL, /* CONFIG_GPIO_BTN1 */
     /* Owned by CONFIG_UART2_0 as RX */
     GPIO_CFG_INPUT_INTERNAL | GPIO_CFG_IN_INT_NONE | GPIO_CFG_PULL_DOWN_INTERNAL, /* CONFIG_GPIO_UART2_0_RX */
     /* Owned by CONFIG_UART2_0 as TX */
     GPIO_CFG_OUTPUT_INTERNAL | GPIO_CFG_OUT_STR_MED | GPIO_CFG_OUT_HIGH, /* CONFIG_GPIO_UART2_0_TX */
+    /* Owned by CONFIG_BTN_RIGHT as Button GPIO */
+    GPIO_CFG_INPUT_INTERNAL | GPIO_CFG_IN_INT_NONE | GPIO_CFG_PULL_UP_INTERNAL, /* CONFIG_GPIO_BTN2 */
+    /* Owned by CONFIG_BTN_LEFT as Button GPIO */
+    GPIO_CFG_INPUT_INTERNAL | GPIO_CFG_IN_INT_NONE | GPIO_CFG_PULL_UP_INTERNAL, /* CONFIG_GPIO_BTN1 */
+    GPIO_CFG_NO_DIR, /* DIO_16 */
+    GPIO_CFG_NO_DIR, /* DIO_17 */
     GPIO_CFG_NO_DIR, /* DIO_18 */
     GPIO_CFG_NO_DIR, /* DIO_19 */
     /* Owned by CONFIG_NVS_SPI_0 as Button GPIO */
@@ -769,9 +769,9 @@ const uint_least8_t TRNG_count = CONFIG_TRNG_COUNT;
 
 UART2CC26X2_Object uart2CC26X2Objects[CONFIG_UART2_COUNT];
 
-static unsigned char uart2RxRingBuffer0[32];
+static unsigned char uart2RxRingBuffer0[64];
 /* TX ring buffer allocated to be used for nonblocking mode */
-static unsigned char uart2TxRingBuffer0[32];
+static unsigned char uart2TxRingBuffer0[64];
 
 ALLOCATE_CONTROL_TABLE_ENTRY(dmaUart0RxControlTableEntry, UDMA_CHAN_UART0_RX);
 ALLOCATE_CONTROL_TABLE_ENTRY(dmaUart0TxControlTableEntry, UDMA_CHAN_UART0_TX);
@@ -780,7 +780,7 @@ static const UART2CC26X2_HWAttrs uart2CC26X2HWAttrs[CONFIG_UART2_COUNT] = {
   {
     .baseAddr           = UART0_BASE,
     .intNum             = INT_UART0_COMB,
-    .intPriority        = 0x80,
+    .intPriority        = 0x20,
     .rxPin              = CONFIG_GPIO_UART2_0_RX,
     .txPin              = CONFIG_GPIO_UART2_0_TX,
     .ctsPin             = GPIO_INVALID_INDEX,

@@ -33,5 +33,5 @@
 
 /* libraries required for /ti/zstack */
 "ti/ti154stack/lib/iar/m4f/maclib_nosecure_cc13x2_2_4g_tirtos7.a"
-"ti/zstack/lib/iar/m4f/libZStack_nwk_zed.a"
+"ti/zstack/lib/iar/m4f/libZStack_nwk_zr.a"
 

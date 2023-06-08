@@ -780,7 +780,7 @@ static const UART2CC26X2_HWAttrs uart2CC26X2HWAttrs[CONFIG_UART2_COUNT] = {
   {
     .baseAddr           = UART0_BASE,
     .intNum             = INT_UART0_COMB,
-    .intPriority        = (~0),
+    .intPriority        = 0x20,
     .rxPin              = CONFIG_GPIO_UART2_0_RX,
     .txPin              = CONFIG_GPIO_UART2_0_TX,
     .ctsPin             = GPIO_INVALID_INDEX,

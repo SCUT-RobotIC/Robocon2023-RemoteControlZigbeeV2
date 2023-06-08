@@ -50,7 +50,7 @@
  *        11 - 26 : 2.4 GHz     0x07FFF800
  */
 #ifndef DEFAULT_CHANLIST
-#define DEFAULT_CHANLIST              0x00100000
+#define DEFAULT_CHANLIST              0x00007800
 #endif
 
 #ifndef SECONDARY_CHANLIST
@@ -156,7 +156,7 @@
 
 /* The number of milliseconds to wait between data request polls to the coordinator. */
 #ifndef TXPOWER
-#define TXPOWER                     0
+#define TXPOWER                     20
 #endif
 
 /****************************************

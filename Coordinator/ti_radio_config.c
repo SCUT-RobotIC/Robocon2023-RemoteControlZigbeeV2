@@ -116,7 +116,7 @@ RF_TxPowerTable_Entry txPowerTable_2400_pa5_20[TXPOWERTABLE_2400_PA5_20_SIZE] =
 
 // PARAMETER SUMMARY
 // Channel - Frequency (MHz): 2405
-// TX Power (dBm): 0
+// TX Power (dBm): 20
 
 // TI-RTOS RF Mode Object
 RF_Mode RF_prop_ieee154 =
@@ -135,6 +135,42 @@ uint32_t pOverrides_ieee154[] =
     (uint32_t)0x000F8883,
     // Tx: Set DCDC settings IPEAK=3, dither = off
     (uint32_t)0x00F388D3,
+    (uint32_t)0xFFFFFFFF
+};
+
+// Overrides for CMD_RADIO_SETUP_PA
+uint32_t pOverrides_ieee154TxStd[] =
+{
+    // override_txstd_placeholder.json
+    // TX Standard power override
+    TX_STD_POWER_OVERRIDE(0x7217),
+    // The ANADIV radio parameter based on LO divider and front end settings
+    (uint32_t)0x05320703,
+    // override_txstd_settings.json
+    // Set RTIM offset to default for standard PA
+    (uint32_t)0x00008783,
+    // Set synth mux to default value for standard PA
+    (uint32_t)0x050206C3,
+    // Set TXRX pin to 0 in RX and high impedance in idle/TX. 
+    HW_REG_OVERRIDE(0x60A8,0x0401),
+    (uint32_t)0xFFFFFFFF
+};
+
+// Overrides for CMD_RADIO_SETUP_PA
+uint32_t pOverrides_ieee154Tx20[] =
+{
+    // override_tx20_placeholder.json
+    // TX HighPA power override
+    TX20_POWER_OVERRIDE(0x003F75F5),
+    // The ANADIV radio parameter based on LO divider and front end settings
+    (uint32_t)0x01C20703,
+    // override_tx20_settings.json
+    // Set RTIM offset to 3 for high power PA
+    (uint32_t)0x00038783,
+    // Set synth mux for high power PA
+    (uint32_t)0x010206C3,
+    // Set TXRX pin to 0 in RX/TX and high impedance in idle. 
+    HW_REG_OVERRIDE(0x60A8,0x0001),
     (uint32_t)0xFFFFFFFF
 };
 
@@ -161,10 +197,10 @@ const rfc_CMD_RADIO_SETUP_PA_t RF_cmdRadioSetup_ieee154 =
     .config.analogCfgMode = 0x0,
     .config.bNoFsPowerUp = 0x0,
     .config.bSynthNarrowBand = 0x0,
-    .txPower = 0x2853,
+    .txPower = 0xFFFF,
     .pRegOverride = pOverrides_ieee154,
-    .pRegOverrideTxStd = 0,
-    .pRegOverrideTx20 = 0
+    .pRegOverrideTxStd = pOverrides_ieee154TxStd,
+    .pRegOverrideTx20 = pOverrides_ieee154Tx20
 };
 
 // CMD_FS

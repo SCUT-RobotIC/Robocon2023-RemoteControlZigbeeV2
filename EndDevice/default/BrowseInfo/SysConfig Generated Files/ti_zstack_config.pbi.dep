@@ -1,6 +1,6 @@
-F:\Zigbee_communication\EndDevice\default\BrowseInfo\SysConfig\ Generated\ Files\ti_zstack_config.pbi: \
-  F:\Zigbee_communication\EndDevice\ti_zstack_config.c \
-  F:\Zigbee_communication\EndDevice\ti_zstack_config.h \
+F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\SysConfig\ Generated\ Files\ti_zstack_config.pbi: \
+  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.c \
+  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\rf\RF.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\DeviceFamily.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\rf\RFCC26X2.h \
@@ -24,8 +24,8 @@ F:\Zigbee_communication\EndDevice\default\BrowseInfo\SysConfig\ Generated\ Files
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\rf_common_cmd.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\rf_ble_cmd.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\low_level\cc13xx\mac.h \
-  F:\Zigbee_communication\EndDevice\Stack\HAL\Platform\hal_types.h \
-  F:\Zigbee_communication\EndDevice\Application\Services\saddr.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_types.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\services\saddr\saddr.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\low_level\cc13xx\mac_settings.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\rf_ieee_mailbox.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\rf_ieee_cmd.h \
@@ -42,15 +42,15 @@ F:\Zigbee_communication\EndDevice\default\BrowseInfo\SysConfig\ Generated\ Files
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\config\ti_154stack_features.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\config\ti_154stack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\rf_ieee_cmd.h \
-  F:\Zigbee_communication\EndDevice\Stack\HAL\RF\rf_mac_api.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\rf\rf_mac_api.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\low_level\cc13xx\mac_autopend.h \
-  F:\Zigbee_communication\EndDevice\Stack\MAC\HighLevel\mac_high_level.h \
-  F:\Zigbee_communication\EndDevice\Stack\MAC\mac_api.h \
-  F:\Zigbee_communication\EndDevice\Application\Services\sdata.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\high_level\mac_high_level.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\inc\mac_api.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\services\sdata\sdata.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\high_level\mac_ie_parse.h \
-  F:\Zigbee_communication\EndDevice\Stack\HAL\Platform\hal_mcu.h \
-  F:\Zigbee_communication\EndDevice\Stack\HAL\Platform\hal_defs.h \
-  F:\Zigbee_communication\EndDevice\Stack\HAL\Platform\hal_types.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_mcu.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_types.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\inc\hw_nvic.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\inc\hw_ints.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\inc\hw_types.h \

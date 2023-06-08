@@ -156,7 +156,7 @@
 
 /* The number of milliseconds to wait between data request polls to the coordinator. */
 #ifndef TXPOWER
-#define TXPOWER                     18
+#define TXPOWER                     20
 #endif
 
 /****************************************
@@ -165,11 +165,11 @@
 
 /* Determine whether the radio on an End Device is always on */
 #ifndef RFD_RX_ALWAYS_ON_CAPABLE
-#define RFD_RX_ALWAYS_ON_CAPABLE            FALSE
+#define RFD_RX_ALWAYS_ON_CAPABLE            TRUE
 #endif
 
 #ifndef RFD_RX_ALWAYS_ON
-#define RFD_RX_ALWAYS_ON                    FALSE
+#define RFD_RX_ALWAYS_ON                    TRUE
 #endif
 
 /* The minimum poll rate. */
@@ -211,7 +211,7 @@
 
 /* Total Number of APS keys that a TC can manage. This is equal to the number of devices a ZC can allow to join the network */
 #ifndef ZDSECMGR_TC_DEVICE_MAX
-#define ZDSECMGR_TC_DEVICE_MAX        3
+#define ZDSECMGR_TC_DEVICE_MAX        40
 #endif
 
 /* Value used by end device when sending End Device Timeout Request */

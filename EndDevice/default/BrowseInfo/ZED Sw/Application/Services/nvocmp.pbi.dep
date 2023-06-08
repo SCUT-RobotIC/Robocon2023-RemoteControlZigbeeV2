@@ -1,5 +1,5 @@
-F:\Zigbee_communication\EndDevice\default\BrowseInfo\ZED\ Sw\Application\Services\nvocmp.pbi: \
-  F:\Zigbee_communication\EndDevice\Application\Services\nvocmp.c \
+F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Application\Services\nvocmp.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\nvocmp.c \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\string.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
@@ -32,9 +32,9 @@ F:\Zigbee_communication\EndDevice\default\BrowseInfo\ZED\ Sw\Application\Service
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\knl\Event_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\knl\Semaphore_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\gates\GateMutexPri_defs.h \
-  F:\Zigbee_communication\EndDevice\Application\Services\nvocmp.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\nvocmp.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\NVS.h \
-  F:\Zigbee_communication\EndDevice\Application\Services\nvintf.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\nvintf.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\crc.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product_stdlib.h \

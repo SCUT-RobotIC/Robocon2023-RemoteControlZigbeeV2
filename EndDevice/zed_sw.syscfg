@@ -68,6 +68,7 @@ CCFG.forceVddr                = true;
 CCFG.ccfgTemplate.$name       = "ti_devices_CCFG_CCFGCC26XXTemplate0";
 
 rfdesign.rfDesign = "LAUNCHXL-CC1352P-2";
+rfdesign.fbSub1g  = "none";
 
 AESCBC1.$name = "CONFIG_AESCBC_0";
 
@@ -99,10 +100,8 @@ SHA21.$name = "CONFIG_SHA2_0";
 
 TRNG1.$name = "CONFIG_TRNG_0";
 
-UART21.$name            = "CONFIG_UART2_0";
-UART21.$hardware        = system.deviceData.board.components.XDS110UART;
-UART21.rxRingBufferSize = 64;
-UART21.txRingBufferSize = 64;
+UART21.$name     = "CONFIG_UART2_0";
+UART21.$hardware = system.deviceData.board.components.XDS110UART;
 
 Button1.$name         = "CONFIG_BTN_LEFT";
 Button1.$hardware     = system.deviceData.board.components["BTN-1"];
@@ -180,9 +179,10 @@ zstack.deviceTypeReadOnly                    = true;
 zstack.touchlink.$name                       = "ti_zstack_touchlink_zstack_touchlink0";
 zstack.pm.$name                              = "ti_zstack_pm_zstack_pm0";
 zstack.rf.$name                              = "ti_zstack_rf_zstack_rf0";
-zstack.rf.primaryChannels                    = [11,12,13,14];
+zstack.rf.primaryChannels                    = [11,12];
 zstack.rf.txPower                            = "18";
 zstack.rf.radioConfig.$name                  = "ti_devices_radioconfig_settings_ieee_15_40";
+zstack.rf.radioConfig.txPowerHi              = "18";
 zstack.rf.radioConfig.codeExportConfig.$name = "ti_devices_radioconfig_code_export_param0";
 zstack.rf.coexSettings.$name                 = "ti_zstack_rf_zstack_coex_mod0";
 zstack.network.$name                         = "ti_zstack_network_zstack_network0";

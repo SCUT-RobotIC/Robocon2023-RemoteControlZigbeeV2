@@ -1463,77 +1463,77 @@
             <group>
                 <name>Services</name>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\crc.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\common\nv\crc.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\nvintf.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\common\nv\nvintf.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\nvocmp.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\common\nv\nvocmp.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\nvocmp.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\common\nv\nvocmp.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\saddr.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\services\saddr\saddr.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\saddr.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\services\saddr\saddr.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\Services\sdata.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\services\sdata\sdata.h</name>
                 </file>
             </group>
             <group>
                 <name>StartUp</name>
                 <file>
-                    <name>$PROJ_DIR$\Application\StartUp\main.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\startup\main.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\StartUp\zstackstartup.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\startup\zstackstartup.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\StartUp\zstackstartup.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\startup\zstackstartup.h</name>
                 </file>
             </group>
             <group>
                 <name>util</name>
                 <file>
-                    <name>$PROJ_DIR$\Application\util\mac_util.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\util\mac_util.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\util\mac_util.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\util\mac_util.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\util\utc_clock.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\common\time\utc_clock.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\util\utc_clock.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\common\time\utc_clock.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\util\util_timer.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\util\util_timer.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\util\util_timer.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\util\util_timer.h</name>
                 </file>
             </group>
             <group>
                 <name>ZStackApi</name>
                 <file>
-                    <name>$PROJ_DIR$\Application\ZStackApi\zstackapi.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstackapi.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Application\ZStackApi\zstackapi.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstackapi.h</name>
                 </file>
             </group>
             <file>
-                <name>$PROJ_DIR$\Application\zcl_samplesw.c</name>
+                <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\apps\sw\zcl_samplesw.c</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\Application\zcl_samplesw.h</name>
+                <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\apps\sw\zcl_samplesw.h</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\Application\zcl_samplesw_data.c</name>
+                <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\apps\sw\zcl_samplesw_data.c</name>
             </file>
         </group>
         <group>
@@ -1541,85 +1541,85 @@
             <group>
                 <name>gp</name>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_bit_fields.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_bit_fields.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_bit_fields.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_bit_fields.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_common.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_common.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_common.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_common.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_interface.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_interface.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_proxy.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_proxy.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_proxy.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_proxy.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\gp\gp_proxy_table.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\gp_proxy_table.c</name>
                 </file>
             </group>
             <group>
                 <name>touchlink</name>
                 <file>
-                    <name>$PROJ_DIR$\Common\touchlink\bdb_tl_commissioning.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\touchlinkapp\bdb_tl_commissioning.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\touchlink\bdb_tl_commissioning.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\touchlinkapp\bdb_tl_commissioning.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\touchlink\touchlink_initiator_app.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\touchlinkapp\touchlink_initiator_app.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\touchlink\touchlink_initiator_app.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\touchlinkapp\touchlink_initiator_app.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\touchlink\touchlink_target_app.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\touchlinkapp\touchlink_target_app.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\touchlink\touchlink_target_app.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\touchlinkapp\touchlink_target_app.h</name>
                 </file>
             </group>
             <group>
                 <name>zcl</name>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_datatypes.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_datatypes.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_general.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_general.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_general.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_general.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_green_power.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_green_power.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_green_power.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_green_power.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_ha.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ha.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_ha.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ha.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_port.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_port.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Common\zcl\zcl_port.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_port.h</name>
                 </file>
             </group>
         </group>
@@ -1630,130 +1630,130 @@
                 <group>
                     <name>zcl</name>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_control.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_control.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_control.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_control.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_events_alerts.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_events_alerts.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_events_alerts.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_events_alerts.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_identification.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_identification.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_statistics.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_statistics.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_appliance_statistics.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_appliance_statistics.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_cc.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_cc.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_cc.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_cc.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_cert_data.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_cert_data.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_closures.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_closures.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_closures.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_closures.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_diagnostic.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_diagnostic.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_diagnostic.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_diagnostic.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_electrical_measurement.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_electrical_measurement.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_electrical_measurement.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_electrical_measurement.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_hvac.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_hvac.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_hvac.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_hvac.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_lighting.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_lighting.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_lighting.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_lighting.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ll.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ll.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ll.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ll.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ms.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ms.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ms.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ms.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ota.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ota.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ota.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ota.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_partition.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_partition.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_partition.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_partition.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_pi.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_pi.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_pi.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_pi.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_poll_control.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_poll_control.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_poll_control.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_poll_control.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_power_profile.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_power_profile.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_power_profile.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_power_profile.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_retail.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_retail.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_retail.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_retail.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_se.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_se.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_se.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_se.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ss.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ss.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_ss.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_ss.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_telecommunication.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_telecommunication.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Excluded_From_Build\Common\zcl\zcl_telecommunication.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zcl\zcl_telecommunication.h</name>
                     </file>
                 </group>
             </group>
@@ -1766,49 +1766,49 @@
             <group>
                 <name>af</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\af\af.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\af\af.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\af\af.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\af\af.h</name>
                 </file>
             </group>
             <group>
                 <name>bdb</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_finding_and_binding.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_finding_and_binding.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_interface.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_interface.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_reporting.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_reporting.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_reporting.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_reporting.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_touchlink.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_touchlink.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink_initiator.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_touchlink_initiator.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink_initiator.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_touchlink_initiator.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink_target.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_touchlink_target.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\bdb\bdb_touchlink_target.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\bdb\bdb_touchlink_target.h</name>
                 </file>
             </group>
             <group>
@@ -1817,19 +1817,19 @@
                     <name>$PROJ_DIR$\Stack\Config\f8wcoord.opts</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\Config\mac_user_config.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\boards\mac_user_config.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\Config\mac_user_config.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\boards\mac_user_config.h</name>
                 </file>
             </group>
             <group>
                 <name>gp</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\gp\cgp_stub.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\cgp_stub.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\gp\dgp_stub.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\gp\dgp_stub.h</name>
                 </file>
             </group>
             <group>
@@ -1837,25 +1837,25 @@
                 <group>
                     <name>Crypto</name>
                     <file>
-                        <name>$PROJ_DIR$\Stack\HAL\Crypto\crypto_mac_api.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\hal\crypto\crypto_mac_api.h</name>
                     </file>
                 </group>
                 <group>
                     <name>Platform</name>
                     <file>
-                        <name>$PROJ_DIR$\Stack\HAL\Platform\hal_defs.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\hal\platform\hal_defs.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\HAL\Platform\hal_mcu.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\hal\platform\hal_mcu.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\HAL\Platform\hal_types.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\hal\platform\hal_types.h</name>
                     </file>
                 </group>
                 <group>
                     <name>RF</name>
                     <file>
-                        <name>$PROJ_DIR$\Stack\HAL\RF\rf_mac_api.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\hal\rf\rf_mac_api.h</name>
                     </file>
                 </group>
             </group>
@@ -1864,292 +1864,292 @@
                 <group>
                     <name>Debug</name>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\Debug\dbg.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\tracer\dbg.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\Debug\dbg.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\tracer\dbg.h</name>
                     </file>
                 </group>
                 <group>
                     <name>HighLevel</name>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\HighLevel\mac_cfg.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\high_level\mac_cfg.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\HighLevel\mac_high_level.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\high_level\mac_high_level.h</name>
                     </file>
                 </group>
                 <group>
                     <name>LowLevel</name>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_activity.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_activity.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_activity.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_activity.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_assert.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_assert.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_rx.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_rx.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_settings.c</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_settings.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_settings.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_settings.h</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\Stack\MAC\LowLevel\mac_tx.h</name>
+                        <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\low_level\cc13xx\mac_tx.h</name>
                     </file>
                 </group>
                 <file>
-                    <name>$PROJ_DIR$\Stack\MAC\mac_api.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\inc\mac_api.h</name>
                 </file>
             </group>
             <group>
                 <name>nwk</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\addr_mgr.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\addr_mgr.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\aps.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\aps.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\aps_frag.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\aps_frag.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\aps_groups.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\aps_groups.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\aps_mede.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\aps_mede.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\aps_util.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\aps_util.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\assoc_list.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\assoc_list.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\binding_table.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\binding_table.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\binding_table.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\binding_table.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\nl_mede.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\nl_mede.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\nwk.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\nwk.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\nwk_bufs.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\nwk_bufs.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\nwk_globals.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\nwk_globals.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\nwk_globals.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\nwk_globals.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\nwk_util.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\nwk_util.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\reflecttrack.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\reflecttrack.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\rtg.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\rtg.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\stub_aps.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\stub_aps.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\nwk\stub_aps.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\nwk\stub_aps.h</name>
                 </file>
             </group>
             <group>
                 <name>osal_port</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\osal_port\osal_nv.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\osal\osal_nv.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\osal_port\osal_nv.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\osal\osal_nv.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\osal_port\osal_port.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\osal_port\osal_port_posix\osal_port.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\osal_port\osal_port.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\osal_port\osal_port.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\osal_port\osal_port_timers.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\osal_port\osal_port_posix\osal_port_timers.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\osal_port\osal_port_timers.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\common\osal_port\osal_port_timers.h</name>
                 </file>
             </group>
             <group>
                 <name>ROM</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\fh_map_direct.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\fh_map_direct.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\fh_rom_init.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\fh_rom_init.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\fh_rom_jt.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\fh_rom_jt.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\hmac_map_direct.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\hmac_map_direct.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\hmac_rom_init.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\hmac_rom_init.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\hmac_rom_jt.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\hmac_rom_jt.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\icall_osal_map_direct.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\icall_osal_map_direct.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\icall_osal_rom_init.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\icall_osal_rom_init.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\icall_osal_rom_jt.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\icall_osal_rom_jt.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\lmac_map_direct.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\lmac_map_direct.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\lmac_rom_init.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\lmac_rom_init.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\lmac_rom_jt.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\lmac_rom_jt.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\rom_init_154.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\rom_init_154.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\rom_jt_154.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\rom_jt_154.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ROM\rom_jt_def_154.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\ti154stack\rom\rom_jt_def_154.h</name>
                 </file>
             </group>
             <group>
                 <name>sec</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sec\eccapi.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sec\eccapi.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sec\ssp.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sec\ssp.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sec\ssp_hash.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sec\ssp_hash.h</name>
                 </file>
             </group>
             <group>
                 <name>sys</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sys\comdef.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sys\comdef.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sys\zcomdef.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sys\zcomdef.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sys\zdiags.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sys\zdiags.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sys\zdiags.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sys\zdiags.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sys\zglobals.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sys\zglobals.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\sys\zglobals.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\sys\zglobals.h</name>
                 </file>
             </group>
             <group>
                 <name>zdo</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_app.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_app.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_app.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_app.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_config.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_config.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_config.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_config.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_nwk_mgr.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_nwk_mgr.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_nwk_mgr.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_nwk_mgr.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_object.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_object.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_object.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_object.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_profile.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_profile.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_profile.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_profile.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_sec_mgr.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_sec_mgr.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zdo\zd_sec_mgr.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\zdo\zd_sec_mgr.h</name>
                 </file>
             </group>
             <group>
                 <name>zmac</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zmac\zmac.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\zmac\f8w\zmac.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zmac\zmac.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\zmac\zmac.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zmac\zmac_cb.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\zmac\f8w\zmac_cb.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\zmac\zmac_internal.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\zmac\f8w\zmac_internal.h</name>
                 </file>
             </group>
             <group>
                 <name>ZStackTask</name>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ZStackTask\zstack.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstack.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ZStackTask\zstackconfig.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstackconfig.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ZStackTask\zstackmsg.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstackmsg.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ZStackTask\zstacktask.c</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstacktask.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ZStackTask\zstacktask.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zstacktask.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\Stack\ZStackTask\zsversion.h</name>
+                    <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\stack\api\zsversion.h</name>
                 </file>
             </group>
         </group>
         <file>
-            <name>$PROJ_DIR$\Board.html</name>
+            <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\boards\CC1352P_2_LAUNCHXL\Board.html</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\cc13x2_cc26x2.icf</name>
+            <name>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$\source\ti\zstack\boards\cc13x2_cc26x2\cc13x2_cc26x2.icf</name>
         </file>
         <file>
             <name>$PROJ_DIR$\zc_sw.syscfg</name>

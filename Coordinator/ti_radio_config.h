@@ -59,9 +59,9 @@ extern RF_TxPowerTable_Entry txPowerTable_2400_pa5_20[]; // 2400 MHz, 5 + 20 dBm
 //*********************************************************************************
 
 // PA table usage
-#define TX_POWER_TABLE_SIZE_ieee154 TXPOWERTABLE_2400_PA5_SIZE
+#define TX_POWER_TABLE_SIZE_ieee154 TXPOWERTABLE_2400_PA5_20_SIZE
 
-#define txPowerTable_ieee154 txPowerTable_2400_pa5
+#define txPowerTable_ieee154 txPowerTable_2400_pa5_20
 
 // TI-RTOS RF Mode object
 extern RF_Mode RF_prop_ieee154;
@@ -76,5 +76,7 @@ extern const rfc_CMD_IEEE_RX_ACK_t RF_cmdIeeeRxAck_ieee154;
 
 // RF Core API overrides
 extern uint32_t pOverrides_ieee154[];
+extern uint32_t pOverrides_ieee154TxStd[];
+extern uint32_t pOverrides_ieee154Tx20[];
 
 #endif // _TI_RADIO_CONFIG_H_

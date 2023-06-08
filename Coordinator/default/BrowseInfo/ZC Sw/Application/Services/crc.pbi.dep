@@ -1,5 +1,5 @@
-F:\Zigbee_communication\Coordinator\default\BrowseInfo\ZC\ Sw\Application\Services\crc.pbi: \
-  F:\Zigbee_communication\Coordinator\Application\Services\crc.c \
+F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\default\BrowseInfo\ZC\ Sw\Application\Services\crc.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\crc.c \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\common\nv\crc.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdlib.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \

@@ -88,11 +88,11 @@ extern const uint_least8_t                  CONFIG_ECDSA_0_CONST;
  */
 /* Owned by CONFIG_UART2_0 as  */
 extern const uint_least8_t CONFIG_GPIO_UART2_0_TX_CONST;
-#define CONFIG_GPIO_UART2_0_TX 17
+#define CONFIG_GPIO_UART2_0_TX 13
 
 /* Owned by CONFIG_UART2_0 as  */
 extern const uint_least8_t CONFIG_GPIO_UART2_0_RX_CONST;
-#define CONFIG_GPIO_UART2_0_RX 16
+#define CONFIG_GPIO_UART2_0_RX 12
 
 /* Owned by /ti/drivers/RF as  */
 extern const uint_least8_t CONFIG_RF_24GHZ_CONST;
@@ -212,8 +212,9 @@ extern const uint_least8_t              CONFIG_TRNG_0_CONST;
  */
 
 /*
- *  TX: DIO17
- *  RX: DIO16
+ *  TX: DIO13
+ *  RX: DIO12
+ *  XDS110 UART
  */
 extern const uint_least8_t                  CONFIG_UART2_0_CONST;
 #define CONFIG_UART2_0                      0

@@ -1,3 +1,3 @@
-F:\Zigbee_communication\EndDevice\default\BrowseInfo\ZED\ Sw\Common\touchlink\touchlink_initiator_app.pbi: \
-  F:\Zigbee_communication\EndDevice\Common\touchlink\touchlink_initiator_app.c \
-  F:\Zigbee_communication\EndDevice\ti_zstack_config.h
+F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Common\touchlink\touchlink_initiator_app.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\touchlinkapp\touchlink_initiator_app.c \
+  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h

@@ -220,7 +220,7 @@
                 </option>
                 <option>
                     <name>OCDynDriverList</name>
-                    <state>JLINK_ID</state>
+                    <state>XDS100_ID</state>
                 </option>
             </data>
         </settings>
@@ -670,7 +670,7 @@
                 </option>
                 <option>
                     <name>OCProbeConfig</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\config\debugger\TexasInstruments\CC26x2.ProbeConfig</state>
                 </option>
                 <option>
                     <name>IjetProbeConfigRadio</name>
@@ -956,7 +956,7 @@
                 </option>
                 <option>
                     <name>CCSwoClockAuto</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCSwoClockEdit</name>

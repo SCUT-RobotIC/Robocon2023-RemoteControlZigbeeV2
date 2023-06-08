@@ -116,7 +116,7 @@ RF_TxPowerTable_Entry txPowerTable_2400_pa5_20[TXPOWERTABLE_2400_PA5_20_SIZE] =
 
 // PARAMETER SUMMARY
 // Channel - Frequency (MHz): 2405
-// TX Power (dBm): 18
+// TX Power (dBm): 20
 
 // TI-RTOS RF Mode Object
 RF_Mode RF_prop_ieee154 =
@@ -161,7 +161,7 @@ uint32_t pOverrides_ieee154Tx20[] =
 {
     // override_tx20_placeholder.json
     // TX HighPA power override
-    TX20_POWER_OVERRIDE(0x003047E0),
+    TX20_POWER_OVERRIDE(0x003F75F5),
     // The ANADIV radio parameter based on LO divider and front end settings
     (uint32_t)0x01C20703,
     // override_tx20_settings.json

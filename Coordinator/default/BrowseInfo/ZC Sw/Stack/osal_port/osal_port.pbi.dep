@@ -1,6 +1,6 @@
-F:\Zigbee_communication\Coordinator\default\BrowseInfo\ZC\ Sw\Stack\osal_port\osal_port.pbi: \
-  F:\Zigbee_communication\Coordinator\Stack\osal_port\osal_port.c \
-  F:\Zigbee_communication\Coordinator\Stack\osal_port\osal_port.h \
+F:\Robocon2023-RemoteControlZigbeeV2\coord_test\default\BrowseInfo\ZC\ Sw\Stack\osal_port\osal_port.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\common\osal_port\osal_port_posix\osal_port.c \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\common\osal_port\osal_port.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
@@ -31,17 +31,4 @@ F:\Zigbee_communication\Coordinator\default\BrowseInfo\ZC\ Sw\Stack\osal_port\os
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\power\PowerCC26XX.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\DeviceFamily.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\utils\Random.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\common\heapmgr\rtos_heaposal.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\knl\Queue.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\xdc\std.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdarg.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\Error.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\Error_defs.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\knl\Queue_defs.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\heaps\HeapCallback.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\IHeap.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\Memory.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\Memory_defs.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\heaps\HeapCallback_defs.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\heaps\HeapMem.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\heaps\HeapMem_defs.h
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\common\heapmgr\rtos_heaposal.h
