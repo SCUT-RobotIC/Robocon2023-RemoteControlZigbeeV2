@@ -1,6 +1,6 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Common\touchlink\bdb_tl_commissioning.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Common\touchlink\bdb_tl_commissioning.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\touchlinkapp\bdb_tl_commissioning.c \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\zcl\zcl.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\af\af.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zcomdef.h \

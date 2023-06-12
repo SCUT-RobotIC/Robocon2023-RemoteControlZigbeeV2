@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Stack\sys\zdiags.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Stack\sys\zdiags.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zdiags.c \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\rom_jt_154.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\fh_rom_jt.h \
@@ -133,5 +133,5 @@ F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Stack\sys\
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\zmac\zmac.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zcomdef.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\zmac\f8w\zmac_internal.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\low_level\cc13xx\mac.h

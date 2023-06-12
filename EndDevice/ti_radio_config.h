@@ -30,22 +30,17 @@
 #define SUPPORT_HIGH_PA
 
 // RF frontend configuration
-#define FRONTEND_SUB1G_DIFF_RF
-#define FRONTEND_SUB1G_EXT_BIAS
 #define FRONTEND_24G_DIFF_RF
 #define FRONTEND_24G_EXT_BIAS
 
 // Supported frequency bands
-#define SUPPORT_FREQBAND_868
 #define SUPPORT_FREQBAND_2400
 
 // TX power table size definitions
-#define TXPOWERTABLE_868_PA13_SIZE 22 // 868 MHz, 13 dBm
 #define TXPOWERTABLE_2400_PA5_SIZE 16 // 2400 MHz, 5 dBm
 #define TXPOWERTABLE_2400_PA5_20_SIZE 23 // 2400 MHz, 5 + 20 dBm
 
 // TX power tables
-extern RF_TxPowerTable_Entry txPowerTable_868_pa13[]; // 868 MHz, 13 dBm
 extern RF_TxPowerTable_Entry txPowerTable_2400_pa5[]; // 2400 MHz, 5 dBm
 extern RF_TxPowerTable_Entry txPowerTable_2400_pa5_20[]; // 2400 MHz, 5 + 20 dBm
 

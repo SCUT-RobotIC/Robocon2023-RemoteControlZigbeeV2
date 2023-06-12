@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Application\StartUp\main.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Application\StartUp\main.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\api\zstack.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb_interface.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\reflecttrack.h \
@@ -19,7 +19,7 @@ F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Applicatio
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\nwk_bufs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\assoc_list.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\zmac\f8w\zmac_internal.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\zmac\zmac.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\nl_mede.h \
@@ -124,7 +124,7 @@ F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Applicatio
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\Power.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\inc\hw_ccfg_simple_struct.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\DeviceFamily.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_drivers_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_drivers_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_vims.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\vims.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_adi.h \

@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Stack\ROM\hmac_rom_init.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Stack\ROM\hmac_rom_init.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\hmac_rom_init.c \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\common\osal_port\api_mac.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \

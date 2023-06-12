@@ -50,7 +50,7 @@
  *        11 - 26 : 2.4 GHz     0x07FFF800
  */
 #ifndef DEFAULT_CHANLIST
-#define DEFAULT_CHANLIST              0x00007800
+#define DEFAULT_CHANLIST              0x00001800
 #endif
 
 #ifndef SECONDARY_CHANLIST
@@ -156,7 +156,7 @@
 
 /* The number of milliseconds to wait between data request polls to the coordinator. */
 #ifndef TXPOWER
-#define TXPOWER                     20
+#define TXPOWER                     18
 #endif
 
 /****************************************
@@ -165,11 +165,11 @@
 
 /* Determine whether the radio on an End Device is always on */
 #ifndef RFD_RX_ALWAYS_ON_CAPABLE
-#define RFD_RX_ALWAYS_ON_CAPABLE            TRUE
+#define RFD_RX_ALWAYS_ON_CAPABLE            FALSE
 #endif
 
 #ifndef RFD_RX_ALWAYS_ON
-#define RFD_RX_ALWAYS_ON                    TRUE
+#define RFD_RX_ALWAYS_ON                    FALSE
 #endif
 
 /* The minimum poll rate. */
@@ -211,7 +211,7 @@
 
 /* Total Number of APS keys that a TC can manage. This is equal to the number of devices a ZC can allow to join the network */
 #ifndef ZDSECMGR_TC_DEVICE_MAX
-#define ZDSECMGR_TC_DEVICE_MAX        40
+#define ZDSECMGR_TC_DEVICE_MAX        3
 #endif
 
 /* Value used by end device when sending End Device Timeout Request */

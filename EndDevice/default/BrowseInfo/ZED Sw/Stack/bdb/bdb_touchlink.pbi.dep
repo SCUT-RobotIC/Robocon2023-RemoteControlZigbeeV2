@@ -1,6 +1,6 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Stack\bdb\bdb_touchlink.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Stack\bdb\bdb_touchlink.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb_touchlink.c \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\osal\osal_nv.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_types.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \

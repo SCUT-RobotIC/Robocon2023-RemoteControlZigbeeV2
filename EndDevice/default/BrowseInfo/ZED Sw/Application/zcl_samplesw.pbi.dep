@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Application\zcl_samplesw.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Application\zcl_samplesw.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\PWM.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\apps\LED.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\utils\RingBuf.h \
@@ -35,7 +35,7 @@ F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Applicatio
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\BIOS.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\zcl\zcl_port.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\api\zstackmsg.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_drivers_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_drivers_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb_interface.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\api\zstack.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\reflecttrack.h \
@@ -61,7 +61,7 @@ F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Applicatio
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\assoc_list.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\nl_mede.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\nwk_bufs.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\zmac\f8w\zmac_internal.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\zmac\zmac.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\nwk.h \

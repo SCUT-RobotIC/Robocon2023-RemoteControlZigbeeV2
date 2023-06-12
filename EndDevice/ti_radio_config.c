@@ -26,36 +26,6 @@
 // See the Technical Reference Manual for further details about the "txPower" Command field.
 // The PA settings require the CCFG_FORCE_VDDR_HH = 0 unless stated otherwise.
 
-// 868 MHz, 13 dBm
-RF_TxPowerTable_Entry txPowerTable_868_pa13[TXPOWERTABLE_868_PA13_SIZE] =
-{
-    {-20, RF_TxPowerTable_DEFAULT_PA_ENTRY(0, 3, 0, 2) }, // 0x04C0
-    {-15, RF_TxPowerTable_DEFAULT_PA_ENTRY(1, 3, 0, 3) }, // 0x06C1
-    {-10, RF_TxPowerTable_DEFAULT_PA_ENTRY(2, 3, 0, 5) }, // 0x0AC2
-    {-7, RF_TxPowerTable_DEFAULT_PA_ENTRY(3, 3, 0, 5) }, // 0x0AC3
-    {-5, RF_TxPowerTable_DEFAULT_PA_ENTRY(4, 3, 0, 5) }, // 0x0AC4
-    {-3, RF_TxPowerTable_DEFAULT_PA_ENTRY(5, 3, 0, 6) }, // 0x0CC5
-    {0, RF_TxPowerTable_DEFAULT_PA_ENTRY(8, 3, 0, 8) }, // 0x10C8
-    {1, RF_TxPowerTable_DEFAULT_PA_ENTRY(9, 3, 0, 9) }, // 0x12C9
-    {2, RF_TxPowerTable_DEFAULT_PA_ENTRY(10, 3, 0, 9) }, // 0x12CA
-    {3, RF_TxPowerTable_DEFAULT_PA_ENTRY(11, 3, 0, 10) }, // 0x14CB
-    {4, RF_TxPowerTable_DEFAULT_PA_ENTRY(13, 3, 0, 11) }, // 0x16CD
-    {5, RF_TxPowerTable_DEFAULT_PA_ENTRY(14, 3, 0, 14) }, // 0x1CCE
-    {6, RF_TxPowerTable_DEFAULT_PA_ENTRY(17, 3, 0, 16) }, // 0x20D1
-    {7, RF_TxPowerTable_DEFAULT_PA_ENTRY(20, 3, 0, 19) }, // 0x26D4
-    {8, RF_TxPowerTable_DEFAULT_PA_ENTRY(24, 3, 0, 22) }, // 0x2CD8
-    {9, RF_TxPowerTable_DEFAULT_PA_ENTRY(28, 3, 0, 31) }, // 0x3EDC
-    {10, RF_TxPowerTable_DEFAULT_PA_ENTRY(18, 2, 0, 31) }, // 0x3E92
-    {11, RF_TxPowerTable_DEFAULT_PA_ENTRY(26, 2, 0, 51) }, // 0x669A
-    {12, RF_TxPowerTable_DEFAULT_PA_ENTRY(16, 0, 0, 82) }, // 0xA410
-    // The original PA value (12.5 dBm) has been rounded to an integer value.
-    {13, RF_TxPowerTable_DEFAULT_PA_ENTRY(36, 0, 0, 89) }, // 0xB224
-    // This setting requires CCFG_FORCE_VDDR_HH = 1.
-    {14, RF_TxPowerTable_DEFAULT_PA_ENTRY(63, 0, 1, 0) }, // 0x013F
-    RF_TxPowerTable_TERMINATION_ENTRY
-};
-
-
 // 2400 MHz, 5 dBm
 RF_TxPowerTable_Entry txPowerTable_2400_pa5[TXPOWERTABLE_2400_PA5_SIZE] =
 {
@@ -116,7 +86,7 @@ RF_TxPowerTable_Entry txPowerTable_2400_pa5_20[TXPOWERTABLE_2400_PA5_20_SIZE] =
 
 // PARAMETER SUMMARY
 // Channel - Frequency (MHz): 2405
-// TX Power (dBm): 20
+// TX Power (dBm): 18
 
 // TI-RTOS RF Mode Object
 RF_Mode RF_prop_ieee154 =
@@ -161,7 +131,7 @@ uint32_t pOverrides_ieee154Tx20[] =
 {
     // override_tx20_placeholder.json
     // TX HighPA power override
-    TX20_POWER_OVERRIDE(0x003F75F5),
+    TX20_POWER_OVERRIDE(0x003047E0),
     // The ANADIV radio parameter based on LO divider and front end settings
     (uint32_t)0x01C20703,
     // override_tx20_settings.json

@@ -108,8 +108,6 @@ void BIOS_init(void)
 #include <ti/dpl/TaskP_tirtos.c>
 #include <ti/dpl/PowerCC26X2_tirtos.c>
 #include <ti/dpl/TimestampPCC26XX_tirtos.c>
-#include <ti/dpl/PowerCC26X2_tirtos.c>
-#include <ti/dpl/TimestampPCC26XX_tirtos.c>
 #include <ti/posix/tirtos/clock.c>
 #include <ti/posix/tirtos/mqueue.c>
 #include <ti/posix/tirtos/pthread_barrier.c>

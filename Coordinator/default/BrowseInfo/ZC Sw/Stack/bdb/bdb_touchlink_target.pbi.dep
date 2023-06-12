@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\coord_test\default\BrowseInfo\ZC\ Sw\Stack\bdb\bdb_touchlink_target.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\default\BrowseInfo\ZC\ Sw\Stack\bdb\bdb_touchlink_target.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb_touchlink_target.c \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zcomdef.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\comdef.h \
@@ -128,7 +128,7 @@ F:\Robocon2023-RemoteControlZigbeeV2\coord_test\default\BrowseInfo\ZC\ Sw\Stack\
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\high_level\mac_scan.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\high_level\mac_security_pib.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\high_level\mac_pwr.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\coord_test\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\osal\osal_nv.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\af\af.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\nwk\nwk.h \

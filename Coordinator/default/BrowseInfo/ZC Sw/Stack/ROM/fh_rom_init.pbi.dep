@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\coord_test\default\BrowseInfo\ZC\ Sw\Stack\ROM\fh_rom_init.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\default\BrowseInfo\ZC\ Sw\Stack\ROM\fh_rom_init.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\fh_rom_init.c \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_types.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \

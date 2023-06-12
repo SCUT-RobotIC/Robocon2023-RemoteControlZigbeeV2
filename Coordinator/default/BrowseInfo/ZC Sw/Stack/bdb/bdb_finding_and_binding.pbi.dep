@@ -1,6 +1,6 @@
-F:\Robocon2023-RemoteControlZigbeeV2\coord_test\default\BrowseInfo\ZC\ Sw\Stack\bdb\bdb_finding_and_binding.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\default\BrowseInfo\ZC\ Sw\Stack\bdb\bdb_finding_and_binding.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb_finding_and_binding.c \
-  F:\Robocon2023-RemoteControlZigbeeV2\coord_test\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\bdb\bdb.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zcomdef.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\comdef.h \

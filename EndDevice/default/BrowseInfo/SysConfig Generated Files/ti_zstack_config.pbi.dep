@@ -1,6 +1,6 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\SysConfig\ Generated\ Files\ti_zstack_config.pbi: \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.c \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\SysConfig\ Generated\ Files\ti_zstack_config.pbi: \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.c \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\rf\RF.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\DeviceFamily.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\rf\RFCC26X2.h \

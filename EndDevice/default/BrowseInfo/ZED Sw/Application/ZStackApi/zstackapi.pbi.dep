@@ -1,4 +1,4 @@
-F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Application\ZStackApi\zstackapi.pbi: \
+F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Application\ZStackApi\zstackapi.pbi: \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\api\zstackapi.c \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\string.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
@@ -26,7 +26,7 @@ F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\default\BrowseInfo\ZED\ Sw\Applicatio
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\Memory.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\runtime\Memory_defs.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\kernel\tirtos7\packages\ti\sysbios\knl\Task_defs.h \
-  F:\Robocon2023-RemoteControlZigbeeV2\zc_ed\ti_zstack_config.h \
+  F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\ti_zstack_config.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\rom_jt_154.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\fh_rom_jt.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\rom_jt_def_154.h \

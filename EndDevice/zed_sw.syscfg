@@ -182,7 +182,6 @@ zstack.rf.$name                              = "ti_zstack_rf_zstack_rf0";
 zstack.rf.primaryChannels                    = [11,12];
 zstack.rf.txPower                            = "18";
 zstack.rf.radioConfig.$name                  = "ti_devices_radioconfig_settings_ieee_15_40";
-zstack.rf.radioConfig.txPowerHi              = "18";
 zstack.rf.radioConfig.codeExportConfig.$name = "ti_devices_radioconfig_code_export_param0";
 zstack.rf.coexSettings.$name                 = "ti_zstack_rf_zstack_coex_mod0";
 zstack.network.$name                         = "ti_zstack_network_zstack_network0";
