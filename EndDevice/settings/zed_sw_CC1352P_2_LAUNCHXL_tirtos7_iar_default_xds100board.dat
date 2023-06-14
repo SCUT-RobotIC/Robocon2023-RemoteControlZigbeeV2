@@ -2,7 +2,7 @@
 $ sepk
   pod_drvr=jioxds110.dll
   pod_port=0
-  pod_serial=AMO23821
+  pod_serial=L43004NF
   pod_supply=0
   pod_voltage_selection=0
   pod_voltage=0

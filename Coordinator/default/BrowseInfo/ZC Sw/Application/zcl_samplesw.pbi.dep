@@ -208,4 +208,6 @@ F:\Robocon2023-RemoteControlZigbeeV2\Coordinator\default\BrowseInfo\ZC\ Sw\Appli
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\UART2.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\utils\RingBuf.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\apps\LED.h \
-  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\PWM.h
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\PWM.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\Timer.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\Power.h

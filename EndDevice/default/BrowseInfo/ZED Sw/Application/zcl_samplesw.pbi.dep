@@ -1,4 +1,6 @@
 F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\ZED\ Sw\Application\zcl_samplesw.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\Power.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\Timer.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\PWM.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\apps\LED.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\utils\RingBuf.h \

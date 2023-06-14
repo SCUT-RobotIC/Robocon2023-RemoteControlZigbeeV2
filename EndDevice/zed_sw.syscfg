@@ -21,6 +21,8 @@ const ECDH         = scripting.addModule("/ti/drivers/ECDH");
 const ECDH1        = ECDH.addInstance();
 const ECDSA        = scripting.addModule("/ti/drivers/ECDSA");
 const ECDSA1       = ECDSA.addInstance();
+const GPIO         = scripting.addModule("/ti/drivers/GPIO", {}, false);
+const GPIO14       = GPIO.addInstance();
 const NVS          = scripting.addModule("/ti/drivers/NVS");
 const NVS1         = NVS.addInstance();
 const NVS2         = NVS.addInstance();
@@ -30,6 +32,8 @@ const SHA2         = scripting.addModule("/ti/drivers/SHA2");
 const SHA21        = SHA2.addInstance();
 const TRNG         = scripting.addModule("/ti/drivers/TRNG");
 const TRNG1        = TRNG.addInstance();
+const Timer        = scripting.addModule("/ti/drivers/Timer", {}, false);
+const Timer1       = Timer.addInstance();
 const UART2        = scripting.addModule("/ti/drivers/UART2", {}, false);
 const UART21       = UART2.addInstance();
 const Button       = scripting.addModule("/ti/drivers/apps/Button");
@@ -82,6 +86,11 @@ ECDH1.$name = "CONFIG_ECDH_0";
 
 ECDSA1.$name = "CONFIG_ECDSA_0";
 
+GPIO14.$name            = "CONFIG_GPIO_1";
+GPIO14.pull             = "Pull Up";
+GPIO14.interruptTrigger = "Falling Edge";
+GPIO14.gpioPin.$assign  = "boosterpack.31";
+
 NVS1.$name                    = "CONFIG_NVSINTERNAL";
 NVS1.internalFlash.$name      = "ti_drivers_nvs_NVSCC26XX0";
 NVS1.internalFlash.regionSize = 0x4000;
@@ -99,6 +108,10 @@ RF.$hardware = system.deviceData.board.components["SKY13317-373LF"];
 SHA21.$name = "CONFIG_SHA2_0";
 
 TRNG1.$name = "CONFIG_TRNG_0";
+
+Timer1.$name               = "CONFIG_TIMER_0";
+Timer1.timerType           = "32 Bits";
+Timer1.timerInstance.$name = "CONFIG_GPTIMER_0";
 
 UART21.$name     = "CONFIG_UART2_0";
 UART21.$hardware = system.deviceData.board.components.XDS110UART;
@@ -153,7 +166,7 @@ HeapCallback.isBlockingInstFxn = "osalHeapIsBlockingFxn";
 Clock.tickPeriod  = 10;
 Clock.swiPriority = 4;
 
-const Timer = scripting.addModule("/ti/sysbios/family/arm/cc26xx/Timer", {}, false);
+const Timer_1 = scripting.addModule("/ti/sysbios/family/arm/cc26xx/Timer", {}, false);
 
 Idle2.$name   = "powerIdle";
 Idle2.idleFxn = "Power_idleFunc";
@@ -198,6 +211,7 @@ zstack.advanced.tableSize.$name              = "ti_zstack_advanced_zstack_table_
 RF.rfAntennaPin0.$suggestSolution            = "DIO_28";
 RF.rfAntennaPin1.$suggestSolution            = "DIO_29";
 RF.rfAntennaPin2.$suggestSolution            = "DIO_30";
+Timer1.timerInstance.timer.$suggestSolution  = "GPTM0";
 UART21.uart.$suggestSolution                 = "UART0";
 UART21.uart.txPin.$suggestSolution           = "boosterpack.4";
 UART21.uart.rxPin.$suggestSolution           = "boosterpack.3";
@@ -212,4 +226,4 @@ SPI1.spi.pociPin.$suggestSolution            = "boosterpack.14";
 SPI1.spi.picoPin.$suggestSolution            = "boosterpack.15";
 SPI1.spi.dmaRxChannel.$suggestSolution       = "DMA_CH3";
 SPI1.spi.dmaTxChannel.$suggestSolution       = "DMA_CH4";
-Timer.rtc.$suggestSolution                   = "RTC0";
+Timer_1.rtc.$suggestSolution                 = "RTC0";

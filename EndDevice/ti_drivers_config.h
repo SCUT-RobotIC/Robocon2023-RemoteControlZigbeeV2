@@ -86,6 +86,9 @@ extern const uint_least8_t                  CONFIG_ECDSA_0_CONST;
 /*
  *  ======== GPIO ========
  */
+extern const uint_least8_t CONFIG_GPIO_1_CONST;
+#define CONFIG_GPIO_1 17
+
 /* Owned by CONFIG_UART2_0 as  */
 extern const uint_least8_t CONFIG_GPIO_UART2_0_TX_CONST;
 #define CONFIG_GPIO_UART2_0_TX 13
@@ -208,6 +211,15 @@ extern const uint_least8_t              CONFIG_TRNG_0_CONST;
 
 
 /*
+ *  ======== Timer ========
+ */
+
+extern const uint_least8_t                  CONFIG_TIMER_0_CONST;
+#define CONFIG_TIMER_0                      0
+#define CONFIG_TI_DRIVERS_TIMER_COUNT       1
+
+
+/*
  *  ======== UART2 ========
  */
 
@@ -241,6 +253,15 @@ extern const uint_least8_t              CONFIG_LED_RED_CONST;
 extern const uint_least8_t              CONFIG_LED_GREEN_CONST;
 #define CONFIG_LED_GREEN                1
 #define CONFIG_TI_DRIVERS_LED_COUNT     2
+
+
+/*
+ *  ======== GPTimer ========
+ */
+
+extern const uint_least8_t                  CONFIG_GPTIMER_0_CONST;
+#define CONFIG_GPTIMER_0                    0
+#define CONFIG_TI_DRIVERS_GPTIMER_COUNT     1
 
 
 /*

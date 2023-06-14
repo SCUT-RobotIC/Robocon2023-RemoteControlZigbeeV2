@@ -108,6 +108,14 @@ F:\Robocon2023-RemoteControlZigbeeV2\EndDevice\default\BrowseInfo\SysConfig\ Gen
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\SHA2.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\sha2\SHA2CC26X2.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\spi\SPICC26X2DMA.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\Timer.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\timer\TimerCC26XX.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\timer\GPTimerCC26XX.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\inc\hw_gpt.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\event.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_event.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\timer.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\driverlib\..\inc\hw_gpt.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\UART2.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\utils\RingBuf.h \
   c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\drivers\uart2\UART2CC26X2.h \
