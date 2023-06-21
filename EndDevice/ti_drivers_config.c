@@ -293,7 +293,7 @@ const GPIO_Config GPIO_config = {
     .configs = (GPIO_PinConfig *)gpioPinConfigs,
     .callbacks = (GPIO_CallbackFxn *)gpioCallbackFunctions,
     .userArgs = gpioUserArgs,
-    .intPriority = (~0)
+    .intPriority = 0x20
 };
 
 /*

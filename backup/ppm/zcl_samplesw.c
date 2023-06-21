@@ -220,6 +220,14 @@ uint8 reportBuff[PPM_CHANNEL_NUM];
 
 uint8_t PPM_Databuf[PPM_CHANNEL_NUM];
 
+uint8_t PPM_Now[PPM_CHANNEL_NUM];
+
+uint8_t PPM_Prev1[PPM_CHANNEL_NUM];
+
+uint8_t PPM_Prev2[PPM_CHANNEL_NUM];
+
+uint8_t PPM_Prev3[PPM_CHANNEL_NUM];
+
 Timer_Handle timer_handle;
 
 
@@ -819,7 +827,7 @@ static void zclSampleSw_Init( void )
       Timer_Params timerParams;
       Timer_Params_init(&timerParams);
       timerParams.periodUnits = Timer_PERIOD_US;
-      timerParams.period = 50000; //1000us的周期
+      timerParams.period = 1000; //1000us的周期
       timerParams.timerMode  = Timer_FREE_RUNNING;
       timer_handle = Timer_open(CONFIG_TIMER_0, &timerParams);
       if (timer_handle == NULL) {
@@ -2418,28 +2426,32 @@ static inline void GPIO_readppm_CB (uint_least8_t index)
     static bool    PPM_Okay=0;
     static uint32_t    m =0;
 
-    m = Timer_getCount(timer_handle)/48;
+    m = Timer_getCount(timer_handle);
     PPM_Time1 = m;
     if (PPM_Time1 > PPM_Time2){
-      PPM_Time = PPM_Time1 -PPM_Time2- 500; 
+      PPM_Time = (PPM_Time1 -PPM_Time2)/48- 500; 
     }
     else
     {
-      PPM_Time = UINT32_MAX - PPM_Time2 + PPM_Time1 - 500;        
+      PPM_Time = (UINT32_MAX - PPM_Time2 + PPM_Time1)/48 - 500;        
     }
     PPM_Time2 = m;    
     if(PPM_Okay){
         PPM_Sample_Cnt++;
         
-        if(PPM_Time<500){
-          PPM_Databuf[PPM_Sample_Cnt-1]=0;
+        if(PPM_Time<488){
+          PPM_Now[PPM_Sample_Cnt-1]=0;
         }
-        else if((PPM_Time-500)*255/1000>255){
-          PPM_Databuf[PPM_Sample_Cnt-1]=255;
+        else if((PPM_Time-488)/4>255){
+          PPM_Now[PPM_Sample_Cnt-1]=255;
         }
         else{
-          PPM_Databuf[PPM_Sample_Cnt-1]=(PPM_Time-500)*255/1000;
+          PPM_Now[PPM_Sample_Cnt-1]=(PPM_Time-488)/4;
         }
+        PPM_Databuf[PPM_Sample_Cnt-1]=(uint8_t)(0.3*PPM_Now[PPM_Sample_Cnt-1]+0.3*PPM_Prev1[PPM_Sample_Cnt-1]+0.2*PPM_Prev2[PPM_Sample_Cnt-1]+0.2*PPM_Prev3[PPM_Sample_Cnt-1]);
+        PPM_Prev3[PPM_Sample_Cnt-1]=PPM_Prev2[PPM_Sample_Cnt-1];
+        PPM_Prev2[PPM_Sample_Cnt-1]=PPM_Prev1[PPM_Sample_Cnt-1];
+        PPM_Prev1[PPM_Sample_Cnt-1]=PPM_Now[PPM_Sample_Cnt-1];
         
         if(PPM_Sample_Cnt>=PPM_CHANNEL_NUM){
           PPM_Okay=0;

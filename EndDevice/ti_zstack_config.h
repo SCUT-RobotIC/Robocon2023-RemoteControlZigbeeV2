@@ -156,7 +156,7 @@
 
 /* The number of milliseconds to wait between data request polls to the coordinator. */
 #ifndef TXPOWER
-#define TXPOWER                     18
+#define TXPOWER                     20
 #endif
 
 /****************************************

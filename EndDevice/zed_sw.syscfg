@@ -21,8 +21,8 @@ const ECDH         = scripting.addModule("/ti/drivers/ECDH");
 const ECDH1        = ECDH.addInstance();
 const ECDSA        = scripting.addModule("/ti/drivers/ECDSA");
 const ECDSA1       = ECDSA.addInstance();
-const GPIO         = scripting.addModule("/ti/drivers/GPIO", {}, false);
-const GPIO14       = GPIO.addInstance();
+const GPIO         = scripting.addModule("/ti/drivers/GPIO");
+const GPIO1        = GPIO.addInstance();
 const NVS          = scripting.addModule("/ti/drivers/NVS");
 const NVS1         = NVS.addInstance();
 const NVS2         = NVS.addInstance();
@@ -86,10 +86,12 @@ ECDH1.$name = "CONFIG_ECDH_0";
 
 ECDSA1.$name = "CONFIG_ECDSA_0";
 
-GPIO14.$name            = "CONFIG_GPIO_1";
-GPIO14.pull             = "Pull Up";
-GPIO14.interruptTrigger = "Falling Edge";
-GPIO14.gpioPin.$assign  = "boosterpack.31";
+GPIO.interruptPriority = "1";
+
+GPIO1.$name            = "CONFIG_GPIO_1";
+GPIO1.pull             = "Pull Up";
+GPIO1.interruptTrigger = "Falling Edge";
+GPIO1.gpioPin.$assign  = "boosterpack.31";
 
 NVS1.$name                    = "CONFIG_NVSINTERNAL";
 NVS1.internalFlash.$name      = "ti_drivers_nvs_NVSCC26XX0";
@@ -193,7 +195,7 @@ zstack.touchlink.$name                       = "ti_zstack_touchlink_zstack_touch
 zstack.pm.$name                              = "ti_zstack_pm_zstack_pm0";
 zstack.rf.$name                              = "ti_zstack_rf_zstack_rf0";
 zstack.rf.primaryChannels                    = [11,12];
-zstack.rf.txPower                            = "18";
+zstack.rf.txPower                            = "20";
 zstack.rf.radioConfig.$name                  = "ti_devices_radioconfig_settings_ieee_15_40";
 zstack.rf.radioConfig.codeExportConfig.$name = "ti_devices_radioconfig_code_export_param0";
 zstack.rf.coexSettings.$name                 = "ti_zstack_rf_zstack_coex_mod0";
