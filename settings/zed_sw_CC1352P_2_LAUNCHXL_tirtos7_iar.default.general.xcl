@@ -1,0 +1,15 @@
+"D:\IAR_for_arm\arm\bin\armPROC.dll" 
+
+"D:\IAR_for_arm\arm\bin\armXDS.dll" 
+
+"D:\zed_sw_7.10\default\Exe\zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out" 
+
+--plugin="D:\IAR_for_arm\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR_for_arm\arm\config\debugger\TexasInstruments\CC26x2.dmac" 
+
+--flash_loader="D:\IAR_for_arm\arm\config\flashloader\TexasInstruments\FlashCC26x2F352RAM80.board" 
+
+
+
+

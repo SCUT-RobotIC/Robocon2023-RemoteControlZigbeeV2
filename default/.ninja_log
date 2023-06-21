@@ -1,0 +1,147 @@
+# ninja log v5
+4261	4593	7090353018004722	D:/zed_sw_7.10/default/Obj/SysConfig Generated Files/ti_zstack_config.o	9d27a16ee9dad5cb
+3856	5439	7090353024577418	D:/zed_sw_7.10/SysConfig_Generated_Files.ipcf	fed46a845986a2f2
+32	872	7090352980596084	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/Services/nvocmp.o	5badce26b4c5aa45
+1322	2463	7090352996228942	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/zcl/zcl.o	8ff7be6c6168f09c
+19	1289	7090352984660467	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/StartUp/main.o	4386eaa7b2ffbb2a
+333	578	7090352977783467	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/util/utc_clock.o	56fd721361139324
+8	302	7090352974970468	D:/zed_sw_7.10/default/Obj/SysConfig Generated Files/ti_devices_config.o	fad0a25d7fc38f00
+43	528	7090352977314471	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/util/mac_util.o	f9366fbadfd04c41
+28	412	7090352976064338	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/Services/crc.o	de96276c68af8577
+496	673	7090352978720858	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/util/util_timer.o	51f4dfcae495d656
+37	465	7090352976376856	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/Services/saddr.o	922e7906ab2c2895
+902	1702	7090352989035882	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw_data.o	ce47b40a77c40474
+2748	3407	7090353005922252	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zdo/zd_nwk_mgr.o	1e6c00e36e207b84
+38	583	7084311464027777	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/ui/cui.o	77ce175c12f168ba
+2459	3133	7090353003109426	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink.o	530b0395d6b2eeec
+4198	4355	7090353015660717	D:/zed_sw_7.10/default/Obj/SysConfig Generated Files/ti_radio_config.o	650340de8071be39
+2913	3496	7090353007016093	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/sys/zdiags.o	556c897d78f504de
+842	1006	7090352981691408	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/gp/gp_bit_fields.o	41100f2b173a865d
+14	965	7090352981535098	D:/zed_sw_7.10/default/Obj/SysConfig Generated Files/ti_drivers_config.o	d87d0f9cca6f13d
+148	1111	7084311469072270	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/ui/zcl_sampleapps_ui.o	5064313d0089ed2d
+1556	2227	7090352994353717	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/bdb/bdb_finding_and_binding.o	d9b9aaa63e0b66c8
+1407	1528	7090352987316954	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/touchlink/touchlink_initiator_app.o	1c72b1f541b6ffff
+24	1338	7090352984972994	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/StartUp/zstackstartup.o	1e73b5ef011186d2
+3191	4017	7090353012066595	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zdo/zd_profile.o	338f77c6b2ab2363
+609	1376	7090352985129253	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/gp/gp_common.o	25f5d4907001ad58
+3587	4170	7090353013629255	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/osal_port/osal_nv.o	cadcc13c32240e16
+3893	5206	7090353023952380	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/ZStackTask/zstacktask.o	830141b84d0fac76
+444	1487	7090352986535617	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+703	812	7090352980127264	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/gp/gp_proxy.o	ec9ae87f38ae9db0
+1131	1850	7090352990442288	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/touchlink/bdb_tl_commissioning.o	d60ecb8aa71afaff
+999	1101	7090352983097763	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/gp/gp_proxy_table.o	130a67536eb9efdb
+1513	1578	7090352987942014	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/touchlink/touchlink_target_app.o	dd15d10bfd174e50
+559	1452	7090352986535617	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/ZStackApi/zstackapi.o	d23870ff6f23c2c4
+2491	3166	7090353003109426	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_initiator.o	d7ea0cc8639805bf
+2057	2432	7090352996385190	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_activity.o	9befe7044b84ca20
+2528	2766	7090352999510520	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/Config/mac_user_config.o	6e2114dad7d26953
+1605	2345	7090352995447584	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/zcl/zcl_port.o	aec7baa43ddf2d88
+2373	3096	7090353002640672	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/nwk/stub_aps.o	1d312b5e81aa1727
+2419	2644	7090352998572912	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/MAC/Debug/dbg.o	2f0db20415fa5ab1
+3123	3224	7090353004359562	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/ROM/rom_init_154.o	bf5dfbae07d64a8a
+1370	2032	7090352992322249	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/zcl/zcl_ha.o	e07cdc2fd9b42337
+1877	1967	7090352991697189	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/bdb/bdb_reporting.o	88d43d8aff9ed8f2
+1837	2391	7090352995916388	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/af/af.o	e595ca2bf692a3d3
+1038	1913	7090352991072132	D:/zed_sw_7.10/default/Obj/ZED Sw/Common/zcl/zcl_general.o	d739fbef0fe198bb
+2793	3372	7090353005765961	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zdo/zd_config.o	bf8a4a9d107a3b61
+1727	2575	7090352997635310	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/bdb/bdb.o	1dfa889a26b37c80
+3092	4119	7090353013160458	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zdo/zd_app.o	11bb12610acb4581
+1478	1810	7090352990129741	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/MAC/HighLevel/mac_cfg.o	e3df8e4c5f6922cb
+1996	2502	7090352996541449	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/nwk/nwk_globals.o	36fb1a22380d8fd6
+2561	3065	7090353002640672	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/bdb/bdb_touchlink_target.o	54551cebcb917361
+2603	2723	7090352999354242	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/ROM/icall_osal_rom_init.o	8d064630475c4acb
+1939	2534	7090352997010256	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/nwk/binding_table.o	efca349d6c7b810a
+3398	3559	7090353007328831	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/osal_port/osal_port_timers.o	81a10812a37831f5
+3249	3697	7090353009092711	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/ROM/fh_rom_init.o	af4a708dd6169aad
+2671	3018	7090353002171830	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/ROM/lmac_rom_init.o	76e54303a4bec2ff
+3435	4421	7090353016129511	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zdo/zd_sec_mgr.o	ac6c32b432ade241
+2253	2887	7090353000921688	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/MAC/LowLevel/mac_settings.o	81bc3b612608733c
+3521	3866	7090353010499121	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/osal_port/osal_port.o	48507dd2f3c88a2f
+3724	4203	7090353013629255	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/ROM/hmac_rom_init.o	1148af1e0d5e0415
+3044	3830	7090353010342860	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/sys/zglobals.o	8eb7a985f34b47fe
+4149	4731	7090353019411244	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zmac/zmac.o	584ee5f8f65815b0
+3161	4235	7090353013472998	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zdo/zd_object.o	aef0a3cd64a81a73
+4042	4631	7090353018317241	D:/zed_sw_7.10/default/Obj/ZED Sw/Stack/zmac/zmac_cb.o	9960c19b8c09524c
+4229	6212	7090353033962928	D:/zed_sw_7.10/default/Obj/SysConfig Generated Files/ti_sysbios_config.o	55bf495e078188bb
+6235	6642	7090353038177027	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+6664	6720	0	Post-build command	d829d4f884fab726
+9	77	0	Post-build command	d829d4f884fab726
+6	523	7090356231366287	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+547	938	7090356235378199	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+960	1039	0	Post-build command	d829d4f884fab726
+8	556	7090357060514545	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+586	992	7090357064641450	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1014	1092	0	Post-build command	d829d4f884fab726
+9	612	7090359645318775	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+636	1028	7090359649171865	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1050	1128	0	Post-build command	d829d4f884fab726
+8	579	7090361227170201	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+608	1007	7090361231143481	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1030	1108	0	Post-build command	d829d4f884fab726
+9	624	7090362658138368	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+649	1047	7090362661996447	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1068	1146	0	Post-build command	d829d4f884fab726
+8	548	7090363516099430	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+572	965	7090363519925865	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+988	1065	0	Post-build command	d829d4f884fab726
+9	530	7090364515843646	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+555	948	7090364519729473	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+970	1047	0	Post-build command	d829d4f884fab726
+9	542	7090365068961088	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+568	961	7090365072861679	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+983	1060	0	Post-build command	d829d4f884fab726
+9	681	7090366799564752	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+708	1131	7090366803788734	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1156	1234	0	Post-build command	d829d4f884fab726
+8	540	7090367820727641	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+565	968	7090367824658352	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+991	1050	0	Post-build command	d829d4f884fab726
+9	628	7090369015394906	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+652	1053	7090369019367911	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1075	1154	0	Post-build command	d829d4f884fab726
+7	569	7090369951547973	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+597	1001	7090369955459493	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1023	1079	0	Post-build command	d829d4f884fab726
+7	594	7090374159351135	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+619	1044	7090374163537692	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1068	1129	0	Post-build command	d829d4f884fab726
+7	490	7090375581893523	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+515	917	7090375585844265	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+940	1000	0	Post-build command	d829d4f884fab726
+9	580	7090378243675566	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+606	1040	7090378247966808	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1065	1124	0	Post-build command	d829d4f884fab726
+9	639	7090383717306474	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+670	1165	7090383722155878	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1193	1289	0	Post-build command	d829d4f884fab726
+8	619	7090388414708625	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+650	1070	7090388418927810	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1092	1173	0	Post-build command	d829d4f884fab726
+9	572	7090389835418221	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+596	990	7090389839196525	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1012	1090	0	Post-build command	d829d4f884fab726
+7	598	7090390864518305	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+623	1047	7090390868725452	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1070	1130	0	Post-build command	d829d4f884fab726
+6	510	7090392978721907	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+535	946	7090392982758077	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+969	1031	0	Post-build command	d829d4f884fab726
+7	595	7090397109203253	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+620	1048	7090397113420368	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1072	1131	0	Post-build command	d829d4f884fab726
+8	518	7090397602496063	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+544	958	7090397606558333	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+981	1040	0	Post-build command	d829d4f884fab726
+7	515	7090398889430357	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+541	964	7090398893618820	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+988	1049	0	Post-build command	d829d4f884fab726
+9	570	7090399600590359	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+595	991	7090399604476205	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1013	1090	0	Post-build command	d829d4f884fab726
+8	647	7090400945086876	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+672	1064	7090400948993684	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+1086	1163	0	Post-build command	d829d4f884fab726
+6	516	7090401962510955	D:/zed_sw_7.10/default/Obj/ZED Sw/Application/zcl_samplesw.o	5abd1f7e61bdfc9
+542	972	7090401966781441	D:/zed_sw_7.10/default/Exe/zed_sw_CC1352P_2_LAUNCHXL_tirtos7_iar.out	923f3e9d0a01b68f
+995	1055	0	Post-build command	d829d4f884fab726
+8	79	0	Post-build command	d829d4f884fab726

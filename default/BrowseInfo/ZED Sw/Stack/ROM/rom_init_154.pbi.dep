@@ -1,0 +1,9 @@
+D:\zed_sw_7.10\default\BrowseInfo\ZED\ Sw\Stack\ROM\rom_init_154.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\rom_init_154.c \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\rom\rom_jt_def_154.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_types.h \
+  D:\IAR_for_arm\arm\inc\c\stdint.h D:\IAR_for_arm\arm\inc\c\ycheck.h \
+  D:\IAR_for_arm\arm\inc\c\yvals.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Defaults.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Config_Normal.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Product.h

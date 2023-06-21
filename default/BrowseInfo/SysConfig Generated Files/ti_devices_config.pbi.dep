@@ -1,0 +1,14 @@
+D:\zed_sw_7.10\default\BrowseInfo\SysConfig\ Generated\ Files\ti_devices_config.pbi: \
+  D:\zed_sw_7.10\ti_devices_config.c \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\DeviceFamily.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\startup_files\ccfg.c \
+  D:\IAR_for_arm\arm\inc\c\stdint.h D:\IAR_for_arm\arm\inc\c\ycheck.h \
+  D:\IAR_for_arm\arm\inc\c\yvals.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Defaults.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Config_Normal.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Product.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\startup_files\..\inc\hw_types.h \
+  D:\IAR_for_arm\arm\inc\c\stdbool.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\inc\..\inc\hw_chip_def.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\startup_files\..\inc\hw_ccfg.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\devices\cc13x2_cc26x2\startup_files\..\inc\hw_ccfg_simple_struct.h

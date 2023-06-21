@@ -1,0 +1,19 @@
+D:\zed_sw_7.10\default\BrowseInfo\ZED\ Sw\Common\gp\gp_bit_fields.pbi: \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\gp\gp_bit_fields.c \
+  D:\IAR_for_arm\arm\inc\c\string.h D:\IAR_for_arm\arm\inc\c\ycheck.h \
+  D:\IAR_for_arm\arm\inc\c\yvals.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Defaults.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Config_Normal.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Product.h \
+  D:\IAR_for_arm\arm\inc\c\ysizet.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Product_string.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zglobals.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\zcomdef.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\sys\comdef.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_defs.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\hal\platform\hal_types.h \
+  D:\IAR_for_arm\arm\inc\c\stdint.h D:\IAR_for_arm\arm\inc\c\stdlib.h \
+  D:\IAR_for_arm\arm\inc\c\DLib_Product_stdlib.h \
+  D:\IAR_for_arm\arm\inc\c\stdbool.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\ti154stack\services\saddr\saddr.h \
+  c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\gp\gp_bit_fields.h
