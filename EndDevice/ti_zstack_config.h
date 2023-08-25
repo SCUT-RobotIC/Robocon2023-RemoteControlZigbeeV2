@@ -50,7 +50,7 @@
  *        11 - 26 : 2.4 GHz     0x07FFF800
  */
 #ifndef DEFAULT_CHANLIST
-#define DEFAULT_CHANLIST              0x00001800
+#define DEFAULT_CHANLIST              0x00078000
 #endif
 
 #ifndef SECONDARY_CHANLIST
@@ -165,11 +165,11 @@
 
 /* Determine whether the radio on an End Device is always on */
 #ifndef RFD_RX_ALWAYS_ON_CAPABLE
-#define RFD_RX_ALWAYS_ON_CAPABLE            FALSE
+#define RFD_RX_ALWAYS_ON_CAPABLE            TRUE
 #endif
 
 #ifndef RFD_RX_ALWAYS_ON
-#define RFD_RX_ALWAYS_ON                    FALSE
+#define RFD_RX_ALWAYS_ON                    TRUE
 #endif
 
 /* The minimum poll rate. */
@@ -179,7 +179,7 @@
 
 /* The number of milliseconds to wait between data request polls to the coordinator. */
 #ifndef POLL_RATE
-#define POLL_RATE                     3000
+#define POLL_RATE                     800
 #endif
 
 /* This is used after receiving a data indication to poll immediately

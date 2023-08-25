@@ -18,17 +18,17 @@
     <XdsDriver>
         <xds110serialNo>AMO23821</xds110serialNo>
         <xds110foundProbes />
-        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
-        <CStepIntDis>_ 0</CStepIntDis>
         <xdsResetStyle>0</xdsResetStyle>
         <xdsResetStrategy>2</xdsResetStrategy>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
     </XdsDriver>
     <ArmDriver>
         <EnableCache>0</EnableCache>
         <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
     </ArmDriver>
     <DebugChecksum>
-        <Checksum>1356549376</Checksum>
+        <Checksum>2797557515</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -69,11 +69,6 @@
         <ITMportsLogFile>0</ITMportsLogFile>
         <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
     </SWOTraceHWSettings>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ "$PROJ_DIR$\LogFile1.log"</LogFile>
-        <Category2>_ 2</Category2>
-    </LogFile>
     <array_types>
         <Fmt0>uint8_t[8]	3	0</Fmt0>
     </array_types>
@@ -125,25 +120,10 @@
         <ShowTimeSum>1</ShowTimeSum>
         <SumSortOrder>0</SumSortOrder>
     </EventLog>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints2>
-        <Bp0>_ 0 "EMUL_CODE" "{c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\zcl\zcl.c}.1829.5" 0 0 1 "" 0 "" 0</Bp0>
-        <Bp1>_ 0 "EMUL_CODE" "{c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\zcl\zcl.c}.1825.5" 0 0 1 "" 0 "" 0</Bp1>
-        <Count>2</Count>
-    </Breakpoints2>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
     </TermIOLog>
-    <Aliases>
-        <A0>_ "/home/developer/.conan/data/coresdk_cc13xx_cc26xx/7.10.02.00/library-sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/exports/coresdk_cc13xx_cc26xx_7_10_02_00/source/ti/devices/cc13x2_cc26x2/driverlib\uart.h" ""</A0>
-        <A1>_ "/home/developer/.conan/data/coresdk_cc13xx_cc26xx/7.10.02.00/library-sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/exports/coresdk_cc13xx_cc26xx_7_10_02_00/source/ti/drivers/uart2\UART2CC26X2.c" ""</A1>
-        <A2>_ "C:\.conan\daa537\1\source\ti\zstack\stack\nwk\aps_mede.c" ""</A2>
-        <Count>3</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>3</Mode>
@@ -157,4 +137,24 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ "$PROJ_DIR$\LogFile1.log"</LogFile>
+        <Category2>_ 2</Category2>
+    </LogFile>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\zcl\zcl.c}.1829.5" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{c:\ti\simplelink_cc13xx_cc26xx_sdk_7_10_00_98\source\ti\zstack\stack\zcl\zcl.c}.1825.5" 0 0 1 "" 0 "" 0</Bp1>
+        <Count>2</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "/home/developer/.conan/data/coresdk_cc13xx_cc26xx/7.10.02.00/library-sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/exports/coresdk_cc13xx_cc26xx_7_10_02_00/source/ti/devices/cc13x2_cc26x2/driverlib\uart.h" ""</A0>
+        <A1>_ "/home/developer/.conan/data/coresdk_cc13xx_cc26xx/7.10.02.00/library-sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/exports/coresdk_cc13xx_cc26xx_7_10_02_00/source/ti/drivers/uart2\UART2CC26X2.c" ""</A1>
+        <A2>_ "C:\.conan\daa537\1\source\ti\zstack\stack\nwk\aps_mede.c" ""</A2>
+        <Count>3</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
 </settings>

@@ -50,7 +50,7 @@
  *        11 - 26 : 2.4 GHz     0x07FFF800
  */
 #ifndef DEFAULT_CHANLIST
-#define DEFAULT_CHANLIST              0x00007800
+#define DEFAULT_CHANLIST              0x00078000
 #endif
 
 #ifndef SECONDARY_CHANLIST

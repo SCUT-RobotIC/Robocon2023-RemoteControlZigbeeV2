@@ -105,7 +105,8 @@ NVS2.externalFlash.$name            = "ti_drivers_nvs_NVSSPI25X0";
 NVS2.externalFlash.regionSize       = 0x256000;
 NVS2.externalFlash.verifyBufferSize = 64;
 
-RF.$hardware = system.deviceData.board.components["SKY13317-373LF"];
+RF.$hardware         = system.deviceData.board.components["SKY13317-373LF"];
+RF.interruptPriority = "1";
 
 SHA21.$name = "CONFIG_SHA2_0";
 
@@ -193,9 +194,12 @@ zstack.deviceType                            = "zed";
 zstack.deviceTypeReadOnly                    = true;
 zstack.touchlink.$name                       = "ti_zstack_touchlink_zstack_touchlink0";
 zstack.pm.$name                              = "ti_zstack_pm_zstack_pm0";
+zstack.pm.powerModeOperation                 = "alwaysOn";
+zstack.pm.powerModeCapabilities              = "alwaysOn";
+zstack.pm.pollPeriod                         = 800;
 zstack.rf.$name                              = "ti_zstack_rf_zstack_rf0";
-zstack.rf.primaryChannels                    = [11,12];
 zstack.rf.txPower                            = "20";
+zstack.rf.primaryChannels                    = [15,16,17,18];
 zstack.rf.radioConfig.$name                  = "ti_devices_radioconfig_settings_ieee_15_40";
 zstack.rf.radioConfig.codeExportConfig.$name = "ti_devices_radioconfig_code_export_param0";
 zstack.rf.coexSettings.$name                 = "ti_zstack_rf_zstack_coex_mod0";

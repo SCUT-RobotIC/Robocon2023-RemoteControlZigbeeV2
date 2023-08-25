@@ -450,7 +450,7 @@ extern void __attribute__((weak)) rfDriverCallbackAntennaSwitching (RF_Handle cl
  * Platform-specific driver configuration
  */
 const RFCC26XX_HWAttrsV2 RFCC26XX_hwAttrs = {
-    .hwiPriority        = (~0),
+    .hwiPriority        = 0x20,
     .swiPriority        = (uint8_t)0,
     .xoscHfAlwaysNeeded = true,
     .globalCallback     = &RF_globalCallbackFunction,
