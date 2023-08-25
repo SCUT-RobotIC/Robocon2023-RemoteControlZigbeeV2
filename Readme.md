@@ -3,10 +3,10 @@
 
 ## 开发与部署
 
-使用[simplelink_cc13xx_cc26xx_sdk_7_10_00_98 sdk](https://www.ti.com/tool/download/SIMPLELINK-LOWPOWER-F2-SDK/7.10.00.98)开发 
-IDE为IAR EWARM 9.20.1 
-[EWARM新版本破解注册方法](https://blog.csdn.net/xue_nuo/article/details/124661894) 
-部署方法：需要使用backup内对应源文件替换sdk安装目录下的sample_sw工程的源文件 
+使用[simplelink_cc13xx_cc26xx_sdk_7_10_00_98 sdk](https://www.ti.com/tool/download/SIMPLELINK-LOWPOWER-F2-SDK/7.10.00.98)开发\
+IDE为IAR EWARM 9.20.1\
+[EWARM新版本破解注册方法](https://blog.csdn.net/xue_nuo/article/details/124661894) \
+部署方法：需要使用backup内对应源文件替换sdk安装目录下的sample_sw工程的源文件
 
 ## 说明
 
